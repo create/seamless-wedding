@@ -1,0 +1,39 @@
+extends layout
+
+block body
+  .navbar.navbar-default.navbar-fixed-top(role="navigation")
+    .navbar-header
+      button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse")
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+
+    .collapse.navbar-collapse.navbar-ex1-collapse
+      ul.nav.navbar-nav
+        li
+          a(href="about") About
+        li  
+          a(href="proposal") The Proposal
+        li
+          a(href="photos") Photos
+        li
+          a(href="wedding") The Wedding
+        li
+          a(href="registry") Registry
+        li
+          a(href="guestbook") Guestbook
+  .container
+    div(ng-controller='AppCtrl')
+      div(ng-view)
+    hr
+    img.lovers(src="images/tree.jpg")
+
+  script(src='js/lib/angular/angular.js')
+  script(src='js/app.js')
+  script(src='js/services.js')
+  script(src='js/controllers.js')
+  script(src='js/filters.js')
+  script(src='js/directives.js')
+  script(src='js/lib/jquery/jquery-2.0.3.min.js')
+  script(src='bootstrap/js/bootstrap.min.js')
