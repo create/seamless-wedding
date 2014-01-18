@@ -12,6 +12,8 @@ public/images/Thumbs.db
 
 *.iml
 
+herokuKey/*
+
 # Node Modules #
 ################
 node_modules/*
