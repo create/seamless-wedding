@@ -21,5 +21,9 @@ node_modules/*
 .idea
 .idea/*
 
+public/js/bundle.js
+
+
+
 
 
