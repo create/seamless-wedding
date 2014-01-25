@@ -16,13 +16,15 @@
     "grunt-contrib-jshint": "0.6.x",
     "grunt-contrib-stylus": "0.8.x",
     "grunt-contrib-uglify": "0.2.x",
-    "grunt-contrib-watch": "0.5.x"
+    "grunt-contrib-watch": "0.5.x",
+    "lodash": "~2.4.1",
+    "grunt-browserify2": "~0.1.8"
   },
   "engine": "node >= 0.10",
   "gitHead": "8327191ef9e4ef9ba2bd77f4cc33b2d20ad1e5a5",
   "readmeFilename": "README.md",
   "description": "Corybill and Justines Wedding website",
-  "main": "app.js",
+  "main": "main.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

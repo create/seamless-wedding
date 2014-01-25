@@ -3,23 +3,12 @@ module.exports = function(grunt) {
     // configure the tasks
     grunt.initConfig({
 
-        copy: {
-            build: {
-                cwd: 'public',
-                src: [ 'public/js/*.js', 'modules/**/*.js' ],
-                dest: 'public/build',
-                expand: true
-            }
-        },
         clean: {
-            build: {
-                src: [ 'public/build', 'public/css' ]
+            scripts: {
+              src: ['public/js/bundle.js']
             },
             stylesheets: {
-                src: [ 'public/css/**/*.css', '!public/css/main.css' ]
-            },
-            scripts: {
-                src: [ 'public/build/**/*.js', '!public/build/main.js' ]
+                src: [ 'public/css/**/*', '!public/css/main.css' ]
             }
         },
         stylus: {
@@ -30,8 +19,9 @@ module.exports = function(grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: 'styles',
-                    src: [ '**/*.styl' ],
+                    flatten: true,
+                    cwd: 'modules',
+                    src: [ '**/client/styles/*.styl' ],
                     dest: 'public/css',
                     ext: '.css'
                 }]
@@ -40,8 +30,8 @@ module.exports = function(grunt) {
         autoprefixer: {
             build: {
                 expand: true,
-                cwd: 'build',
-                src: [ 'public/css/*.css' ],
+                cwd: 'public',
+                src: [ 'css/*.css' ],
                 dest: 'build'
             }
         },
@@ -52,28 +42,21 @@ module.exports = function(grunt) {
                 }
             }
         },
-        uglify: {
-            build: {
-                options: {
-                    mangle: false
-                },
-                files: {
-                    'public/build/main.js': [ 'public/build/**/*.js' ]
-                }
+        browserify2: {
+            dev: {
+                entry: "./public/js/app.js",
+                compile: "./public/js/bundle.js",
+                debug: true
             }
         },
-        jade: {
-            compile: {
-                options: {
-                    data: {}
-                },
-                files: [{
-                    expand: true,
-                    cwd: 'views',
-                    src: [ 'partials/**/*.jade' ],
-                    dest: 'views/html',
-                    ext: '.html'
-                }]
+        watch: {
+            stylesheets: {
+                files: 'modules/**/client/styles/*.styl',
+                tasks: [ 'stylesheets' ]
+            },
+            javascript: {
+                files: ["modules/**/client/**/*.js", "public/js/app.js"],
+                tasks: ['build-scripts']
             }
         }
     });
@@ -85,24 +68,31 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-jade');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-browserify2');
 
     // define the tasks
     grunt.registerTask(
         'stylesheets',
-        'Compiles the stylesheets.',
+        'Compiles the styleshzeets.',
         [ 'stylus', 'autoprefixer', 'cssmin', 'clean:stylesheets' ]
     );
 
     grunt.registerTask(
-        'scripts',
-        'Compiles the JavaScript files.',
-        [ 'uglify', 'clean:scripts' ]
+        'build-scripts',
+        'Compiles all of the assets and copies the files to the build directory.',
+        [ 'clean:scripts', 'browserify2', 'stylesheets' ]
     );
 
     grunt.registerTask(
         'build',
         'Compiles all of the assets and copies the files to the build directory.',
-        [ 'clean', 'copy', 'stylesheets', 'scripts', 'jade' ]
+        [ 'build-scripts', 'stylesheets' ]
+    );
+
+    grunt.registerTask(
+        'default',
+        'Watches the project for changes, automatically builds them and runs a server.',
+        [ 'build', 'watch' ]
     );
 };
