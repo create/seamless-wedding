@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    .navigation
+        ul
+            li.nav-item
+              a(href="#/home") Home
+            li.nav-item
+              a(href="#/story") Our Story
+            li.nav-item
+              a(href="#/gallery") Gallery
+            li.nav-item
+              a(href="#/details") Event Details
+            li.nav-item
+              a(href="#/entourage") Entourage
+            li.nav-item
+              a(href="#/registry") Registry
+
+    .nav-spacer
+
+    .container
+        .ng-view-container(ng-view)
+
+block scripts
+  script(src='lib/jquery/jquery-1.11.0.js')
+  script(src='js/bundle.js')

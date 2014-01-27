@@ -10,10 +10,10 @@
 var moduleName = 'registry';
 
 module.exports = function (angular) {
-    angular.module(moduleName)
+    angular.module(moduleName, [])
         .config(function ($routeProvider) {
             $routeProvider
-                .when("/registry", {templateUrl: "modules/registry/client/view/registry"})
+                .when("/registry", {templateUrl: "registry"});
         });
     return moduleName;
 };

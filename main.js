@@ -2,7 +2,7 @@
  * Module dependencies
  */
 var express = require('express'),
-  routes = require('./routes'),
+  routes = require('./modules/main/server'),
   http = require('http'),
   fs = require('fs'),
   path = require('path'),
@@ -22,7 +22,6 @@ app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(app.router);
-app.use(express.static('modules/about/client/view/about'));
 
 // development only
 if (app.get('env') === 'development') {
@@ -35,21 +34,10 @@ if (app.get('env') === 'production') {
 };
 
 app.get('/', routes.index);
-app.get('/about', routes.about);
 
 _.forEach(fs.readdirSync("./modules/"), function (moduleName) {
-    var serverModulePath = "./modules/" + moduleName + "/server";
-    var moduleNamePath = "/modules/" + moduleName;
-    var module;
-    if (fs.existsSync(serverModulePath)) {
-        module = require(serverModulePath);
-    }
-
-    if (fs.existsSync(moduleNamePath + "/client/view")) {
-        console.log(moduleNamePath + "/client/view");
-        app.use(moduleNamePath, express.static(moduleNamePath + "/client"));
-        app.get(moduleNamePath + "/client/view/*", routes.moduleViews);
-    }
+    var modulePath = "/" + moduleName;
+    app.get(modulePath, routes.moduleViews);
 });
 
 /**

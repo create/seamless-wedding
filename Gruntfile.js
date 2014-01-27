@@ -1,11 +1,11 @@
-module.exports = function(grunt) {
-
+module.exports = function (grunt) {
+    "use strict";
     // configure the tasks
     grunt.initConfig({
 
         clean: {
             scripts: {
-              src: ['public/js/bundle.js']
+                src: ['public/js/bundle.js']
             },
             stylesheets: {
                 src: [ 'public/css/**/*', '!public/css/main.css' ]
@@ -58,6 +58,23 @@ module.exports = function(grunt) {
                 files: ["modules/**/client/**/*.js", "public/js/app.js"],
                 tasks: ['build-scripts']
             }
+        },
+        jshint: {
+            // define the files to lint
+            files: ['gruntfile.js', 'modules/**/*.js', 'public/js/app.js'],
+            // configure JSHint (documented at http://www.jshint.com/docs/)
+            options: {
+                eqeqeq: true,
+                globalstrict: true,
+                trailing: true,
+                node: true,
+                globals: {
+                    require: true,
+                    jQuery: true,
+                    console: true,
+                    module: true
+                }
+            }
         }
     });
 
@@ -69,6 +86,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-browserify2');
 
     // define the tasks
@@ -93,6 +111,6 @@ module.exports = function(grunt) {
     grunt.registerTask(
         'default',
         'Watches the project for changes, automatically builds them and runs a server.',
-        [ 'build', 'watch' ]
+        [ 'build', 'jshint', 'watch' ]
     );
 };

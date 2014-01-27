@@ -1,0 +1,24 @@
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.lovers {
+  width: 200px;
+  height: 200px;
+}
+
+/* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.lovers2 {
+  width: 200px;
+  height: 200px;
+}
+
+/* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+/* line 10 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.home .container {
+  width: 500px;
+  height: 300px;
+}

@@ -7,13 +7,13 @@
  */
 'use strict';
 
-var moduleName = 'home';
+var moduleName = 'about';
 
 module.exports = function (angular) {
-    angular.module(moduleName)
+    angular.module(moduleName, [])
         .config(function ($routeProvider) {
             $routeProvider
-                .when("/home", {templateUrl: "modules/home/client/view/home"})
+                .when("/about", {templateUrl: "about"});
         });
     return moduleName;
 };
