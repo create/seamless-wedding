@@ -34,9 +34,11 @@ if (app.get('env') === 'production') {
 };
 
 app.get('/', routes.index);
+app.get('/component/:module/:component', routes.componentViews);
 
 _.forEach(fs.readdirSync("./modules/"), function (moduleName) {
     var modulePath = "/" + moduleName;
+    var componentPath = modulePath + "/:component";
     app.get(modulePath, routes.moduleViews);
 });
 

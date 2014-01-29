@@ -7,6 +7,9 @@ module.exports = function (grunt) {
             scripts: {
                 src: ['public/js/bundle.js']
             },
+            css: {
+                src: [ 'public/css/main.css' ]
+            } ,
             stylesheets: {
                 src: [ 'public/css/**/*', '!public/css/main.css' ]
             }
@@ -21,7 +24,7 @@ module.exports = function (grunt) {
                     expand: true,
                     flatten: true,
                     cwd: 'modules',
-                    src: [ '**/client/styles/*.styl' ],
+                    src: [ 'main/client/styles/imports.styl' ],
                     dest: 'public/css',
                     ext: '.css'
                 }]
@@ -55,7 +58,7 @@ module.exports = function (grunt) {
                 tasks: [ 'stylesheets' ]
             },
             javascript: {
-                files: ["modules/**/client/**/*.js", "public/js/app.js"],
+                files: ["modules/**/client/**/*.js", "public/js/app.js", "Gruntfile.js"],
                 tasks: ['build-scripts']
             }
         },
@@ -93,7 +96,7 @@ module.exports = function (grunt) {
     grunt.registerTask(
         'stylesheets',
         'Compiles the styleshzeets.',
-        [ 'stylus', 'autoprefixer', 'cssmin', 'clean:stylesheets' ]
+        [ 'clean:css', 'stylus', 'autoprefixer', 'cssmin', 'clean:stylesheets' ]
     );
 
     grunt.registerTask(

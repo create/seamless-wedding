@@ -11,6 +11,7 @@ var moduleName = 'registry';
 
 module.exports = function (angular) {
     angular.module(moduleName, [])
+        .directive('registry', require('./directives/registryDirective'))
         .config(function ($routeProvider) {
             $routeProvider
                 .when("/registry", {templateUrl: "registry"});

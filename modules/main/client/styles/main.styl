@@ -1,12 +1,10 @@
-menu-item-gold = #99903D
-
 body
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 
 center-on-screen()
     margin-left: auto
     margin-right: auto
-    max-width: 1170px
+    max-width: 87%
 
 .navigation
     clear: both
@@ -15,7 +13,7 @@ center-on-screen()
     .nav-item
         font-size: 20px
         color: menu-item-gold
-        margin: 0px 39px
+        margin: 0px 55px
         float: left
         list-style-type: none
 
@@ -27,10 +25,17 @@ center-on-screen()
     height: 50px
 
 .container
-    height: 625px
+    height: content-height
     center-on-screen()
     clear: left
     background-image: url(../images/neutral-backdrop.png)
     background-size: 100% 100%
     background-repeat: no-repeat
     background-attachment: fixed
+
+.container-registry
+    background: url(../images/registry.jpg) no-repeat center center fixed
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover

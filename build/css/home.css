@@ -1,28 +1,24 @@
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /Users/cory.parrish/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 1 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 2 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .names {
-  float: left;
   margin-top: 75px;
   margin-left: 50px;
+  float: left;
 }
 
-/* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 7 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 8 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li {
   list-style-type: none;
 }
 
-/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
-
-/* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
-
-/* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 10 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li span {
   width: 495px;
@@ -33,27 +29,27 @@
   color: transparent;
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-animation: imageAnimation 14s linear infinite 1ms;
-  -ms-animation: imageAnimation 14s linear infinite 1ms;
-  animation: imageAnimation 14s linear infinite 1ms;
+  -webkit-animation: imageAnimation 14s linear infinite 0s;
+  -ms-animation: imageAnimation 14s linear infinite 0s;
+  animation: imageAnimation 14s linear infinite 0s;
 }
 
-/* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 38 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 39 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 40 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(1) span {
   background-image: url("../images/home/sequence/falling-leaves-1.jpg");
   background-size: 495px auto;
 }
 
-/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 44 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 45 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 44 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 46 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(2) span {
   background-image: url("../images/home/sequence/falling-leaves-2.jpg");
@@ -63,11 +59,11 @@
   animation-delay: 2s;
 }
 
-/* line 53 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 55 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 54 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 56 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 55 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 57 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(3) span {
   background-image: url("../images/home/sequence/falling-leaves-3.jpg");
@@ -77,11 +73,11 @@
   animation-delay: 4s;
 }
 
-/* line 64 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 66 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 65 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 67 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 66 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 68 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(4) span {
   background-image: url("../images/home/sequence/falling-leaves-4.jpg");
@@ -91,11 +87,11 @@
   animation-delay: 6s;
 }
 
-/* line 75 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 77 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 76 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 78 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 77 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 79 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(5) span {
   background-image: url("../images/home/sequence/falling-leaves-5.jpg");
@@ -105,11 +101,11 @@
   animation-delay: 8s;
 }
 
-/* line 86 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 88 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 87 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 89 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 88 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 90 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(6) span {
   background-image: url("../images/home/sequence/falling-leaves-6.jpg");
@@ -119,11 +115,11 @@
   animation-delay: 10s;
 }
 
-/* line 97 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 99 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 98 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 100 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
-/* line 99 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 101 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(7) span {
   background-image: url("../images/home/sequence/falling-leaves-7.jpg");
@@ -133,51 +129,82 @@
   animation-delay: 12s;
 }
 
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 25 : /Users/cory.parrish/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 25 : /Users/cory.parrish/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
 @-webkit-keyframes imageAnimation {
   0% {
     opacity: 0;
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
   }
 
   100% {
-    opacity: 1;
+    opacity: 0;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
 }
 
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 25 : /Users/cory.parrish/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 25 : /Users/cory.parrish/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
 @-ms-keyframes imageAnimation {
   0% {
     opacity: 0;
-    animation-timing-function: ease-in;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
   }
 
   100% {
-    opacity: 1;
+    opacity: 0;
     animation-timing-function: ease-out;
   }
 }
 
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 25 : /Users/cory.parrish/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
 @keyframes imageAnimation {
   0% {
     opacity: 0;
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
   }
 
   100% {
-    opacity: 1;
+    opacity: 0;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }

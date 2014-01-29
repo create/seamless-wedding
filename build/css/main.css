@@ -1,53 +1,1044 @@
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
-
-/* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
-
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
-/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .navigation {
   clear: both;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1170px;
+  max-width: 95%;
   margin-top: 50px;
 }
-
-/* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .navigation .nav-item {
   font-size: 20px;
   color: #99903d;
-  margin: 0px 39px;
+  margin: 0 39px;
   float: left;
   list-style-type: none;
 }
-
-/* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .navigation .nav-item a {
   color: #99903d;
   text-decoration: none;
 }
 
-/* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+.nav-spacer {
+  height: 50px;
+}
+
+.container {
+  height: 675px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  clear: left;
+  background-image: url(../images/neutral-backdrop.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home .names {
+  margin-top: 75px;
+  margin-left: 50px;
+  float: left;
+}
+
+.home .image-sequence li {
+  list-style-type: none;
+}
+
+.home .image-sequence li span {
+  margin-left: 42px;
+  margin-top: 10px;
+  position: absolute;
+  color: transparent;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: imageAnimation 14s linear infinite 0s;
+  -ms-animation: imageAnimation 14s linear infinite 0s;
+  animation: imageAnimation 14s linear infinite 0s;
+}
+
+.home .image-sequence li:nth-child(1) span {
+  background-image: url(../images/home/sequence/falling-leaves-1.jpg);
+  background-size: auto 669px;
+}
+
+.home .image-sequence li:nth-child(2) span {
+  background-image: url(../images/home/sequence/falling-leaves-2.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.home .image-sequence li:nth-child(3) span {
+  background-image: url(../images/home/sequence/falling-leaves-3.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.home .image-sequence li:nth-child(4) span {
+  background-image: url(../images/home/sequence/falling-leaves-4.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.home .image-sequence li:nth-child(5) span {
+  background-image: url(../images/home/sequence/falling-leaves-5.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.home .image-sequence li:nth-child(6) span {
+  background-image: url(../images/home/sequence/falling-leaves-6.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.home .image-sequence li:nth-child(7) span {
+  background-image: url(../images/home/sequence/falling-leaves-7.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-ms-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navigation {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  margin-top: 50px;
+}
+
+.navigation .nav-item {
+  font-size: 20px;
+  color: #99903d;
+  margin: 0 39px;
+  float: left;
+  list-style-type: none;
+}
+
+.navigation .nav-item a {
+  color: #99903d;
+  text-decoration: none;
+}
 
 .nav-spacer {
   height: 50px;
 }
 
-/* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
-
 .container {
-  height: 625px;
+  height: 675px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1170px;
+  max-width: 95%;
   clear: left;
-  background-image: url("../images/neutral-backdrop.png");
+  background-image: url(../images/neutral-backdrop.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home .names {
+  margin-top: 75px;
+  margin-left: 50px;
+  float: left;
+}
+
+.home .image-sequence li {
+  list-style-type: none;
+}
+
+.home .image-sequence li span {
+  margin-left: 42px;
+  margin-top: 10px;
+  position: absolute;
+  color: transparent;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: imageAnimation 14s linear infinite 0s;
+  -ms-animation: imageAnimation 14s linear infinite 0s;
+  animation: imageAnimation 14s linear infinite 0s;
+}
+
+.home .image-sequence li:nth-child(1) span {
+  background-image: url(../images/home/sequence/falling-leaves-1.jpg);
+  background-size: auto 669px;
+}
+
+.home .image-sequence li:nth-child(2) span {
+  background-image: url(../images/home/sequence/falling-leaves-2.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.home .image-sequence li:nth-child(3) span {
+  background-image: url(../images/home/sequence/falling-leaves-3.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.home .image-sequence li:nth-child(4) span {
+  background-image: url(../images/home/sequence/falling-leaves-4.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.home .image-sequence li:nth-child(5) span {
+  background-image: url(../images/home/sequence/falling-leaves-5.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.home .image-sequence li:nth-child(6) span {
+  background-image: url(../images/home/sequence/falling-leaves-6.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.home .image-sequence li:nth-child(7) span {
+  background-image: url(../images/home/sequence/falling-leaves-7.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-ms-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navigation {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  margin-top: 50px;
+}
+
+.navigation .nav-item {
+  font-size: 20px;
+  color: #99903d;
+  margin: 0 39px;
+  float: left;
+  list-style-type: none;
+}
+
+.navigation .nav-item a {
+  color: #99903d;
+  text-decoration: none;
+}
+
+.nav-spacer {
+  height: 50px;
+}
+
+.container {
+  height: 675px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  clear: left;
+  background-image: url(../images/neutral-backdrop.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home .names {
+  margin-top: 75px;
+  margin-left: 50px;
+  float: left;
+}
+
+.home .image-sequence li {
+  list-style-type: none;
+}
+
+.home .image-sequence li span {
+  margin-left: 42px;
+  margin-top: 10px;
+  position: absolute;
+  color: transparent;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: imageAnimation 14s linear infinite 0s;
+  -ms-animation: imageAnimation 14s linear infinite 0s;
+  animation: imageAnimation 14s linear infinite 0s;
+}
+
+.home .image-sequence li:nth-child(1) span {
+  background-image: url(../images/home/sequence/falling-leaves-1.jpg);
+  background-size: auto 669px;
+}
+
+.home .image-sequence li:nth-child(2) span {
+  background-image: url(../images/home/sequence/falling-leaves-2.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.home .image-sequence li:nth-child(3) span {
+  background-image: url(../images/home/sequence/falling-leaves-3.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.home .image-sequence li:nth-child(4) span {
+  background-image: url(../images/home/sequence/falling-leaves-4.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.home .image-sequence li:nth-child(5) span {
+  background-image: url(../images/home/sequence/falling-leaves-5.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.home .image-sequence li:nth-child(6) span {
+  background-image: url(../images/home/sequence/falling-leaves-6.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.home .image-sequence li:nth-child(7) span {
+  background-image: url(../images/home/sequence/falling-leaves-7.jpg);
+  background-size: auto 669px;
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-ms-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+.home .names {
+  margin-top: 75px;
+  margin-left: 50px;
+  float: left;
+}
+
+.home .image-sequence li {
+  list-style-type: none;
+}
+
+.home .image-sequence li span {
+  width: 495px;
+  margin-left: 42px;
+  height: 605px;
+  margin-top: 10px;
+  position: absolute;
+  color: transparent;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: imageAnimation 14s linear infinite 0s;
+  -ms-animation: imageAnimation 14s linear infinite 0s;
+  animation: imageAnimation 14s linear infinite 0s;
+}
+
+.home .image-sequence li:nth-child(1) span {
+  background-image: url(../images/home/sequence/falling-leaves-1.jpg);
+  background-size: 495px auto;
+}
+
+.home .image-sequence li:nth-child(2) span {
+  background-image: url(../images/home/sequence/falling-leaves-2.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.home .image-sequence li:nth-child(3) span {
+  background-image: url(../images/home/sequence/falling-leaves-3.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.home .image-sequence li:nth-child(4) span {
+  background-image: url(../images/home/sequence/falling-leaves-4.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.home .image-sequence li:nth-child(5) span {
+  background-image: url(../images/home/sequence/falling-leaves-5.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.home .image-sequence li:nth-child(6) span {
+  background-image: url(../images/home/sequence/falling-leaves-6.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.home .image-sequence li:nth-child(7) span {
+  background-image: url(../images/home/sequence/falling-leaves-7.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-ms-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+.home .names {
+  margin-top: 75px;
+  margin-left: 50px;
+  float: left;
+}
+
+.home .image-sequence li {
+  list-style-type: none;
+}
+
+.home .image-sequence li span {
+  width: 495px;
+  margin-left: 42px;
+  height: 605px;
+  margin-top: 10px;
+  position: absolute;
+  color: transparent;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: imageAnimation 14s linear infinite 0s;
+  -ms-animation: imageAnimation 14s linear infinite 0s;
+  animation: imageAnimation 14s linear infinite 0s;
+}
+
+.home .image-sequence li:nth-child(1) span {
+  background-image: url(../images/home/sequence/falling-leaves-1.jpg);
+  background-size: 495px auto;
+}
+
+.home .image-sequence li:nth-child(2) span {
+  background-image: url(../images/home/sequence/falling-leaves-2.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.home .image-sequence li:nth-child(3) span {
+  background-image: url(../images/home/sequence/falling-leaves-3.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.home .image-sequence li:nth-child(4) span {
+  background-image: url(../images/home/sequence/falling-leaves-4.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.home .image-sequence li:nth-child(5) span {
+  background-image: url(../images/home/sequence/falling-leaves-5.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.home .image-sequence li:nth-child(6) span {
+  background-image: url(../images/home/sequence/falling-leaves-6.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.home .image-sequence li:nth-child(7) span {
+  background-image: url(../images/home/sequence/falling-leaves-7.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-ms-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+.home .names {
+  margin-top: 75px;
+  margin-left: 50px;
+  float: left;
+}
+
+.home .image-sequence li {
+  list-style-type: none;
+}
+
+.home .image-sequence li span {
+  width: 495px;
+  margin-left: 42px;
+  height: 605px;
+  margin-top: 10px;
+  position: absolute;
+  color: transparent;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: imageAnimation 14s linear infinite 0s;
+  -ms-animation: imageAnimation 14s linear infinite 0s;
+  animation: imageAnimation 14s linear infinite 0s;
+}
+
+.home .image-sequence li:nth-child(1) span {
+  background-image: url(../images/home/sequence/falling-leaves-1.jpg);
+  background-size: 495px auto;
+}
+
+.home .image-sequence li:nth-child(2) span {
+  background-image: url(../images/home/sequence/falling-leaves-2.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.home .image-sequence li:nth-child(3) span {
+  background-image: url(../images/home/sequence/falling-leaves-3.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.home .image-sequence li:nth-child(4) span {
+  background-image: url(../images/home/sequence/falling-leaves-4.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.home .image-sequence li:nth-child(5) span {
+  background-image: url(../images/home/sequence/falling-leaves-5.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.home .image-sequence li:nth-child(6) span {
+  background-image: url(../images/home/sequence/falling-leaves-6.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.home .image-sequence li:nth-child(7) span {
+  background-image: url(../images/home/sequence/falling-leaves-7.jpg);
+  background-size: 495px auto;
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-ms-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navigation {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  margin-top: 50px;
+}
+
+.navigation .nav-item {
+  font-size: 20px;
+  color: #99903d;
+  margin: 0 39px;
+  float: left;
+  list-style-type: none;
+}
+
+.navigation .nav-item a {
+  color: #99903d;
+  text-decoration: none;
+}
+
+.nav-spacer {
+  height: 50px;
+}
+
+.container {
+  height: 675px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  clear: left;
+  background-image: url(../images/neutral-backdrop.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;

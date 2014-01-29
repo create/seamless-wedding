@@ -7,13 +7,13 @@
  */
 'use strict';
 
-var moduleName = 'proposal';
+var moduleName = 'entourage';
 
 module.exports = function (angular) {
     angular.module(moduleName, [])
         .config(function ($routeProvider) {
             $routeProvider
-                .when("/proposal", {templateUrl: "proposal"});
+                .when("/entourage", {templateUrl: "entourage"});
         });
     return moduleName;
 };

@@ -15,5 +15,5 @@ var moduleName = "justineAndCorybill";
 // Declare app level module which depends on filters, and services
 ang.module(moduleName, includes).
     config(['$routeProvider', '$locationProvider', function ($routeProvider) {
-        $routeProvider.otherwise({redirectTo: '/about'});
+        $routeProvider.otherwise({redirectTo: '/home'});
     }]);

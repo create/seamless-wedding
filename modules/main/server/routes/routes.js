@@ -11,3 +11,11 @@ exports.moduleViews = function (req, res) {
     console.log("modulePath: " + modulePath);
     res.render(modulePath);
 };
+
+exports.componentViews = function (req, res) {
+  var componentName = req.params.component;
+  var moduleName = req.params.module;
+  var modulePath = "../modules/" + moduleName + "/client/view/component/" + componentName;
+  console.log("modulePath: " + modulePath);
+  res.render(modulePath);
+};

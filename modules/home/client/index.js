@@ -7,13 +7,14 @@
  */
 'use strict';
 
-var moduleName = 'about';
+var moduleName = 'home';
 
 module.exports = function (angular) {
     angular.module(moduleName, [])
+        .directive('home', require('./directives/homeDirective'))
         .config(function ($routeProvider) {
             $routeProvider
-                .when("/about", {templateUrl: "about"});
+                .when("/home", {templateUrl: "home"});
         });
     return moduleName;
 };
