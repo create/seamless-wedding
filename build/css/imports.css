@@ -4,17 +4,18 @@
 
 /* line 1 : /Users/cory.parrish/Wedding/modules/main/client/styles/colors.styl */
 
-/* line 1 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 2 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
 
 /* line 1 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Tw Cen MT";
+  font-weight: 100;
 }
 
-/* line 9 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 10 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
 
-.navigation {
+.navigation-small-content {
   clear: both;
   margin-left: auto;
   margin-right: auto;
@@ -22,9 +23,9 @@ body {
   margin-top: 50px;
 }
 
-/* line 13 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 14 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
 
-.navigation .nav-item {
+.navigation-small-content .nav-item {
   font-size: 20px;
   color: #99903d;
   margin: 0px 55px;
@@ -32,22 +33,53 @@ body {
   list-style-type: none;
 }
 
-/* line 20 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 21 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
 
-.navigation .nav-item a {
+/* line 22 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+
+.navigation-small-content .nav-item a {
   color: #99903d;
   text-decoration: none;
 }
 
-/* line 24 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 26 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+
+.navigation-full-content {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 87%;
+  margin-top: 50px;
+}
+
+/* line 30 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+
+.navigation-full-content .nav-item {
+  font-size: 20px;
+  color: #99903d;
+  margin: 0px 55px;
+  float: left;
+  list-style-type: none;
+}
+
+/* line 37 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+
+/* line 38 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+
+.navigation-full-content .nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 42 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
 
 .nav-spacer {
   height: 50px;
 }
 
-/* line 27 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 45 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
 
-.container {
+.small-content {
   height: 675px;
   margin-left: auto;
   margin-right: auto;
@@ -59,14 +91,14 @@ body {
   background-attachment: fixed;
 }
 
-/* line 36 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 54 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
 
-.container-registry {
+.full-content {
   background: url("../images/registry.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
-/* line 42 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 60 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
 /* line 1 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
 
@@ -271,4 +303,40 @@ body {
   100% {
     opacity: 0;
   }
+}
+
+/* line 108 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+
+/* line 1 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+
+/* line 2 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+
+.registry .registry-text {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  color: #fff;
+  font-size: 25px;
+}
+
+/* line 9 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+
+.registry .registry-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 12 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+
+.registry .registry-text p {
+  margin: 0px;
+}
+
+/* line 15 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+
+.registry .registry-image-props {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  color: #fff;
 }

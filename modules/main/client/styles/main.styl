@@ -1,12 +1,13 @@
 body
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Tw Cen MT"
+    font-weight: 100
 
 center-on-screen()
     margin-left: auto
     margin-right: auto
     max-width: 87%
 
-.navigation
+.navigation-small-content
     clear: both
     center-on-screen()
     margin-top: 50px
@@ -17,14 +18,31 @@ center-on-screen()
         float: left
         list-style-type: none
 
-    .nav-item a
+    .nav-item
+        a
+            color: menu-item-gold
+            text-decoration: none
+
+.navigation-full-content
+    clear: both
+    center-on-screen()
+    margin-top: 50px
+    .nav-item
+        font-size: 20px
         color: menu-item-gold
-        text-decoration: none
+        margin: 0px 55px
+        float: left
+        list-style-type: none
+
+    .nav-item
+        a
+            color: menu-item-white
+            text-decoration: none
 
 .nav-spacer
     height: 50px
 
-.container
+.small-content
     height: content-height
     center-on-screen()
     clear: left
@@ -33,9 +51,9 @@ center-on-screen()
     background-repeat: no-repeat
     background-attachment: fixed
 
-.container-registry
+.full-content
     background: url(../images/registry.jpg) no-repeat center center fixed
-    -webkit-background-size: cover
-    -moz-background-size: cover
-    -o-background-size: cover
-    background-size: cover
+    -webkit-background-size: 100% 100%
+    -moz-background-size: 100% 100%
+    -o-background-size: 100% 100%
+    background-size: 100% 100%

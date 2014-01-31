@@ -1,25 +1,26 @@
 extends layout
 
 block content
-    .navigation
+    .navigation-small-content
         ul
             li.nav-item
-              a(href="#/home") Home
+              a(href="#/home") HOME
             li.nav-item
-              a(href="#/story") Our Story
+              a(href="#/story") OUR STORY
             li.nav-item
-              a(href="#/gallery") Gallery
+              a(href="#/gallery") GALLERY
             li.nav-item
-              a(href="#/details") Event Details
+              a(href="#/details") EVENT DETAILS
             li.nav-item
-              a(href="#/entourage") Entourage
+              a(href="#/entourage") ENTOURAGE
             li.nav-item
-              a(href="#/registry") Registry
+              a(href="#/registry") REGISTRY
 
     .nav-spacer
 
-    .container
-        .ng-view-container(ng-view)
+    .container(ng-view)
+        .small-content
+
 
 block scripts
   script(src='lib/jquery/jquery-1.11.0.js')
