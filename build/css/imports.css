@@ -1,21 +1,21 @@
-/* line 1 : /Users/cory.parrish/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
 
-/* line 1 : /Users/cory.parrish/Wedding/modules/main/client/styles/constants.styl */
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\constants.styl */
 
-/* line 1 : /Users/cory.parrish/Wedding/modules/main/client/styles/colors.styl */
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\colors.styl */
 
-/* line 2 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-/* line 1 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 body {
   font-family: "Tw Cen MT";
   font-weight: 100;
 }
 
-/* line 11 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-.navigation-small-content {
+.navigation {
   clear: both;
   margin-left: auto;
   margin-right: auto;
@@ -24,9 +24,9 @@ body {
   margin-top: 50px;
 }
 
-/* line 15 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-.navigation-small-content .nav-item {
+.navigation .nav-item {
   font-size: 18px;
   color: #99903d;
   margin: 0px 43px;
@@ -34,61 +34,24 @@ body {
   list-style-type: none;
 }
 
-/* line 22 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-/* line 23 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-.navigation-small-content .nav-item a {
+.navigation .nav-item a {
   color: #99903d;
   text-decoration: none;
 }
 
-/* line 27 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
-
-.navigation-full-content {
-  clear: both;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1080px;
-  max-height: 625px;
-  margin-top: 50px;
-}
-
-/* line 31 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
-
-.navigation-full-content .nav-item {
-  font-size: 20px;
-  color: #99903d;
-  margin: 0px 55px;
-  float: left;
-  list-style-type: none;
-}
-
-/* line 38 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
-
-/* line 39 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
-
-.navigation-full-content .nav-item a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* line 43 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 27 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .nav-spacer {
   height: 40px;
 }
 
-/* line 46 : /Users/cory.parrish/Wedding/modules/main/client/styles/main.styl */
+/* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-.full-content {
-  background: url("../images/registry.jpg") no-repeat center center fixed;
-  background-size: 100% 100%;
-}
-
-/* line 52 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
-
-/* line 1 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home {
   height: 625px;
@@ -97,13 +60,13 @@ body {
   max-width: 1080px;
   max-height: 625px;
   clear: left;
-  background: url("../images/neutral-backdrop.png") no-repeat center center fixed;
+  background: url("../images/home/content-background.png") no-repeat center center fixed;
   background-size: 100% 100%;
 }
 
-/* line 11 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 13 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .names {
   width: 490px;
@@ -113,15 +76,15 @@ body {
   float: left;
 }
 
-/* line 20 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 21 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 21 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li {
   list-style-type: none;
 }
 
-/* line 23 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li span {
   width: 390px;
@@ -137,104 +100,104 @@ body {
   animation: imageAnimation 14s linear infinite 0s;
 }
 
-/* line 50 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 50 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 51 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 51 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 52 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 52 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li:nth-child(1) span {
-  background-image: url("../images/home/sequence/falling-leaves-1.jpg");
+  background-image: url("../images/home/sequence/falling-leaves-2.jpg");
   background-size: auto 595px;
 }
 
-/* line 56 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 56 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 57 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 57 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 58 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 58 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li:nth-child(2) span {
-  background-image: url("../images/home/sequence/falling-leaves-2.jpg");
+  background-image: url("../images/home/sequence/falling-leaves-3.jpg");
   background-size: auto 595px;
   -webkit-animation-delay: 2s;
   -ms-animation-delay: 2s;
   animation-delay: 2s;
 }
 
-/* line 67 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 67 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 68 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 68 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 69 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 69 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li:nth-child(3) span {
-  background-image: url("../images/home/sequence/falling-leaves-3.jpg");
+  background-image: url("../images/home/sequence/falling-leaves-4.jpg");
   background-size: auto 595px;
   -webkit-animation-delay: 4s;
   -ms-animation-delay: 4s;
   animation-delay: 4s;
 }
 
-/* line 78 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 78 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 79 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 79 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 80 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 80 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li:nth-child(4) span {
-  background-image: url("../images/home/sequence/falling-leaves-4.jpg");
+  background-image: url("../images/home/sequence/falling-leaves-5.jpg");
   background-size: auto 595px;
   -webkit-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
 }
 
-/* line 89 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 89 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 90 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 90 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 91 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 91 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li:nth-child(5) span {
-  background-image: url("../images/home/sequence/falling-leaves-5.jpg");
+  background-image: url("../images/home/sequence/falling-leaves-6.jpg");
   background-size: auto 595px;
   -webkit-animation-delay: 8s;
   -ms-animation-delay: 8s;
   animation-delay: 8s;
 }
 
-/* line 100 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 100 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 101 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 101 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 102 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 102 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li:nth-child(6) span {
-  background-image: url("../images/home/sequence/falling-leaves-6.jpg");
+  background-image: url("../images/home/sequence/falling-leaves-7.jpg");
   background-size: auto 595px;
   -webkit-animation-delay: 10s;
   -ms-animation-delay: 10s;
   animation-delay: 10s;
 }
 
-/* line 111 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 111 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 112 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 112 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 113 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 113 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 .home .image-sequence li:nth-child(7) span {
-  background-image: url("../images/home/sequence/falling-leaves-7.jpg");
+  background-image: url("../images/home/sequence/falling-leaves-8.jpg");
   background-size: auto 595px;
   -webkit-animation-delay: 12s;
   -ms-animation-delay: 12s;
   animation-delay: 12s;
 }
 
-/* line 38 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 38 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 @-webkit-keyframes imageAnimation {
   0% {
@@ -258,9 +221,9 @@ body {
   }
 }
 
-/* line 38 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
-/* line 38 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 @-ms-keyframes imageAnimation {
   0% {
@@ -284,7 +247,7 @@ body {
   }
 }
 
-/* line 38 : /Users/cory.parrish/Wedding/modules/home/client/styles/home.styl */
+/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 @keyframes imageAnimation {
   0% {
@@ -308,11 +271,28 @@ body {
   }
 }
 
-/* line 121 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+/* line 121 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
 
-/* line 1 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
 
-/* line 2 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+.full-content {
+  background: url("../images/registry/content-background.jpg") no-repeat center center fixed;
+  background-size: 100% auto;
+}
+
+/* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+
+/* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+
+/* line 10 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+
+.full-content .navigation .nav-item a {
+  color: #fff;
+}
+
+/* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+
+/* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
 
 .registry .registry-text {
   position: absolute;
@@ -322,20 +302,20 @@ body {
   font-size: 25px;
 }
 
-/* line 9 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+/* line 21 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
 
 .registry .registry-text a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 12 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
 
 .registry .registry-text p {
   margin: 0px;
 }
 
-/* line 15 : /Users/cory.parrish/Wedding/modules/registry/client/styles/registry.styl */
+/* line 27 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
 
 .registry .registry-image-props {
   position: absolute;
@@ -344,9 +324,9 @@ body {
   color: #fff;
 }
 
-/* line 20 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
-/* line 1 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery {
   margin-left: auto;
@@ -355,88 +335,157 @@ body {
   max-height: 625px;
 }
 
-/* line 4 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 4 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery img {
-  float: left;
+  position: relative;
+  vertical-align: top;
 }
 
-/* line 7 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .gallery-right-img {
+  margin-left: 13px;
+}
+
+/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .gallery-bottom-img {
+  margin-top: 13px;
+}
+
+/* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .gallery-row-two-lift {
+  top: -88px;
+}
+
+/* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .gallery-row-three-lift {
+  top: -100px;
+}
+
+/* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .one-one {
   height: 367px;
   width: 245px;
 }
 
-/* line 11 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .one-two {
-  height: 279px;
   width: 372px;
+  height: 279px;
 }
 
-/* line 15 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .one-three {
-  height: 279px;
   width: 210px;
+  height: 279px;
 }
 
-/* line 19 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .one-four {
-  height: 279px;
   width: 210px;
+  height: 279px;
 }
 
-/* line 23 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .two-one {
-  clear: left;
-  height: 153px;
+  top: 35px;
   width: 245px;
+  height: 153px;
 }
 
-/* line 28 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .two-two {
-  height: 288px;
   width: 432px;
+  height: 288px;
 }
 
-/* line 32 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 45 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .two-three {
-  clear: right;
+  width: 374px;
   height: 249px;
-  width: 373px;
 }
 
-/* line 37 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .three-one {
-  height: 367px;
   width: 245px;
+  height: 367px;
 }
 
-/* line 41 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 53 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .three-two {
-  height: 273px;
-  width: 205px;
+  width: 203px;
+  height: 269px;
 }
 
-/* line 45 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 57 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .three-three {
-  height: 155px;
-  width: 224px;
+  width: 216px;
+  height: 151px;
 }
 
-/* line 49 : /Users/cory.parrish/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 61 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .three-four {
-  clear: right;
-  height: 373px;
-  width: 249px;
+  width: 376px;
+  height: 251px;
+}
+
+/* line 65 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .four-one {
+  width: 308px;
+  height: 231px;
+  top: -218px;
+  left: 461px;
+}
+
+/* line 71 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .four-two {
+  top: -218px;
+  left: 462px;
+  top: -218px;
+  width: 283px;
+  height: 425px;
+}
+
+/* line 78 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .five-one {
+  left: -618px;
+  top: -100px;
+  width: 461px;
+  height: 307px;
+}
+
+/* line 84 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .five-two {
+  top: -417px;
+  left: 462px;
+  width: 309px;
+  height: 185px;
+}
+
+/* line 90 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
+.gallery .six-one {
+  width: 432px;
+  height: 90px;
+  top: -900px;
+  left: -64px;
 }
