@@ -1,16 +1,14 @@
 .home
     height: max-content-height
     center-on-screen()
-    clear: left
-    background: url(../images/home/content-background.png) no-repeat center center fixed
-    -webkit-background-size: 100% 100%
-    -moz-background-size: 100% 100%
-    -o-background-size: 100% 100%
-    background-size: 100% 100%
+
+    .home-background
+        position: absolute
 
 .home
 
-    .names
+    .name-and-date
+        position: absolute
         width: 490px
         height: auto
         margin-top: 120px
@@ -18,6 +16,8 @@
         float: left
 
     .image-sequence
+        position: relative
+
         li
             list-style-type: none
             span
