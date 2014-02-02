@@ -11,6 +11,7 @@ var moduleName = 'gallery';
 
 module.exports = function (angular) {
     angular.module(moduleName, [])
+        .directive('gallery', require('./directives/galleryDirective'))
         .config(function ($routeProvider) {
             $routeProvider
                 .when("/gallery", {templateUrl: "gallery"});
