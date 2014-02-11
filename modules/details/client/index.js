@@ -11,6 +11,10 @@ var moduleName = 'details';
 
 module.exports = function (angular) {
     angular.module(moduleName, [])
+        .directive('eventDetails', require('./directives/detailsDirective'))
+        .directive('eventDetailsDrawer', require('./directives/eventDetailsDrawer'))
+        .directive('mapTravelDrawer', require('./directives/mapTravelDrawer'))
+        .directive('stayLocalDrawer', require('./directives/stayLocalDrawer'))
         .config(function ($routeProvider) {
             $routeProvider
                 .when("/details", {templateUrl: "details"});

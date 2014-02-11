@@ -376,33 +376,41 @@ body {
 
 /* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
+.gallery .one-one:hover {
+  width: auto;
+  height: auto;
+  position: fixed;
+}
+
+/* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+
 .gallery .one-one {
   height: 367px;
   width: 245px;
 }
 
-/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .one-two {
   width: 372px;
   height: 279px;
 }
 
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .one-three {
   width: 210px;
   height: 279px;
 }
 
-/* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .one-four {
   width: 210px;
   height: 279px;
 }
 
-/* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .two-one {
   top: 18px;
@@ -410,49 +418,49 @@ body {
   height: 153px;
 }
 
-/* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 46 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .two-two {
   width: 432px;
   height: 288px;
 }
 
-/* line 45 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 50 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .two-three {
   width: 374px;
   height: 249px;
 }
 
-/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 54 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .three-one {
   width: 245px;
   height: 367px;
 }
 
-/* line 53 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 58 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .three-two {
   width: 203px;
   height: 269px;
 }
 
-/* line 57 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 62 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .three-three {
   width: 216px;
   height: 151px;
 }
 
-/* line 61 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 66 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .three-four {
   width: 376px;
   height: 251px;
 }
 
-/* line 65 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 70 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .four-one {
   width: 308px;
@@ -461,7 +469,7 @@ body {
   left: 461px;
 }
 
-/* line 71 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 76 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .four-two {
   top: -218px;
@@ -471,16 +479,16 @@ body {
   height: 425px;
 }
 
-/* line 78 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 83 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .five-one {
   left: -618px;
   top: -100px;
   width: 461px;
-  height: 307px;
+  height: 306px;
 }
 
-/* line 84 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 89 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .five-two {
   top: -417px;
@@ -489,11 +497,75 @@ body {
   height: 185px;
 }
 
-/* line 90 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 95 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
 
 .gallery .six-one {
   width: 432px;
   height: 80px;
   top: -895px;
   left: -64px;
+}
+
+/* line 100 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  max-height: 625px;
+}
+
+/* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details .details-top-links {
+  margin-top: 145px;
+}
+
+/* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details .details-top-links img {
+  width: 320px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details .details-top-links .top-links-margin {
+  margin-left: 60px;
+}
+
+/* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details .closed-drawer {
+  display: none;
+}
+
+/* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details .closing-drawer-position {
+  x: 3000;
+}
+
+/* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details .open-drawer {
+  display: block;
+}
+
+/* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details .opening-drawer-position {
+  x: -1000;
+}
+
+/* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+
+.details .test-foo {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #000;
+  position: absolute;
 }
