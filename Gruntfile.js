@@ -118,5 +118,5 @@ module.exports = function (grunt) {
         [ 'build', 'jshint', 'watch' ]
     );
 
-    grunt.registerTask('heroku:development', 'build');
+    grunt.registerTask('heroku', ['build']);
 };
