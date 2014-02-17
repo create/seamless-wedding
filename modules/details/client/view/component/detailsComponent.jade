@@ -1,18 +1,14 @@
 .details
     .details-top-links
         img.event-details(src='images/details/one.png')
-        img.map-travel.top-links-margin(src='images/details/two.png')
-        img.stay-local.top-links-margin(src='images/details/three.png')
+        img.map-travel.margin-left(src='images/details/two.png')
+        img.stay-local.margin-left(src='images/details/three.png')
 
-    .details-master-drawer
-
-    .test-foo.closed-drawer
-
-    .event-details-drawer.closed-drawer
+    .event-details-container.drawer-item
         event-details-drawer()
 
-    .map-travel-drawer.closed-drawer
+    .map-travel-container.drawer-item
         map-travel-drawer()
 
-    .stay-local-drawer.closed-drawer
-        stay-drawer-drawer()
+    .stay-local-container.drawer-item
+        stay-local-drawer()

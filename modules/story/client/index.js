@@ -11,6 +11,7 @@ var moduleName = 'story';
 
 module.exports = function (angular) {
     angular.module(moduleName, [])
+        .directive('ourStory', require('./directives/storyDirective'))
         .config(function ($routeProvider) {
             $routeProvider
                 .when("/story", {templateUrl: "story"});

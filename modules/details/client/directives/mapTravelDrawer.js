@@ -4,6 +4,7 @@ module.exports = function () {
     return {
         restrict : 'E',
         replace : true,
-        templateUrl: '/component/details/stayLocalDrawer'
+        link: require('../links/mapTravelLink'),
+        templateUrl: '/component/details/mapTravelDrawer'
     };
 };

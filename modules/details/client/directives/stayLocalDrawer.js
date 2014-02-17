@@ -4,6 +4,7 @@ module.exports = function () {
     return {
         restrict : 'E',
         replace : true,
-        templateUrl: '/component/details/detailsComponent'
+        link: require('../links/stayLocalLink'),
+        templateUrl: '/component/details/stayLocalDrawer'
     };
 };
