@@ -41,42 +41,47 @@ body {
 .navigation .nav-item {
   font-size: 18px;
   color: #993;
-  margin: 0px 40px;
   float: left;
   list-style-type: none;
 }
 
-/* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-/* line 27 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .navigation .nav-item a {
   text-decoration: none;
 }
 
-/* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+
+.navigation .non-first-nav-item {
+  margin-left: 80px;
+}
+
+/* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .nav-spacer {
   height: 40px;
 }
 
-/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 35 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-/* line 34 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .main-nav-color.nav-color-changer a {
   color: #993;
 }
 
-/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 40 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .registry-nav-color.nav-color-changer a {
   color: #fff;
 }
 
-/* line 40 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
@@ -330,7 +335,7 @@ body {
 .registry .registry-text {
   position: absolute;
   top: 150px;
-  right: 360px;
+  left: 800px;
   color: #fff;
 }
 
