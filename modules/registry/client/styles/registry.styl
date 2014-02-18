@@ -1,22 +1,24 @@
-.full-content
-    background: url(../images/registry/content-background.jpg) no-repeat center center fixed
-    -webkit-background-size: 100% auto
-    -moz-background-size: 100% auto
-    -o-background-size: 100% auto
-    background-size: 100% auto
-
-    .navigation
-        .nav-item
-            a
-                color: white
-
 .registry
+    .registry-background
+        position: absolute
+        top: 0px
+        z-index: -1;
+
+        img
+            width: 100%
+            height: auto
+
     .registry-text
         position: absolute
         top: 150px
-        right: 150px
+        right: 360px
         color: white
-        font-size: 25px
+
+        .registry-title
+            margin-bottom: 5px
+            font-size: 24px
+        .registry-link
+            font-size: 18px
 
         a
             color: white
@@ -25,7 +27,10 @@
             margin: 0px
 
     .registry-image-props
-        position: absolute
-        bottom: 0px
-        left: 20px
-        color: white
+        position: fixed
+        bottom: 10px
+        left: 10px
+
+        a
+            font-size: 14px
+            color: white

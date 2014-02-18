@@ -10,15 +10,11 @@
 var common = {
     resetBackground : function (element) {
         var $html = $(element.parents()[element.parents().length-1]);
-        $html.removeClass('full-content');
-        $html.find('.navigation-small-content').removeClass('navigation-full-content');
-        $html.find('.container').addClass('small-content');
+        $html.find('.nav-item').find('a').css({color: '#999933'});
     },
     resetRegistryBackground : function (element) {
         var $html = $(element.parents()[element.parents().length-1]);
-        $html.find('.container').removeClass('small-content');
-        $html.find('.navigation-small-content').addClass('navigation-full-content');
-        $html.addClass('full-content');
+        $html.find('.nav-item').find('a').css({color: '#FFFFFF'});
     }
 };
 

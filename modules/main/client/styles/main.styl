@@ -2,6 +2,9 @@ body
     font-family: main-font
     color: main-font-color
     font-weight: 100
+    margin: 0px
+    overflow-y: scroll
+    overflow-y: -moz-scrollbars-vertical
 
 center-on-screen()
     margin-left: auto
@@ -22,8 +25,15 @@ center-on-screen()
 
     .nav-item
         a
-            color: secondary-font-color
             text-decoration: none
 
 .nav-spacer
     height: 40px
+
+.main-nav-color.nav-color-changer
+    a
+        color: secondary-font-color
+
+.registry-nav-color.nav-color-changer
+    a
+        color: white

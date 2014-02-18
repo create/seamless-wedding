@@ -21,11 +21,11 @@ module.exports = function (scope, element, attrs) {
     });
     $mapTravel.click(function () {
         $mapTravelDrawer.show();
-        $body.animate({ scrollTop: $mapTravelDrawer.offset().top - 30 }, 1000);
+        $body.animate({ scrollTop: $mapTravelDrawer.offset().top - 60 }, 1000);
     });
     $stayLocal.click(function () {
         $stayLocalDrawer.show();
-        $body.animate({ scrollTop: $stayLocalDrawer.offset().top - 200 }, 1000);
+        $body.animate({ scrollTop: $stayLocalDrawer.offset().top - 150 }, 1000);
     });
 
     $window.scroll(function() {
