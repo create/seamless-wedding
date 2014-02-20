@@ -72,6 +72,7 @@ module.exports = function (grunt) {
                 trailing: true,
                 node: true,
                 globals: {
+                    document: true,
                     window: true,
                     $: true,
                     require: true,
