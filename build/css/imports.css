@@ -5,6 +5,12 @@
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\fonts.styl */
 
 @font-face {
+  font-family: MainFont;
+  font-style: normal;
+  src: url("../fonts/monotype/monotype.ttf"), url("../fonts/monotype/monotype.eot"), url("../fonts/monotype/monotype.svg"), url("../fonts/monotype/monotype.woff");
+}
+
+@font-face {
   font-family: MyScript;
   font-style: normal;
   src: url("../fonts/script/script-webfont.ttf"), url("../fonts/script/script-webfont.eot"), url("../fonts/script/script-webfont.svg"), url("../fonts/script/script-webfont.woff");
@@ -17,7 +23,7 @@
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 body {
-  font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
+  font-family: MainFont;
   color: #999;
   font-weight: 100;
   margin: 0px;
@@ -50,38 +56,39 @@ body {
 /* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .navigation .nav-item a {
+  color: #993;
   text-decoration: none;
 }
 
-/* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .navigation .non-first-nav-item {
   margin-left: 85px;
 }
 
-/* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .nav-spacer {
   height: 40px;
 }
 
-/* line 35 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
-
 /* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+
+/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .main-nav-color.nav-color-changer a {
   color: #993;
 }
 
-/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
-
 /* line 40 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+
+/* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .registry-nav-color.nav-color-changer a {
   color: #fff;
 }
 
-/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
