@@ -949,3 +949,30 @@ body {
   margin-left: 135px;
   margin-top: 150px;
 }
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+
+@media screen and (max-device-width: 600px) {
+  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+
+  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+
+  .details .details-top-links {
+    margin-top: 145px;
+  }
+
+  /* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+
+  .details .details-top-links .margin-left {
+    margin-left: 0px;
+  }
+
+  /* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+
+  .details .details-top-links img {
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+    clear: both;
+  }
+}
