@@ -45,7 +45,7 @@ body {
 /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .navigation .nav-item {
-  font-size: 18px;
+  font-size: 21px;
   color: #993;
   float: left;
   list-style-type: none;
@@ -62,33 +62,39 @@ body {
 
 /* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-.navigation .non-first-nav-item {
-  margin-left: 85px;
+.navigation .first-nav-item {
+  margin-left: 45px;
 }
 
-/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+
+.navigation .non-first-nav-item {
+  margin-left: 70px;
+}
+
+/* line 35 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .nav-spacer {
   height: 40px;
 }
 
-/* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .main-nav-color.nav-color-changer a {
   color: #993;
 }
 
-/* line 40 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
-/* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
 
 .registry-nav-color.nav-color-changer a {
   color: #fff;
 }
 
-/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 45 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
 
