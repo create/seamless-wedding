@@ -950,6 +950,56 @@ body {
   margin-top: 150px;
 }
 
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+@media screen and (max-device-width: 600px) {
+  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+  .navigation {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+    max-height: 625px;
+    margin-top: 5px;
+  }
+
+  /* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+  .navigation .nav-item {
+    font-size: 35px;
+    color: #993;
+    list-style-type: none;
+  }
+
+  /* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+  .navigation .nav-item a {
+    color: #993;
+    text-decoration: none;
+  }
+
+  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+  .navigation .first-nav-item {
+    margin-left: 0px;
+  }
+
+  /* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+  .navigation .non-first-nav-item {
+    margin-left: 0px;
+  }
+
+  /* line 21 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+  .nav-spacer {
+    height: 0px;
+  }
+}
+
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
 @media screen and (max-device-width: 600px) {
