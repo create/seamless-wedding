@@ -1012,6 +1012,12 @@ body {
 
   /* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
+  .details .scroll-to-top {
+    font-size: 40px;
+  }
+
+  /* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+
   .details .details-top-links {
     width: 100%;
     margin-left: auto;
@@ -1020,14 +1026,14 @@ body {
     margin-top: 0px;
   }
 
-  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links .margin-left {
     display: block;
     margin-left: 0px;
   }
 
-  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links img {
     display: block;
@@ -1082,7 +1088,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 50px;
-    word-spacing: -0.05em;
+    word-spacing: 0em;
     width: 100%;
     text-align: center;
   }
