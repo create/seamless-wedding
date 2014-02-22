@@ -967,33 +967,34 @@ body {
   /* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
 
   .navigation .nav-item {
-    font-size: 35px;
+    font-size: 75px;
     color: #993;
+    clear: both;
     list-style-type: none;
   }
 
-  /* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
-
   /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+
+  /* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
 
   .navigation .nav-item a {
     color: #993;
     text-decoration: none;
   }
 
-  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
 
   .navigation .first-nav-item {
     margin-left: 0px;
   }
 
-  /* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
 
   .navigation .non-first-nav-item {
     margin-left: 0px;
   }
 
-  /* line 21 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
 
   .nav-spacer {
     height: 0px;
@@ -1005,22 +1006,27 @@ body {
 @media screen and (max-device-width: 600px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
-  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
-
-  .details .details-top-links {
-    margin-top: 145px;
+  .details {
+    clear: both;
   }
 
-  /* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+
+  .details .details-top-links {
+    clear: both;
+    margin-top: 0px;
+  }
+
+  /* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links .margin-left {
     margin-left: 0px;
   }
 
-  /* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links img {
-    width: 60%;
+    width: 100%;
     height: auto;
     cursor: pointer;
     clear: both;
