@@ -1013,17 +1013,20 @@ body {
   /* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     clear: both;
     margin-top: 0px;
   }
 
-  /* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links .margin-left {
     margin-left: 0px;
   }
 
-  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links img {
     width: 100%;
@@ -1048,7 +1051,7 @@ body {
   /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .non-left {
-    margin-left: 100px;
+    margin-left: 0px;
   }
 
   /* line 10 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
@@ -1072,7 +1075,7 @@ body {
   .details .event-details-drawer .event-details-text .top-text {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 50px;
+    font-size: 55px;
     word-spacing: 0.25em;
   }
 
@@ -1081,8 +1084,8 @@ body {
   .details .event-details-drawer .event-details-text .wedding {
     margin-top: 5px;
     margin-bottom: 0px;
-    font-size: 50px;
-    letter-spacing: 105px;
+    font-size: 55px;
+    letter-spacing: 123px;
     margin-right: 0px;
   }
 
