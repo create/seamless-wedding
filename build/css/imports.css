@@ -644,9 +644,10 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 21px;
+  word-spacing: 0.25em;
 }
 
-/* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
+/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
 
 .details .event-details-drawer .event-details-text .wedding {
   margin-top: 5px;
@@ -656,7 +657,7 @@ body {
   margin-right: -45px;
 }
 
-/* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
+/* line 31 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
 
 .details .event-details-drawer .event-details-text .name {
   margin-top: 0px;
@@ -667,7 +668,7 @@ body {
   text-align: center;
 }
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
+/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
 
 .details .event-details-drawer .event-details-text .address {
   margin-top: 0px;
@@ -677,13 +678,13 @@ body {
   text-align: center;
 }
 
-/* line 45 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
+/* line 46 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
 
 .details .event-details-drawer .event-details-text .address-container {
   margin-top: 10px;
 }
 
-/* line 48 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
+/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
 
 .details .event-details-drawer .event-details-text .time-label {
   float: left;
@@ -693,7 +694,7 @@ body {
   font-size: 16px;
 }
 
-/* line 55 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
+/* line 56 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
 
 .details .event-details-drawer .event-details-text .time-description {
   float: right;
@@ -702,7 +703,7 @@ body {
   font-size: 16px;
 }
 
-/* line 61 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
+/* line 62 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
 
 .details .event-details-drawer .event-details-text .time-info {
   margin-top: 20px;
@@ -711,7 +712,7 @@ body {
   margin-right: auto;
 }
 
-/* line 66 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 67 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
@@ -789,78 +790,31 @@ body {
 
 /* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
-.details .map-travel-drawer .left-info .one {
-  letter-spacing: -0.06em;
+.details .map-travel-drawer .left-info .paragraph {
+  width: 300px;
+  text-align: justify;
+  letter-spacing: -0.01em;
 }
 
-/* line 40 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .two {
-  letter-spacing: -0.02em;
-}
-
-/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .three {
-  letter-spacing: -0.06em;
-}
-
-/* line 44 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .four {
-  letter-spacing: -0.05em;
-}
-
-/* line 46 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .five {
-  letter-spacing: -0.04em;
-}
-
-/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .six {
-  letter-spacing: -0.03em;
-}
-
-/* line 51 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .seven {
-  letter-spacing: -0.07em;
-}
-
-/* line 53 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .eight {
-  letter-spacing: 0.09em;
-}
-
-/* line 56 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 .details .map-travel-drawer .right-info {
   padding-top: 1px;
 }
 
-/* line 59 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .right-info .info-text {
-  letter-spacing: 0.03em;
-}
-
-/* line 61 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 46 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 .details .map-travel-drawer .right-info .info-link {
   color: #999;
-  letter-spacing: -0.05em;
 }
 
-/* line 65 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 .details .map-travel-drawer .map-container {
   width: 100%;
 }
 
-/* line 68 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 52 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 .details .map-travel-drawer .map-container img {
   margin-left: auto;
@@ -870,7 +824,7 @@ body {
   height: 300px;
 }
 
-/* line 74 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
+/* line 58 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
 
@@ -893,13 +847,9 @@ body {
 
 .details .stay-local-drawer .info-text-block {
   margin-bottom: 10px;
-}
-
-/* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .info-text-block .info-text {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  width: 700px;
+  text-align: justify;
+  letter-spacing: -0.05em;
 }
 
 /* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
@@ -943,37 +893,12 @@ body {
 
 /* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
 
-.details .stay-local-drawer .top-info .one {
-  letter-spacing: -0.05em;
-}
-
-/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .top-info .two {
-  letter-spacing: -0.01em;
-}
-
-/* line 46 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
 .details .stay-local-drawer .bottom-info {
   clear: both;
   margin-top: -100px;
 }
 
-/* line 50 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .bottom-info .one {
-  letter-spacing: -0.07em;
-}
-
-/* line 52 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .bottom-info .two {
-  letter-spacing: -0.06em;
-  word-spacing: 0.04em;
-}
-
-/* line 55 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 44 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
