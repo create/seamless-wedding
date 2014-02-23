@@ -1019,27 +1019,23 @@ body {
   /* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
     margin-top: 0px;
   }
 
-  /* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links .margin-left {
     display: block;
-    margin-left: 0px;
+    margin-left: auto;
   }
 
-  /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details .details-top-links img {
     display: block;
     margin: auto;
     width: 50%;
-    height: auto;
+    height: 390px;
     cursor: pointer;
     clear: both;
   }
@@ -1054,35 +1050,38 @@ body {
 
   .details .event-details-drawer {
     margin-top: 500px;
-    height: 1000px;
+    height: 2000px;
   }
 
   /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .non-left {
-    margin-left: 0px;
+    margin-left: auto;
   }
 
   /* line 10 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer img {
     display: block;
-    margin-top: 50px;
+    margin: auto;
     width: 50%;
     height: auto;
     clear: both;
+    float: none;
+    margin-bottom: 50px;
   }
 
-  /* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text {
     margin-top: 50px;
     width: 100%;
     margin-left: 0px;
     clear: both;
+    float: none;
   }
 
-  /* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text .top-text {
     margin-top: 0px;
@@ -1093,19 +1092,20 @@ body {
     text-align: center;
   }
 
-  /* line 31 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 34 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text .wedding {
     margin-top: 5px;
     margin-bottom: 0px;
     font-size: 50px;
     letter-spacing: 110px;
+    margin-right: -110px;
     margin-right: 0px;
     width: 100%;
     text-align: center;
   }
 
-  /* line 40 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 44 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text .name {
     margin-top: 0px;
@@ -1116,7 +1116,7 @@ body {
     text-align: center;
   }
 
-  /* line 48 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 52 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text .address {
     margin-top: 0px;
@@ -1126,13 +1126,13 @@ body {
     text-align: center;
   }
 
-  /* line 55 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 59 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text .address-container {
     margin-top: 10px;
   }
 
-  /* line 58 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 62 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text .time-label {
     float: left;
@@ -1142,7 +1142,7 @@ body {
     font-size: 40px;
   }
 
-  /* line 65 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 69 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text .time-description {
     float: right;
@@ -1151,7 +1151,7 @@ body {
     font-size: 40px;
   }
 
-  /* line 71 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+  /* line 75 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer .event-details-text .time-info {
     margin-top: 20px;
