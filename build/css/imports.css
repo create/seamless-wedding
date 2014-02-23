@@ -782,38 +782,31 @@ body {
 
 /* line 34 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
-.details .map-travel-drawer .left-info .info-text {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
 .details .map-travel-drawer .left-info .paragraph {
   width: 300px;
   text-align: justify;
   letter-spacing: -0.01em;
 }
 
-/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 .details .map-travel-drawer .right-info {
   padding-top: 1px;
 }
 
-/* line 46 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 .details .map-travel-drawer .right-info .info-link {
   color: #999;
 }
 
-/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 45 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 .details .map-travel-drawer .map-container {
   width: 100%;
 }
 
-/* line 52 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
+/* line 48 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
 
 .details .map-travel-drawer .map-container img {
   margin-left: auto;
@@ -823,7 +816,7 @@ body {
   height: 300px;
 }
 
-/* line 58 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
+/* line 54 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
 
@@ -1129,7 +1122,7 @@ body {
   /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   .details .event-details-drawer {
-    margin-top: 500px;
+    margin-top: 750px;
     height: 2000px;
   }
 
@@ -1236,6 +1229,207 @@ body {
     width: 510px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+@media screen and (max-device-width: 600px) {
+  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer {
+    margin-top: 750px;
+    height: 2000px;
+  }
+
+  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    clear: both;
+    float: none;
+    margin-bottom: 50px;
+  }
+
+  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .info-title {
+    font-size: 60px;
+    padding: 0px 50px;
+  }
+
+  /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .info-header {
+    font-size: 55px;
+    padding: 0px 50px;
+  }
+
+  /* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .info-text {
+    font-size: 50px;
+    padding: 0px 50px;
+  }
+
+  /* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .info-link {
+    font-size: 37px;
+    padding: 0px 50px;
+  }
+
+  /* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .left-info {
+    float: none;
+    clear: both;
+  }
+
+  /* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .left-info .info-title {
+    letter-spacing: -0.01em;
+  }
+
+  /* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .left-info .bottom-paragraph {
+    margin-top: 20px;
+  }
+
+  /* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .left-info .info-header {
+    margin-bottom: 0px;
+  }
+
+  /* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .left-info .paragraph {
+    width: 90%;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    font-size: 50px;
+    padding: 0px 50px;
+  }
+
+  /* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .right-info {
+    padding-top: 1px;
+  }
+
+  /* line 52 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .right-info .info-link {
+    color: #999;
+  }
+
+  /* line 55 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .map-container {
+    width: 100%;
+  }
+
+  /* line 58 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
+
+  .details .map-travel-drawer .map-container img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+@media screen and (max-device-width: 600px) {
+  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer {
+    margin-top: 750px;
+    height: 2000px;
+  }
+
+  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer .stay-local {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    clear: both;
+    float: none;
+    margin-bottom: 50px;
+  }
+
+  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer .info-text-block {
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 0 50px;
+    text-align: justify;
+    letter-spacing: -0.05em;
+    font-size: 50px;
+  }
+
+  /* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer .info-title {
+    font-size: 55px;
+    padding-left: 50px;
+    margin-bottom: 4px;
+  }
+
+  /* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer .non-last-address-block {
+    margin-right: 50px;
+  }
+
+  /* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer .address-block {
+    float: none;
+    clear: both;
+    margin: 25px 0px;
+    cursor: pointer;
+  }
+
+  /* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer .address-block .address {
+    text-align: center;
+    color: #993;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    letter-spacing: -0.02em;
+    word-spacing: -0.04em;
+    font-size: 40px;
+  }
+
+  /* line 47 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer .top-info {
+    float: none;
+    clear: both;
+  }
+
+  /* line 51 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
+
+  .details .stay-local-drawer .bottom-info {
+    clear: both;
+    margin-top: 0px;
   }
 }
 
