@@ -72,6 +72,9 @@ module.exports = function (grunt) {
                 trailing: true,
                 node: true,
                 globals: {
+                    screen: true,
+                    navigator: true,
+                    Parallax: true,
                     document: true,
                     window: true,
                     $: true,

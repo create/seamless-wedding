@@ -1,0 +1,6 @@
+{
+    "ignore": ["*.*"],
+    "watch": [
+        "modules/main/server/"
+    ]
+}

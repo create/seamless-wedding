@@ -3,10 +3,6 @@
 module.exports = function (scope, element, attrs) {
     var common = require("../../../common/client/common/common");
     common.resetBackground(element);
-
-    $('img').click(function (event) {
-        //event.target.src
-    });
 };
 
 $(document).ready(function() {
