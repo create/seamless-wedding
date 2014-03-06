@@ -16,6 +16,8 @@ module.exports = function ($scope, $storyService, $attrs) {
         $scope.line3 = $scope.poem[2];
         $scope.line4 = $scope.poem[3];
 
+        $scope.text = $storyService.text()[$attrs.id];
+
         $scope.fullVersion = true;
     }
     function smallFunctionality() {

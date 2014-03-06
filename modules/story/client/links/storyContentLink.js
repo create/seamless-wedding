@@ -7,11 +7,13 @@ module.exports = function (scope, element, attrs) {
     var imageSpeed = 0.1;
     var poemSpeed = 0.5;
     var contentSpeed = 0.4;
+    var textSpeed = 0.1;
 
     var $body = $("body");
     var $image = element.find('.image');
     var $container = element.find(".container");
     var $poem = element.find(".poem");
+    var $text = element.find(".text");
 
     var imageScrollTo = $image.offset().top;
     var containerScrollTo = $container.offset().top - 120;
@@ -36,6 +38,7 @@ module.exports = function (scope, element, attrs) {
     $image.parallax("50%", imageSpeed);
     $container.parallax("50%", contentSpeed);
     $poem.parallax("50%", poemSpeed, false, 0);
+    $text.parallax("50%", textSpeed, false, 0, true);
 
     scope.$on("PlayAnimation-" + attrs.id, function (event, data) {
         scope.fullVersion ? fullAnimation(data) : shortAnimation(data);

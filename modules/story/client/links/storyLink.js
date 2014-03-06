@@ -25,12 +25,12 @@ module.exports = function (scope, element, attrs) {
         });
         return defer.promise();
     }
-    var $body = $("body");
-    var $playButton = $(".play-button");
 
+    var $playButton = $(".play-button");
     var $window = $(window);
+
     $window.scroll(function (event) {
-        $window.scrollTop() < 100 ? $playButton.show() : $playButton.hide();
+        $window.scrollTop() < 90 ? $playButton.show() : $playButton.hide();
     });
 
     $playButton.click(function () {

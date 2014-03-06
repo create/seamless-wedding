@@ -917,6 +917,19 @@ body {
 
 /* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
+.story .text {
+  text-align: justify;
+  width: 600px;
+  z-index: 3;
+  position: absolute;
+  font-size: 20px;
+  height: 450px;
+  left: 20px;
+  bottom: 0px;
+}
+
+/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+
 .story .next {
   width: 100%;
   text-align: center;
@@ -925,28 +938,28 @@ body {
   cursor: pointer;
 }
 
-/* line 21 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 31 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .image {
   z-index: 1;
 }
 
-/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 34 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .container {
   z-index: 2;
 }
 
-/* line 27 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .poem {
   position: absolute;
-  top: 380px;
-  right: 250px;
+  top: 300px;
+  right: 100px;
   z-index: 3;
 }
 
-/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .poem p {
   font-size: 25px;
@@ -955,7 +968,7 @@ body {
   text-align: center;
 }
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 48 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .image {
   background-size: 100% auto;
@@ -963,56 +976,56 @@ body {
   height: 800px;
 }
 
-/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 53 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .container {
   height: 500px;
   width: 100%;
 }
 
-/* line 47 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 57 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .one-image {
   background: url("../images/story/one.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 59 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .two-image {
   background: url("../images/story/two.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 51 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 61 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .three-image {
   background: url("../images/story/three.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 53 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 63 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .four-image {
   background: url("../images/story/four.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 55 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 65 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .five-image {
   background: url("../images/story/five.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 57 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 67 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .six-image {
   background: url("../images/story/six.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 59 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 69 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
 
 .story .seven-image {
   background: url("../images/story/seven.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 61 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 71 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
 
