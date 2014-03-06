@@ -12,6 +12,9 @@ var moduleName = 'story';
 module.exports = function (angular) {
     angular.module(moduleName, [])
         .directive('ourStory', require('./directives/storyDirective'))
+        .directive('storyContent', require('./directives/storyContentDirective'))
+        .service('$storyService', require('./services/storyService'))
+        .controller('storyContentController', require('./controllers/storyContentController'))
         .config(function ($routeProvider) {
             $routeProvider
                 .when("/story", {templateUrl: "story"});

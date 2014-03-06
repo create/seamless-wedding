@@ -1,68 +1,12 @@
 .story
-    #one-image.content.image
-    #one-content.content.container
-        .poem.content
-            p When I first set my sights I placed words upon her flesh,
-            p She did not comply,
-            p Complications of the fictitious man,
-            p But I knew she would soon hold my hand
+    .story-content
+        story-content(id="one", next-set="two")
+        story-content(id="two", next-set="three")
+        story-content(id="three", next-set="four")
+        story-content(id="four", next-set="five")
+        story-content(id="five", next-set="six")
+        story-content(id="six", next-set="seven", last-item="true")
+        story-content(id="seven")
 
-        a.next
-            img(data-next="two", src="images/story/arrow-half.png")
-
-    #two-image.content.image
-    #two-content.content.container
-        .poem.content
-            p Toys were us except for the hoops,
-            p They fell to her ground,
-            p Charming, beauty, hole in my stomach,
-            p She gently grazed my hand
-
-        a.next
-            img(data-next="three", src="images/story/arrow-half.png")
-
-    #three-image.content.image
-    #three-content.content.container
-        .poem.content
-            p Fireworks say phish,
-            p Other things on my mind,
-            p She complies in the grassy field, she is mine,
-            p She will hold my hand
-
-        a.next
-            img(data-next="four", src="images/story/arrow-half.png")
-
-    #four-image.content.image
-    #four-content.content.container
-        .poem.content
-            p Alone at last,
-            p In the battery we lay,
-            p Calming fears and excitement,
-            p Through a gentle touch on her hand
-
-        a.next
-            img(data-next="five", src="images/story/arrow-half.png")
-
-    #five-image.content.image
-    #five-content.content.container
-        .poem.content
-            p Without her weak,
-            p With her unstoppable,
-            p We are unstoppable as one,
-            p She squeezed my hand with the love of a thousand Juliets
-
-        a.next
-            img(data-next="six", src="images/story/arrow-half.png")
-
-    #six-image.content.image
-    #six-content.content.container
-        .poem.content
-            p And now it is my turn
-            p To take her hand
-            p To love her.
-            p Not till death shall we part
-
-        a.next
-            img(data-next="seven", src="images/story/arrow-half.png")
-
-    #seven-image.content.image
+    .play-button
+        img(src="images/story/play.jpg")
