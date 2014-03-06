@@ -1,5 +1,8 @@
 "use strict";
 module.exports = function (scope, element, attrs) {
+    var common = require("../../../common/client/common/common");
+    common.resetBackground(element);
+
     function executeAnimation() {
         animate("one").then(function () {
             return animate("two");
@@ -30,10 +33,11 @@ module.exports = function (scope, element, attrs) {
     var $window = $(window);
 
     $window.scroll(function (event) {
-        $window.scrollTop() < 90 ? $playButton.show() : $playButton.hide();
+        $window.scrollTop() < 90 ? $playButton.fadeIn(2000) : $playButton.fadeOut(2000);
     });
 
     $playButton.click(function () {
+        $playButton.fadeOut(2000);
         executeAnimation();
     });
 };
