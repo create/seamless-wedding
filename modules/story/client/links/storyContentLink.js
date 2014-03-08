@@ -5,7 +5,7 @@ module.exports = function (scope, element, attrs) {
     var imagePause = 2000;
     var contentPause = 5000;
     var imageSpeed = 0.1;
-    var poemSpeed = 0.5;
+    var poemSpeed = 0.6;
     var contentSpeed = 0.4;
     var textSpeed = 0.1;
 
@@ -41,8 +41,7 @@ module.exports = function (scope, element, attrs) {
     $text.parallax("50%", textSpeed, false, 0, true);
 
     scope.$on("PlayAnimation-" + attrs.id, function (event, data) {
-        scope.fullVersion ? fullAnimation(data) : shortAnimation(data);
-
+        return scope.fullVersion ? fullAnimation(data) : shortAnimation(data);
     });
 
     function fullAnimation(data) {
@@ -59,7 +58,7 @@ module.exports = function (scope, element, attrs) {
     function shortAnimation(data) {
         scrollToNext(imageScrollTo).then(function () {
             data.callback(attrs.id);
-        })
+        });
     }
 
     function scrollToNext(scrollTo) {

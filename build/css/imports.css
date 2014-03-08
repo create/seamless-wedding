@@ -1025,7 +1025,66 @@ body {
   background: url("../images/story/seven.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 71 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 71 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+/* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+.story-content .content {
+  position: relative;
+}
+
+/* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+.story-content .text {
+  text-align: justify;
+  width: 600px;
+  z-index: 3;
+  position: absolute;
+  font-size: 20px;
+  height: 450px;
+  left: 20px;
+  bottom: 0px;
+}
+
+/* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+.story-content .next {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+/* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+.story-content .container {
+  z-index: 2;
+  height: 500px;
+  width: 100%;
+}
+
+/* line 27 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+.story-content .poem {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  z-index: 3;
+}
+
+/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+.story-content .poem p {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
 

@@ -24,5 +24,5 @@ module.exports = function ($scope, $storyService, $attrs) {
         $scope.fullVersion = false;
     }
 
-    $attrs.nextSet ? fullFunctionality() : smallFunctionality();
+    return $attrs.nextSet ? fullFunctionality() : smallFunctionality();
 };
