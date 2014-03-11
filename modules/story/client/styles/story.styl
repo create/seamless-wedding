@@ -1,11 +1,22 @@
 .story
     width: 100%
 
-    .play-button
+    .play-image
         z-index: 10
         position: fixed
         left: 25px
         top: 115px
+        cursor: pointer
+        opacity: .8
+
+    .play-text
+        font-family: MyScript, cursive;
+        font-size: 72px
+        color: secondary-font-color
+        z-index: 11
+        position: fixed
+        left: 45px
+        top: 40px
         cursor: pointer
 
     .content
@@ -19,7 +30,7 @@
         font-size: 20px
         height: 450px
         left: 20px
-        bottom: 0px
+        top: 100
 
     .next
        width: 100%;
@@ -34,17 +45,6 @@
     .container
         z-index: 2
 
-    .poem
-        position: absolute
-        top: 300px
-        right: 100px
-        z-index: 3
-
-        p
-            font-size: 25px
-            margin-top: 0px
-            margin-bottom: 0px
-            text-align: center;
     .image
         background-size: 100% auto
         width: 1920px
@@ -54,6 +54,8 @@
         height: 500px
         width: 100%
 
+    .pre-image
+        background url(../images/story/pre.jpg) 50% 0 no-repeat fixed
     .one-image
         background url(../images/story/one.jpg) 50% 0 no-repeat fixed
     .two-image

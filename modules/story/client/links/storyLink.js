@@ -4,7 +4,9 @@ module.exports = function (scope, element, attrs) {
     common.resetBackground(element);
 
     function executeAnimation() {
-        animate("one").then(function () {
+        animate("pre").then(function () {
+            return animate("one");
+        }).then(function () {
             return animate("two");
         }).then(function () {
             return animate("three");

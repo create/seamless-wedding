@@ -19,7 +19,7 @@
         windowHeight = $window.height();
     });
 
-    $.fn.parallax = function(xpos, speedFactor, isBackground, additionalTop, reverseDirection) {
+    $.fn.parallax = function(xpos, speedFactor, isBackground, additionalTop, property) {
         var $this = $(this);
         var getHeight;
         var firstTop;
@@ -29,7 +29,6 @@
         //get the starting position of each element to have parallax applied to it
         $this.each(function(){
             firstTop = $this.offset().top;
-            console.log(firstTop);
         });
 
         if (outerHeight) {
@@ -67,14 +66,7 @@
                     $this.css('backgroundPosition', xpos + " " + Math.round((firstTop - pos) * speedFactor) + "px");
                 }
                 function processOther() {
-                    if (reverseDirection) {
-                        console.log($this);
-                        console.log("firstTop: " + firstTop);
-                        console.log("pos: " + pos);
-                        console.log("total: " + Math.round((firstTop - pos) * speedFactor) + "px");
-                    }
-                    reverseDirection ? $this.css("bottom", Math.round((firstTop - pos) * speedFactor) + "px") :
-                        $this.css("top", Math.round((firstTop - pos) * speedFactor) + "px");
+                    $this.css(property, Math.round((firstTop - pos) * speedFactor) + "px");
                 }
 
                 isBackground ? processBackground() : processOther();

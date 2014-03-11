@@ -1,5 +1,6 @@
 .story
     .story-content
+        story-content(id="pre", next-set="one")
         story-content(id="one", next-set="two")
         story-content(id="two", next-set="three")
         story-content(id="three", next-set="four")
@@ -9,4 +10,8 @@
         story-content(id="seven")
 
     .play-button
-        img(src="images/story/play.jpg")
+        .play-image
+            img(src="images/story/play.png")
+        .play-text
+            p Play
+

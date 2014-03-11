@@ -1,8 +1,11 @@
 .story-content(ng-controller="storyContentController")
     .image.content
     .container.content(ng-show="fullVersion")
+        .headline.content
+
         .text.content
             p {{text}}
+
         .poem.content
             p {{line1}}
             p {{line2}}

@@ -7,11 +7,18 @@ module.exports = function (scope, element, attrs) {
     var imageSpeed = 0.1;
     var poemSpeed = 0.6;
     var contentSpeed = 0.4;
-    var textSpeed = 0.1;
+    var textSpeed = 0.2;
 
     var $body = $("body");
     var $image = element.find('.image');
     var $container = element.find(".container");
+
+    if (attrs.nextSet) {
+      var $headline = $container.find(".headline");
+      var headlinePath = "images/story/headline-" + attrs.id + ".png";
+      $headline.append($("<img>").attr('src', headlinePath));
+    }
+
     var $poem = element.find(".poem");
     var $text = element.find(".text");
 
@@ -22,7 +29,7 @@ module.exports = function (scope, element, attrs) {
     //Add correct image class so we can continue using css to load background images
     var imageClass = attrs.id + "-image";
     $image.addClass(imageClass);
-    
+
     element.find(".next").click(function (event) {
         var scrollTo;
         var $nextSet = $("." + attrs.nextSet);
@@ -37,8 +44,8 @@ module.exports = function (scope, element, attrs) {
     //Prepare parallax
     $image.parallax("50%", imageSpeed);
     $container.parallax("50%", contentSpeed);
-    $poem.parallax("50%", poemSpeed, false, 0);
-    $text.parallax("50%", textSpeed, false, 0, true);
+    $poem.parallax("50%", poemSpeed, false, 0, "top");
+    $text.parallax("50%", textSpeed, false, 0, "bottom");
 
     scope.$on("PlayAnimation-" + attrs.id, function (event, data) {
         return scope.fullVersion ? fullAnimation(data) : shortAnimation(data);
