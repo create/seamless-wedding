@@ -990,24 +990,42 @@ body {
 
 /* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
 
+.story-content .headline {
+  left: 10px;
+}
+
+/* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
 .story-content .text {
   text-align: justify;
   width: 500px;
   z-index: 3;
   position: absolute;
-  font-size: 20px;
+  font-size: 17px;
   height: 450px;
-  left: 100px;
+  left: 30px;
   bottom: 400px;
 }
 
-/* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
 
-.story-content .headline {
-  left: 80px;
+.story-content .poem {
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  z-index: 3;
 }
 
-/* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+
+.story-content .poem p {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
 
 .story-content .next {
   width: 100%;
@@ -1017,7 +1035,7 @@ body {
   cursor: pointer;
 }
 
-/* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
 
 .story-content .container {
   z-index: 2;
@@ -1025,31 +1043,13 @@ body {
   width: 100%;
 }
 
-/* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
 
 .story-content .image {
   background-size: 100% auto;
   z-index: 1;
   width: 1920px;
   height: 800px;
-}
-
-/* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
-
-.story-content .poem {
-  position: absolute;
-  top: 200px;
-  right: 100px;
-  z-index: 3;
-}
-
-/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
-
-.story-content .poem p {
-  font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center;
 }
 
 /* line 47 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */

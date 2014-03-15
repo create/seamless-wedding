@@ -35,7 +35,6 @@ module.exports = function (scope, element, attrs) {
     var $window = $(window);
 
     $window.scroll(function (event) {
-
         $window.scrollTop() < 90 ? $playButton.fadeIn(2000) : $playButton.fadeOut(2000);
     });
 

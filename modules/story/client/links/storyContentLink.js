@@ -2,8 +2,8 @@
 module.exports = function (scope, element, attrs) {
     element.addClass(attrs.id);
 
-    var imagePause = 2000;
-    var contentPause = 5000;
+    var imagePause = 4000;
+    var contentPause = 10000;
     var imageSpeed = 0.1;
     var poemSpeed = 0.6;
     var contentSpeed = 0.4;
@@ -13,8 +13,8 @@ module.exports = function (scope, element, attrs) {
     var $image = element.find('.image');
     var $container = element.find(".container");
 
+    var $headline = $container.find(".headline");
     if (attrs.nextSet) {
-      var $headline = $container.find(".headline");
       var headlinePath = "images/story/headline-" + attrs.id + ".png";
       $headline.append($("<img>").attr('src', headlinePath));
     }
@@ -23,7 +23,7 @@ module.exports = function (scope, element, attrs) {
     var $text = element.find(".text");
 
     var imageScrollTo = $image.offset().top;
-    var containerScrollTo = $container.offset().top - 120;
+    var containerScrollTo = $container.offset().top - container.getTopOffset();
     var nextContainerScrollTo;
 
     //Add correct image class so we can continue using css to load background images
@@ -34,7 +34,7 @@ module.exports = function (scope, element, attrs) {
         var scrollTo;
         var $nextSet = $("." + attrs.nextSet);
         if (!attrs.lastItem) {
-            scrollTo = $nextSet.find(".container").offset().top - 120;
+            scrollTo = $nextSet.find(".container").offset().top - container.getTopOffset();
         } else {
             scrollTo = $nextSet.find(".image").offset().top;
         }
@@ -92,8 +92,59 @@ module.exports = function (scope, element, attrs) {
             var $nextImage = $nextSet.find(".image");
             var $nextContainer = $nextSet.find(".container");
 
-            nextContainerScrollTo = $nextContainer.offset().top - 120;
+            nextContainerScrollTo = $nextContainer.offset().top - container.getTopOffset();
         }
         return nextContainerScrollTo;
+    }
+
+    function setContentPositions() {
+        if (attrs.nextSet) {
+            $poem.css({right: poem.getRightOffset()});
+            $text.css({left : text.getLeftOffset()});
+            $headline.css({left : headline.getLeftOffset()});
+        }
+    }
+    setContentPositions();
+};
+
+var container = {
+    getTopOffset : function () {
+        if (!this.topOffset) {
+            this.topOffset = (constants.$window.height() - constants.containerHeight) / 3;
+        }
+        return this.topOffset;
+    }
+};
+
+var constants = {
+    $window : $(window),
+    containerHeight : 500,
+    smallestSupportedWidth: 1200,
+    poemStartRight: 10,
+    textStartLeft: 30,
+    headlineStartLeft: 10
+};
+
+var poem = {
+    getRightOffset : function () {
+        var additional = (constants.$window.width() - constants.smallestSupportedWidth) / 3;
+        var newOffset = constants.poemStartRight + additional;
+        return newOffset > constants.poemStartRight ? newOffset : constants.poemStartRight;
+    }
+};
+
+var text = {
+    getLeftOffset : function () {
+        var additional = (constants.$window.width() - constants.smallestSupportedWidth) / 3;
+        var newOffset = constants.textStartLeft + additional;
+        return newOffset > constants.textStartLeft ? newOffset : constants.textStartLeft;
+    }
+};
+
+var headline = {
+    getLeftOffset : function () {
+        var additional = (constants.$window.width() - constants.smallestSupportedWidth) / 3;
+        var newOffset = constants.headlineStartLeft + additional;
+        return newOffset > constants.headlineStartLeft ? newOffset : constants.headlineStartLeft;
     }
 };
