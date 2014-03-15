@@ -63,9 +63,8 @@ module.exports = function () {
                 two: "Days later, Cory friended Justine on Facebook, only to learn that she was already spoken for by another man. It was not yet their time, but months would go by and they would cross paths again at a St. Patty's Day party at Cory's apartment in Hoboken (Justine was high school friends with his roommate). Justine would find out at this party that Cory was harboring a mini polar bear named Akimbo in his bedroom. She was immediately smitten by this giant fluffy creature and became more drawn to this man with his big white dog.",
                 three: "An essential thing to know about New Yorkers and Times Square - unless we work there, we never go there. So it was with a deep curiosity for this ginger from the Midwest that Justine agreed to meet Cory at the Toys R' Us in Times Square for their first date. It turns out he just wanted to watch her hula hoop, a feat which she failed miserably. I won't divulge how the rest of this date went, but let's just say more dates followed...",
                 four: "Spring turned to summer and Cory and Justine had been spending their days together more often than not. One warm summer evening, as they lay on the grass at the Hoboken waterfront watching Breakfast at Tiffany's, Cory turned to Justine and said something along the lines of, \"Since you've been leaving clothes at my apartment now, I might as well call you my girlfriend.\" And with those beautiful words they became solely each others.",
-                five: "",
-                six: ""
-
+                five: "Cory and Justine bore the grunt of busy schedules, commuting between Manhattan and Hoboken, for just shy of a year before they decided to move in together. They moved into the one building in lower Manhattan that would accept their 140 lb. dog, which as luck would have it, was also located right by the best movie theater and Shake Shack in New York.",
+                six: "Fast forward a year and a half, and in that very same apartment, Cory proposed to Justine, the sort of intimate and homemade proposal she had hoped for. With tears in her eyes and a croaking sound in her throat, she said yes…obviously…"
             };
         }
     };
