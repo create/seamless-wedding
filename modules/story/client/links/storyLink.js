@@ -35,11 +35,11 @@ module.exports = function (scope, element, attrs) {
     var $window = $(window);
 
     $window.scroll(function (event) {
-        return $window.scrollTop() < 90 ? $playButton.fadeIn(2000) : $playButton.fadeOut(2000);
+
+        $window.scrollTop() < 90 ? $playButton.fadeIn(2000) : $playButton.fadeOut(2000);
     });
 
     $playButton.click(function () {
-        $playButton.fadeOut(2000);
         executeAnimation();
     });
 };
