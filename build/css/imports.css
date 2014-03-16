@@ -1692,6 +1692,7 @@ body {
 
   .entourage {
     clear: both;
+    max-width: 500px;
   }
 }
 
@@ -1725,30 +1726,33 @@ body {
 
   .person {
     float: none;
-    margin: 20px auto;
+    margin: 0px auto;
+    width: 100%;
   }
-
-  /* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
 
   /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
 
+  /* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+
   .person .image img {
-    height: 60%;
+    height: 500px;
     width: auto;
+    display: block;
+    margin: auto;
   }
 
-  /* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
 
-  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
 
   .person .info p {
     margin: 0px;
     text-align: center;
   }
 
-  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
 
   .person .info .name {
-    font-size: 25px;
+    font-size: 50px;
   }
 }
