@@ -1690,29 +1690,8 @@ body {
 @media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
 
-  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
-
-  .entourage .entourage-background {
-    position: relative;
-    z-index: -1;
-  }
-
-  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
-
-  .entourage .entourage-background img {
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
-  }
-
-  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
-
-  .entourage .coming-soon {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
-    left: 40px;
-    top: 760px;
+  .entourage {
+    clear: both;
   }
 }
 
@@ -1736,5 +1715,40 @@ body {
     position: absolute;
     top: 100px;
     left: 550px;
+  }
+}
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+
+@media screen and (max-device-width: 800px) {
+  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+
+  .person {
+    float: none;
+    margin: 20px auto;
+  }
+
+  /* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+
+  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+
+  .person .image img {
+    height: 60%;
+    width: auto;
+  }
+
+  /* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+
+  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+
+  .person .info p {
+    margin: 0px;
+    text-align: center;
+  }
+
+  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+
+  .person .info .name {
+    font-size: 25px;
   }
 }

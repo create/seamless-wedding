@@ -21,6 +21,7 @@ module.exports = function (scope, element, attrs) {
     }
     function prepareImageHover() {
         if (attrs.twoImages === "true") {
+            getHoverPicture();
             $image.hover(setImageHoverSource, setImageSource);
         }
     }
@@ -42,7 +43,6 @@ module.exports = function (scope, element, attrs) {
         return $hoverPicture;
     }
 
-    getHoverPicture();
     setElementClass();
     setImageSource();
     prepareImageHover();
