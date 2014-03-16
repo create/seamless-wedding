@@ -1276,29 +1276,8 @@ body {
 @media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
 
-  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
-
-  .story .story-background {
-    position: relative;
-    z-index: -1;
-  }
-
-  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
-
-  .story .story-background img {
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
-  }
-
-  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
-
-  .story .coming-soon {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
-    left: 40px;
-    top: 760px;
+  .story {
+    clear: both;
   }
 }
 

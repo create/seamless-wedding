@@ -9,6 +9,7 @@ module.exports = function (scope, element, attrs) {
     var contentSpeed = 0.4;
     var textSpeed = 0.2;
 
+    var $window = $(window);
     var $body = $("body");
     var $image = element.find('.image');
     var $container = element.find(".container");
@@ -41,11 +42,13 @@ module.exports = function (scope, element, attrs) {
         $body.animate({ scrollTop: scrollTo}, 3000);
     });
 
-    //Prepare parallax
-    $image.parallax("50%", imageSpeed);
-    $container.parallax("50%", contentSpeed);
-    $poem.parallax("50%", poemSpeed, false, 0, "top");
-    $text.parallax("50%", textSpeed, false, 0, "bottom");
+    if ($window.width() > 800) {
+        //Prepare parallax
+        $image.parallax("50%", imageSpeed);
+        $container.parallax("50%", contentSpeed);
+        $poem.parallax("50%", poemSpeed, false, 0, "top");
+        $text.parallax("50%", textSpeed, false, 0, "bottom");
+    }
 
     scope.$on("PlayAnimation-" + attrs.id, function (event, data) {
         return scope.fullVersion ? fullAnimation(data) : shortAnimation(data);

@@ -41,4 +41,8 @@ module.exports = function (scope, element, attrs) {
     $playButton.click(function () {
         executeAnimation();
     });
+
+    if ($window.width() < 800) {
+        $playButton.hide();
+    }
 };
