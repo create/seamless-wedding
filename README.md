@@ -1,4 +1,5 @@
 # Justine & Corybill's Wedding Website
+## www.justineandcorybill.com
 
 ### How to run
 1. Download code
@@ -17,3 +18,7 @@
 1. main.js will start up the node server.
 2. All routes will be listened for here and sent to the routes.js for processing in the main module.
 3. Each module can have its own server side code if it needs to.
+
+### Stylus
+1. Stylus files are compiled with grunt into the main.css file at public/css/main.css
+2. Stylus files with names ending with "Media" are explicitly for mobile phones and will capture any screen up to 800px.
