@@ -12,6 +12,7 @@ module.exports = function () {
         restrict : 'E',
         replace : true,
         link: require('../links/personLink'),
+        scope: {  },
         templateUrl: '/component/entourage/person'
     };
 };

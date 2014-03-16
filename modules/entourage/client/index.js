@@ -11,7 +11,10 @@ var moduleName = 'entourage';
 
 module.exports = function (angular) {
     angular.module(moduleName, [])
+        .service('$personService', require('./services/personService'))
+        .controller('personController', require('./controllers/personController'))
         .directive('entourage', require('./directives/entourageDirective'))
+        .directive('person', require('./directives/personDirective'))
         .config(function ($routeProvider) {
             $routeProvider
                 .when("/entourage", {templateUrl: "entourage"});

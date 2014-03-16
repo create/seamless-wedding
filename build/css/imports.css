@@ -1056,31 +1056,123 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
 
-.entourage {
-  height: 625px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1080px;
-  max-height: 625px;
+/* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .adrienne-image {
+  background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
+  background-size: 200px auto;
 }
 
-/* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
 
-.entourage .entourage-background {
-  position: absolute;
+.entourage .sue-image {
+  background: url("../images/entourage/Sue.png") 50% 0 no-repeat fixed;
+  background-size: 200px auto;
 }
 
-/* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
 
-.entourage .coming-soon {
-  position: relative;
-  margin-left: 135px;
-  margin-top: 150px;
+.entourage .geraldine-image {
+  background: url("../images/entourage/Ger.png") 50% 0 no-repeat fixed;
+  background-size: 200px auto;
+}
+
+/* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .rianne-image {
+  background: url("../images/entourage/Rianne.png") 50% 0 no-repeat fixed;
+  background-size: 200px auto;
+}
+
+/* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .joel-image {
+  background: url("../images/entourage/Joel.png") 50% 0 no-repeat fixed;
+  background-size: 200px auto;
+}
+
+/* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .joel-image :hover {
+  background: url("../images/entourage/Joel2.png") 50% 0 no-repeat fixed;
+}
+
+/* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .jason-image {
+  background: url("../images/entourage/Jason.png") 50% 0 no-repeat fixed;
+  background-size: 200px auto;
+}
+
+/* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .jason-image :hover {
+  background: url("../images/entourage/Jason2.png") 50% 0 no-repeat fixed;
+}
+
+/* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .nicholas-image {
+  background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
+  background-size: 200px auto;
+}
+
+/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .nicholas-image :hover {
+  background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
+}
+
+/* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .gabriel-image {
+  background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
+  background-size: 200px auto;
+}
+
+/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+
+.entourage .gabriel-image :hover {
+  background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
+}
+
+/* line 35 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+
+.person {
+  float: left;
+  margin: 50px 0px;
+  width: 11.9%;
+}
+
+/* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+
+/* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+
+.person .image img {
+  height: 500px;
+  width: auto;
+}
+
+/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+
+/* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+
+.person .info p {
+  margin: 0px;
+  text-align: center;
+}
+
+/* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+
+.person .info .name {
+  font-size: 25px;
 }
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
 
   .navigation {
@@ -1131,7 +1223,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
 
   .home {
@@ -1181,7 +1273,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
 
   /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
@@ -1212,7 +1304,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
 
   .details {
@@ -1252,7 +1344,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
 
   /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
@@ -1370,7 +1462,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
 
   /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
@@ -1486,7 +1578,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
 
   /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
@@ -1571,7 +1663,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\galleryMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\galleryMedia.styl */
 
   .gallery {
@@ -1595,7 +1687,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
 
   /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
@@ -1626,7 +1718,7 @@ body {
 
 /* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registryMedia.styl */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 800px) {
   /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registryMedia.styl */
 
   /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registryMedia.styl */

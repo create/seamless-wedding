@@ -8,7 +8,6 @@ module.exports = function () {
     scope: {
         next: "@nextSet",
         identifier: "@id",
-        poem: "@poemData",
         lastFull: "@lastItem"
     },
     templateUrl: '/component/story/storyContentComponent'
