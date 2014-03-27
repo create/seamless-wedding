@@ -1,14 +1,7 @@
 .details
-    .details-top-links
-        img.event-details(src='images/details/one.png')
-        img.map-travel.margin-left(src='images/details/two.png')
-        img.stay-local.margin-left(src='images/details/three.png')
+    .story-content
+        story-content(id="pre", next-set="one")
+        story-content(id="one", next-set="two")
+        story-content(id="two", next-set="three", last-item="true")
+        story-content(id="three")
 
-    .event-details-container.drawer-item
-        event-details-drawer()
-
-    .map-travel-container.drawer-item
-        map-travel-drawer()
-
-    .stay-local-container.drawer-item
-        stay-local-drawer()

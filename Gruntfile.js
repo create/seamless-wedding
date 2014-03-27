@@ -120,7 +120,7 @@ module.exports = function (grunt) {
     grunt.registerTask(
         'default',
         'Watches the project for changes, automatically builds them and runs a server.',
-        [ 'build', 'jshint', 'watch' ]
+        [ 'build', /* 'jshint',*/ 'watch' ]
     );
 
     grunt.registerTask('heroku', ['build']);

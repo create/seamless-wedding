@@ -2,6 +2,7 @@
 module.exports = function (scope, element, attrs) {
     var common = require("../../../common/client/common/common");
     common.resetBackground(element);
+    common.resetScroll(element);
 
     function executeAnimation() {
         animate("pre").then(function () {
@@ -38,9 +39,9 @@ module.exports = function (scope, element, attrs) {
         return $window.scrollTop() < 90 ? $playButton.fadeIn(2000) : $playButton.fadeOut(2000);
     });
 
-    $playButton.click(function () {
-        executeAnimation();
-    });
+    // $playButton.click(function () {
+    //     executeAnimation();
+    // }); 
 
     if ($window.width() < 800) {
         $playButton.hide();

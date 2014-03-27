@@ -1,37 +1,41 @@
 "use strict";
-
 module.exports = function (scope, element, attrs) {
     var common = require("../../../common/client/common/common");
     common.resetBackground(element);
+    common.resetScroll(element);
 
-    var $stayLocal = $(element.find(".details-top-links .stay-local"));
-    var $eventDetails = $(element.find(".details-top-links .event-details"));
-    var $mapTravel = $(element.find(".details-top-links .map-travel"));
+    function executeAnimation() {
+        animate("pre").then(function () {
+            return animate("one");
+        }).then(function () {
+            return animate("two");
+        }).then(function () {
+            return animate("three");
+        });
+    }
+    function animate(id) {
+        var defer = $.Deferred();
 
-    var $stayLocalDrawer = $(element.find(".stay-local-container"));
-    var $eventDetailsDrawer = $(element.find(".event-details-container"));
-    var $mapTravelDrawer = $(element.find(".map-travel-container"));
+        scope.$broadcast("PlayAnimation-" + id, {
+            callback: function (completedId) {
+                defer.resolve();
+            }
+        });
+        return defer.promise();
+    }
 
+    var $playButton = $(".play-button");
     var $window = $(window);
-    var $body = $("html, body");
 
-    $eventDetails.click(function () {
-        $eventDetailsDrawer.show();
-        $body.animate({ scrollTop: $eventDetailsDrawer.offset().top - 200 }, 1000);
-    });
-    $mapTravel.click(function () {
-        $mapTravelDrawer.show();
-        $body.animate({ scrollTop: $mapTravelDrawer.offset().top - 60 }, 1000);
-    });
-    $stayLocal.click(function () {
-        $stayLocalDrawer.show();
-        $body.animate({ scrollTop: $stayLocalDrawer.offset().top - 150 }, 1000);
+    $window.scroll(function (event) {
+        return $window.scrollTop() < 90 ? $playButton.fadeIn(2000) : $playButton.fadeOut(2000);
     });
 
-    $window.scroll(function() {
-        if ($window.scrollTop() === 0) {
-            $(".drawer-item").hide();
-        }
-    });
+    // $playButton.click(function () {
+    //     executeAnimation();
+    // });
 
+    if ($window.width() < 800) {
+        $playButton.hide();
+    }
 };

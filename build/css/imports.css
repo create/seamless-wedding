@@ -1,8 +1,8 @@
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/user/workspace/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\constants.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/constants.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\fonts.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/fonts.styl */
 
 @font-face {
   font-family: MainFont;
@@ -16,23 +16,25 @@
   src: url("../fonts/script/script-webfont.ttf"), url("../fonts/script/script-webfont.eot"), url("../fonts/script/script-webfont.svg"), url("../fonts/script/script-webfont.woff");
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\colors.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/colors.styl */
 
-/* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 3 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 body {
   font-family: MainFont;
-  color: #999;
+  color: #fff;
   font-weight: 100;
   margin: 0px;
   overflow-y: scroll;
   overflow-y: -moz-scrollbars-vertical;
   overflow-x: hidden;
+  background: url("/images/background-2.jpg");
+  background-attachment: fixed;
 }
 
-/* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 18 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 .navigation {
   clear: both;
@@ -43,61 +45,61 @@ body {
   margin-top: 50px;
 }
 
-/* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 22 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 .navigation .nav-item {
   font-size: 21px;
-  color: #993;
+  color: #eee;
   float: left;
   list-style-type: none;
 }
 
-/* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 28 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
-/* line 27 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 29 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 .navigation .nav-item a {
-  color: #993;
+  color: #eee;
   text-decoration: none;
 }
 
-/* line 31 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 33 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 .navigation .first-nav-item {
   margin-left: 45px;
 }
 
-/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 35 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 .navigation .non-first-nav-item {
   margin-left: 70px;
 }
 
-/* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 38 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 .nav-spacer {
   height: 40px;
 }
 
-/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 41 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
-/* line 40 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 42 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 .main-nav-color.nav-color-changer a {
-  color: #993;
+  color: #eee;
 }
 
-/* line 43 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 45 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
-/* line 44 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\main.styl */
+/* line 46 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
 
 .registry-nav-color.nav-color-changer a {
   color: #fff;
 }
 
-/* line 46 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 48 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home {
   height: 625px;
@@ -107,15 +109,15 @@ body {
   max-height: 625px;
 }
 
-/* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 5 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .home-background {
   position: absolute;
 }
 
-/* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 8 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 10 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 10 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .name-and-date {
   position: relative;
@@ -126,19 +128,19 @@ body {
   float: left;
 }
 
-/* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 18 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence {
   position: relative;
 }
 
-/* line 21 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 21 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li {
   list-style-type: none;
 }
 
-/* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 23 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li span {
   width: 390px;
@@ -154,22 +156,22 @@ body {
   animation: imageAnimation 7s linear infinite 0s;
 }
 
-/* line 50 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 50 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 51 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 51 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 52 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 52 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(1) span {
   background-image: url("../images/home/sequence/falling-leaves-2.jpg");
   background-size: auto 595px;
 }
 
-/* line 56 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 56 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 57 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 57 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 58 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 58 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(2) span {
   background-image: url("../images/home/sequence/falling-leaves-3.jpg");
@@ -179,11 +181,11 @@ body {
   animation-delay: 1s;
 }
 
-/* line 67 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 67 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 68 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 68 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 69 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 69 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(3) span {
   background-image: url("../images/home/sequence/falling-leaves-4.jpg");
@@ -193,11 +195,11 @@ body {
   animation-delay: 2s;
 }
 
-/* line 78 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 78 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 79 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 79 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 80 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 80 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(4) span {
   background-image: url("../images/home/sequence/falling-leaves-5.jpg");
@@ -207,11 +209,11 @@ body {
   animation-delay: 3s;
 }
 
-/* line 89 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 89 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 90 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 90 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 91 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 91 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(5) span {
   background-image: url("../images/home/sequence/falling-leaves-6.jpg");
@@ -221,11 +223,11 @@ body {
   animation-delay: 4s;
 }
 
-/* line 100 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 100 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 101 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 101 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 102 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 102 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(6) span {
   background-image: url("../images/home/sequence/falling-leaves-7.jpg");
@@ -235,11 +237,11 @@ body {
   animation-delay: 5s;
 }
 
-/* line 111 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 111 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 112 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 112 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 113 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 113 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li:nth-child(7) span {
   background-image: url("../images/home/sequence/falling-leaves-8.jpg");
@@ -249,9 +251,9 @@ body {
   animation-delay: 6s;
 }
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 @-webkit-keyframes imageAnimation {
   0% {
@@ -275,9 +277,9 @@ body {
   }
 }
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 @-ms-keyframes imageAnimation {
   0% {
@@ -301,7 +303,7 @@ body {
   }
 }
 
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\home.styl */
+/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 @keyframes imageAnimation {
   0% {
@@ -325,78 +327,120 @@ body {
   }
 }
 
-/* line 121 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 121 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-/* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 2 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
 .registry .registry-background {
   position: absolute;
   top: 0px;
   z-index: -1;
+  display: none;
 }
 
-/* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 7 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
 .registry .registry-background img {
   width: 100%;
   height: auto;
 }
 
-/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 11 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-.registry .registry-text {
-  position: absolute;
-  top: 150px;
-  left: 800px;
+.registry .text-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1400px;
   color: #fff;
 }
 
-/* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 16 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-.registry .registry-text .registry-title {
+.registry .text-container .registry-text {
+  float: right;
+  width: 48%;
+  max-width: 550px;
+  margin-top: 50px;
+}
+
+/* line 22 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
+
+.registry .text-container .registry-text .registry-title {
   margin-bottom: 5px;
+  font-family: "Merriweather";
   font-size: 24px;
 }
 
-/* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 26 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-.registry .registry-text .registry-link {
+.registry .text-container .registry-text .registry-link {
   font-size: 18px;
 }
 
-/* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 29 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-.registry .registry-text a {
-  color: #fff;
+.registry .text-container .registry-text a {
+  color: #add8e6;
   text-decoration: none;
 }
 
-/* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 32 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-.registry .registry-text p {
+.registry .text-container .registry-text p {
   margin: 0px;
 }
 
-/* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 35 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-.registry .registry-image-props {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
+.registry .text-container .rsvp-text {
+  width: 48%;
+  max-width: 550px;
+  float: left;
 }
 
-/* line 34 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registry.styl */
+/* line 39 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-.registry .registry-image-props a {
-  font-size: 14px;
-  color: #fff;
+.registry .text-container .rsvp-text h1 {
+  font-size: 40px;
+  font-family: "Merriweather";
+  font-weight: 100;
 }
 
-/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 44 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+.registry .text-container .rsvp-text .registry-rsvps {
+  font-size: 24px;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+/* line 48 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
+
+.registry .text-container .rsvp-text .registry-rsvps .attribution {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 0px;
+  color: #efefef;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-family: MainFont;
+}
+
+/* line 56 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
+
+.registry .text-container .rsvp-text .registry-rsvps q {
+  font-style: italic;
+  box-shadow: 5px 5px 10px rgba(2,2,2,0.7);
+  background-color: rgba(2,2,2,0.6);
+  padding: 5px;
+  overflow: auto;
+  display: inline-block;
+}
+
+/* line 63 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+
+/* line 1 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery {
   margin-left: auto;
@@ -405,66 +449,66 @@ body {
   max-height: 625px;
 }
 
-/* line 4 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 4 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery img {
   position: relative;
   vertical-align: top;
 }
 
-/* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 8 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .gallery-right-img {
   margin-left: 13px;
 }
 
-/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 11 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .gallery-bottom-img {
   margin-top: 13px;
 }
 
-/* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 14 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .gallery-row-two-lift {
   top: -88px;
 }
 
-/* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 17 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .gallery-row-three-lift {
   top: -100px;
 }
 
-/* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 20 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .one-one {
   height: 367px;
   width: 245px;
 }
 
-/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 24 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .one-two {
   width: 372px;
   height: 279px;
 }
 
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 28 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .one-three {
   width: 210px;
   height: 279px;
 }
 
-/* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 32 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .one-four {
   width: 210px;
   height: 279px;
 }
 
-/* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 36 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .two-one {
   top: 18px;
@@ -472,49 +516,49 @@ body {
   height: 153px;
 }
 
-/* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 41 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .two-two {
   width: 432px;
   height: 288px;
 }
 
-/* line 45 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 45 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .two-three {
   width: 374px;
   height: 249px;
 }
 
-/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 49 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .three-one {
   width: 245px;
   height: 367px;
 }
 
-/* line 53 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 53 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .three-two {
   width: 203px;
   height: 269px;
 }
 
-/* line 57 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 57 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .three-three {
   width: 216px;
   height: 151px;
 }
 
-/* line 61 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 61 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .three-four {
   width: 376px;
   height: 251px;
 }
 
-/* line 65 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 65 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .four-one {
   width: 308px;
@@ -523,7 +567,7 @@ body {
   left: 461px;
 }
 
-/* line 71 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 71 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .four-two {
   top: -218px;
@@ -532,7 +576,7 @@ body {
   height: 425px;
 }
 
-/* line 77 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 77 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .five-one {
   left: -618px;
@@ -541,7 +585,7 @@ body {
   height: 306px;
 }
 
-/* line 83 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 83 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .five-two {
   top: -417px;
@@ -550,7 +594,7 @@ body {
   height: 185px;
 }
 
-/* line 89 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\gallery.styl */
+/* line 89 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .six-one {
   width: 432px;
@@ -559,442 +603,109 @@ body {
   left: -64px;
 }
 
-/* line 94 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
+/* line 94 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
-
-.details {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1080px;
-  max-height: 625px;
-}
-
-/* line 4 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
-
-.details .scroll-to-top {
-  text-align: center;
-  cursor: pointer;
-  font-size: 11px;
-  color: #999;
-  text-decoration: underline;
-}
-
-/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
-
-.details .details-top-links {
-  margin-top: 145px;
-}
-
-/* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
-
-.details .details-top-links .margin-left {
-  margin-left: 105px;
-}
-
-/* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
-
-.details .details-top-links img {
-  width: 288px;
-  height: auto;
-  cursor: pointer;
-}
-
-/* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\details.styl */
-
-.details .drawer-item {
-  display: none;
-}
-
-/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-/* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer {
-  margin-top: 500px;
-  height: 1000px;
-}
-
-/* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .non-left {
-  margin-left: 100px;
-}
-
-/* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer img {
-  width: 288px;
-  height: auto;
-  float: left;
-}
-
-/* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text {
-  width: 375px;
-  margin-left: 720px;
-}
-
-/* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text .top-text {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 21px;
-  word-spacing: 0.25em;
-}
-
-/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text .wedding {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  font-size: 21px;
-  letter-spacing: 45px;
-  margin-right: -45px;
-}
-
-/* line 31 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text .name {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: MyScript, cursive;
-  font-size: 48px;
-  color: #993;
-  text-align: center;
-}
-
-/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text .address {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 14px;
-  color: #993;
-  text-align: center;
-}
-
-/* line 46 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text .address-container {
-  margin-top: 10px;
-}
-
-/* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text .time-label {
-  float: left;
-  clear: right;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 16px;
-}
-
-/* line 56 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text .time-description {
-  float: right;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 16px;
-}
-
-/* line 62 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetails.styl */
-
-.details .event-details-drawer .event-details-text .time-info {
-  margin-top: 20px;
-  width: 240px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* line 67 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-/* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer {
-  margin-top: 500px;
-  height: 1000px;
-}
-
-/* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer img {
-  float: left;
-  width: 288px;
-  height: auto;
-  margin-left: 83px;
-  margin-right: 61px;
-}
-
-/* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .info-title {
-  font-size: 21px;
-}
-
-/* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .info-header {
-  font-size: 16px;
-}
-
-/* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .info-text {
-  font-size: 16px;
-}
-
-/* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .info-link {
-  font-size: 14px;
-}
-
-/* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info {
-  float: left;
-}
-
-/* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .info-title {
-  letter-spacing: -0.01em;
-}
-
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .bottom-paragraph {
-  margin-top: 20px;
-}
-
-/* line 31 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .info-header {
-  margin-bottom: 0px;
-}
-
-/* line 34 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .left-info .paragraph {
-  width: 300px;
-  text-align: justify;
-  letter-spacing: -0.01em;
-}
-
-/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .right-info {
-  padding-top: 1px;
-}
-
-/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .right-info .info-link {
-  color: #999;
-}
-
-/* line 45 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .map-container {
-  width: 100%;
-}
-
-/* line 48 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravel.styl */
-
-.details .map-travel-drawer .map-container img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  width: 1080px;
-  height: 300px;
-}
-
-/* line 54 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-/* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer {
-  margin-top: 500px;
-  height: 1000px;
-}
-
-/* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .stay-local {
-  width: 288px;
-  height: auto;
-  margin-left: 25px;
-}
-
-/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .info-text-block {
-  margin-bottom: 10px;
-  width: 700px;
-  text-align: justify;
-  letter-spacing: -0.05em;
-}
-
-/* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .info-title {
-  font-size: 21px;
-  margin-bottom: 4px;
-}
-
-/* line 21 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .non-last-address-block {
-  margin-right: 50px;
-}
-
-/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .address-block {
-  float: left;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-/* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .address-block .address {
-  text-align: center;
-  color: #993;
-  margin-top: -3px;
-  margin-bottom: -3px;
-  letter-spacing: -0.02em;
-  word-spacing: -0.04em;
-  font-size: 14px;
-}
-
-/* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .top-info {
-  float: left;
-}
-
-/* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocal.styl */
-
-.details .stay-local-drawer .bottom-info {
-  clear: both;
-  margin-top: -100px;
-}
-
-/* line 44 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
-
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story {
   width: 100%;
 }
 
-/* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 3 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .play-button {
   position: fixed;
   z-index: 12;
 }
 
-/* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 7 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .play-button .play-image {
   z-index: 10;
   position: fixed;
   left: 25px;
   top: 115px;
-  cursor: pointer;
   opacity: 0.8;
 }
 
-/* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 14 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .play-button .play-text {
   font-family: MyScript, cursive;
   font-size: 72px;
-  color: #993;
+  color: #eee;
   z-index: 11;
   position: fixed;
   left: 45px;
   top: 40px;
-  cursor: pointer;
+  cursor: default;
 }
 
-/* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 24 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .pre-image {
   background: url("../images/story/pre.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 27 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 26 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .one-image {
   background: url("../images/story/one.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 28 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .two-image {
   background: url("../images/story/two.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 31 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 30 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .three-image {
   background: url("../images/story/three.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 32 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .four-image {
   background: url("../images/story/four.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 35 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 34 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .five-image {
   background: url("../images/story/five.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 36 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .six-image {
   background: url("../images/story/six.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\story.styl */
+/* line 38 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
 
 .story .seven-image {
   background: url("../images/story/seven.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 41 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 40 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
-/* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 2 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .content {
   position: relative;
 }
 
-/* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 5 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .headline {
   left: 10px;
 }
 
-/* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 8 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .text {
   text-align: justify;
@@ -1007,7 +718,7 @@ body {
   bottom: 400px;
 }
 
-/* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 18 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .poem {
   position: absolute;
@@ -1016,7 +727,7 @@ body {
   z-index: 3;
 }
 
-/* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 24 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .poem p {
   font-size: 17px;
@@ -1025,7 +736,7 @@ body {
   text-align: center;
 }
 
-/* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 30 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .next {
   width: 100%;
@@ -1035,7 +746,7 @@ body {
   cursor: pointer;
 }
 
-/* line 37 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 37 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .container {
   z-index: 2;
@@ -1043,7 +754,7 @@ body {
   width: 100%;
 }
 
-/* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyContent.styl */
+/* line 42 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .image {
   background-size: 100% auto;
@@ -1052,93 +763,254 @@ body {
   height: 800px;
 }
 
-/* line 47 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 47 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
 
-/* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+.details {
+  width: 100%;
+}
+
+/* line 3 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .play-button {
+  position: fixed;
+  z-index: 12;
+}
+
+/* line 7 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .play-button .play-image {
+  z-index: 10;
+  position: fixed;
+  left: 25px;
+  top: 115px;
+  cursor: default;
+  opacity: 0.8;
+}
+
+/* line 15 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .play-button .play-text {
+  font-family: MyScript, cursive;
+  font-size: 72px;
+  color: #eee;
+  z-index: 11;
+  position: fixed;
+  left: 45px;
+  top: 40px;
+  cursor: default;
+}
+
+/* line 25 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .pre-image {
+  background: url("../images/details/pre.jpg") 50% 0 no-repeat fixed;
+}
+
+/* line 27 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .one-image {
+  background: url("../images/details/one.jpg") 50% 0 no-repeat fixed;
+}
+
+/* line 29 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .two-image {
+  background: url("../images/details/two.jpg") 50% 0 no-repeat fixed;
+}
+
+/* line 31 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .three-image {
+  background: url("../images/details/three.jpg") 50% 0 no-repeat fixed;
+}
+
+/* line 33 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .four-image {
+  background: url("../images/details/four.jpg") 50% 0 no-repeat fixed;
+}
+
+/* line 35 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .five-image {
+  background: url("../images/details/five.jpg") 50% 0 no-repeat fixed;
+}
+
+/* line 37 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .six-image {
+  background: url("../images/details/six.jpg") 50% 0 no-repeat fixed;
+}
+
+/* line 39 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+
+.details .seven-image {
+  background: url("../images/details/seven.jpg") 50% 0 no-repeat fixed;
+}
+
+/* line 41 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+/* line 1 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+/* line 2 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+.story-content .content {
+  position: relative;
+}
+
+/* line 5 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+.story-content .headline {
+  left: 10px;
+}
+
+/* line 8 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+.story-content .text {
+  text-align: justify;
+  width: 500px;
+  z-index: 3;
+  position: absolute;
+  font-size: 17px;
+  height: 450px;
+  left: 30px;
+  bottom: 400px;
+}
+
+/* line 18 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+.story-content .poem {
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  z-index: 3;
+}
+
+/* line 24 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+.story-content .poem p {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* line 30 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+.story-content .next {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+/* line 37 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+.story-content .container {
+  z-index: 2;
+  height: 500px;
+  width: 100%;
+}
+
+/* line 42 : /home/user/workspace/Wedding/modules/details/client/styles/detailsContent.styl */
+
+.story-content .image {
+  background-size: 100% auto;
+  z-index: 1;
+  width: 1920px;
+  height: 800px;
+}
+
+/* line 47 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+
+/* line 1 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+
+/* line 3 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .adrienne-image {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 6 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .sue-image {
   background: url("../images/entourage/Sue.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 9 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .geraldine-image {
   background: url("../images/entourage/Ger.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 12 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .rianne-image {
   background: url("../images/entourage/Rianne.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 15 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .joel-image {
   background: url("../images/entourage/Joel.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 18 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .joel-image :hover {
   background: url("../images/entourage/Joel2.png") 50% 0 no-repeat fixed;
 }
 
-/* line 20 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 20 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .jason-image {
   background: url("../images/entourage/Jason.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 23 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 23 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .jason-image :hover {
   background: url("../images/entourage/Jason2.png") 50% 0 no-repeat fixed;
 }
 
-/* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 25 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .nicholas-image {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 28 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 28 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .nicholas-image :hover {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
 }
 
-/* line 30 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 30 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .gabriel-image {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourage.styl */
+/* line 33 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .gabriel-image :hover {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
 }
 
-/* line 35 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+/* line 35 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
 
 .person {
   float: left;
@@ -1146,34 +1018,185 @@ body {
   width: 11.9%;
 }
 
-/* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+/* line 6 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
 
-/* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+/* line 7 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
 
 .person .image img {
   height: 500px;
   width: auto;
 }
 
-/* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+/* line 11 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
 
-/* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+/* line 12 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
 
 .person .info p {
   margin: 0px;
   text-align: center;
 }
 
-/* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\person.styl */
+/* line 16 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
 
 .person .info .name {
   font-size: 25px;
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+/* line 18 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+/* line 1 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp {
+  height: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  max-height: 625px;
+}
+
+/* line 4 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+/* line 5 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-background {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+/* line 10 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-background img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 14 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp input,
+.rsvp textarea {
+  width: 350px;
+  color: #6b6b6b;
+}
+
+/* line 18 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp select {
+  font-size: 18px;
+}
+
+/* line 21 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp input.submit {
+  margin: 0 auto;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 274px;
+  font-size: 24px;
+  margin-bottom: 70px;
+  border-bottom: none;
+  width: auto;
+  display: block;
+  color: #fff;
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.37);
+  box-shadow: 0 1px 1px rgba(121,97,97,0.92), inset 0 -1px 1px rgba(0,0,0,0.22);
+  background-image: #7c149f;
+  background-image: -webkit-linear-gradient(90deg, #8f8f8f 0, #a7a7a7 100%);
+  background-image: -webkit-linear-gradient(0deg, #8f8f8f 0, #a7a7a7 100%);
+  background-image: linear-gradient(90deg, #8f8f8f 0, #a7a7a7 100%);
+  border-radius: 10px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial";
+}
+
+/* line 50 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp input.submit:hover {
+  box-shadow: 0 1px 1px rgba(160,160,160,0.92), inset 0 -1px 1px rgba(0,0,0,0.22);
+  /* gradient fill */
+  /* gradient fill */
+  background-image: -webkit-linear-gradient(90deg, #aaa6a6 0, #b6b6b6 100%);
+  /* gradient fill */
+  background-image: -webkit-linear-gradient(0deg, #aaa6a6 0, #b6b6b6 100%);
+  background-image: linear-gradient(90deg, #aaa6a6 0, #b6b6b6 100%);
+  /* gradient fill */
+  text-decoration: none;
+}
+
+/* line 65 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp input.submit:active {
+  box-shadow: 0 1px 1px rgba(121,97,97,0.92), inset 0 -1px 1px rgba(0,0,0,0.22);
+  /* gradient fill */
+  /* gradient fill */
+  background-image: -webkit-linear-gradient(90deg, #868686 0, #8b8b8b 100%);
+  /* gradient fill */
+  background-image: -webkit-linear-gradient(0deg, #868686 0, #8b8b8b 100%);
+  background-image: linear-gradient(90deg, #868686 0, #8b8b8b 100%);
+  /* gradient fill */
+}
+
+/* line 80 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-text {
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  max-height: 625px;
+  max-width: 500px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 88 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-text .rsvp-title {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+/* line 92 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-text .rsvp-details {
+  font-size: 40px;
+}
+
+/* line 95 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 98 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-text p {
+  margin: 0px;
+}
+
+/* line 101 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-image-props {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+/* line 106 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+
+.rsvp .rsvp-image-props a {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 2 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation {
     clear: both;
@@ -1184,47 +1207,47 @@ body {
     margin-top: 5px;
   }
 
-  /* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 6 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation .nav-item {
     font-size: 75px;
-    color: #993;
+    color: #eee;
     clear: both;
     list-style-type: none;
   }
 
-  /* line 12 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 12 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
 
-  /* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 13 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation .nav-item a {
-    color: #993;
+    color: #eee;
     text-decoration: none;
   }
 
-  /* line 17 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 17 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation .first-nav-item {
     margin-left: 0px;
   }
 
-  /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 19 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation .non-first-nav-item {
     margin-left: 0px;
   }
 
-  /* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\main\client\styles\mainMedia.styl */
+  /* line 22 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
 
   .nav-spacer {
     height: 0px;
   }
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
+  /* line 2 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
 
   .home {
     height: 625px;
@@ -1234,14 +1257,14 @@ body {
     max-height: 625px;
   }
 
-  /* line 6 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
+  /* line 6 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
 
   .home .home-background {
     position: relative;
     z-index: -1;
   }
 
-  /* line 10 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
+  /* line 10 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
 
   .home .home-background img {
     width: 100%;
@@ -1249,9 +1272,9 @@ body {
     margin-top: 100px;
   }
 
-  /* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
+  /* line 15 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
 
-  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
+  /* line 16 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
 
   .home .name-and-date {
     position: absolute;
@@ -1264,386 +1287,37 @@ body {
     float: none;
   }
 
-  /* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\home\client\styles\homeMedia.styl */
+  /* line 26 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
 
   .home .image-sequence {
     display: none;
   }
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/story/client/styles/storyMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\story\client\styles\storyMedia.styl */
+  /* line 2 : /home/user/workspace/Wedding/modules/story/client/styles/storyMedia.styl */
 
   .story {
     clear: both;
   }
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/details/client/styles/detailsMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
+  /* line 2 : /home/user/workspace/Wedding/modules/details/client/styles/detailsMedia.styl */
 
   .details {
     clear: both;
   }
-
-  /* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
-
-  .details .scroll-to-top {
-    font-size: 40px;
-  }
-
-  /* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
-
-  .details .details-top-links {
-    margin-top: 0px;
-  }
-
-  /* line 11 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
-
-  .details .details-top-links .margin-left {
-    display: block;
-    margin-left: auto;
-  }
-
-  /* line 15 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\detailsMedia.styl */
-
-  .details .details-top-links img {
-    display: block;
-    margin: auto;
-    width: 50%;
-    height: auto;
-    cursor: pointer;
-    clear: both;
-  }
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/gallery/client/styles/galleryMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer {
-    margin-top: 750px;
-    height: 2000px;
-  }
-
-  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .non-left {
-    margin-left: auto;
-  }
-
-  /* line 10 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer img {
-    display: block;
-    margin: auto;
-    width: 50%;
-    height: auto;
-    clear: both;
-    float: none;
-    margin-bottom: 50px;
-  }
-
-  /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text {
-    margin-top: 50px;
-    width: 100%;
-    margin-left: 0px;
-    clear: both;
-    float: none;
-  }
-
-  /* line 26 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text .top-text {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 50px;
-    word-spacing: 0em;
-    width: 100%;
-    text-align: center;
-  }
-
-  /* line 34 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text .wedding {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    font-size: 50px;
-    letter-spacing: 110px;
-    margin-right: -110px;
-    text-align: center;
-  }
-
-  /* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text .name {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: MyScript, cursive;
-    font-size: 100px;
-    color: #993;
-    text-align: center;
-  }
-
-  /* line 50 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text .address {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 40px;
-    color: #993;
-    text-align: center;
-  }
-
-  /* line 57 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text .address-container {
-    margin-top: 10px;
-  }
-
-  /* line 60 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text .time-label {
-    float: left;
-    clear: right;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 40px;
-  }
-
-  /* line 67 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text .time-description {
-    float: right;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 40px;
-  }
-
-  /* line 73 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\eventDetailsMedia.styl */
-
-  .details .event-details-drawer .event-details-text .time-info {
-    margin-top: 20px;
-    width: 510px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-@media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer {
-    margin-top: 750px;
-    height: 2000px;
-  }
-
-  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer img {
-    display: block;
-    margin: auto;
-    width: 50%;
-    height: auto;
-    clear: both;
-    float: none;
-    margin-bottom: 50px;
-  }
-
-  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .info-title {
-    font-size: 60px;
-    padding: 0px 50px;
-  }
-
-  /* line 19 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .info-header {
-    font-size: 55px;
-    padding: 0px 50px;
-  }
-
-  /* line 22 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .info-text {
-    font-size: 50px;
-    padding: 0px 50px;
-  }
-
-  /* line 25 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .info-link {
-    font-size: 37px;
-    padding: 0px 50px;
-  }
-
-  /* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .left-info {
-    float: none;
-    clear: both;
-  }
-
-  /* line 33 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .left-info .info-title {
-    letter-spacing: -0.01em;
-  }
-
-  /* line 36 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .left-info .bottom-paragraph {
-    margin-top: 20px;
-  }
-
-  /* line 39 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .left-info .info-header {
-    margin-bottom: 0px;
-  }
-
-  /* line 42 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .left-info .paragraph {
-    width: 90%;
-    text-align: justify;
-    letter-spacing: -0.01em;
-    font-size: 50px;
-    padding: 0px 50px;
-  }
-
-  /* line 49 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .right-info {
-    padding-top: 1px;
-  }
-
-  /* line 52 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .right-info .info-link {
-    color: #999;
-  }
-
-  /* line 55 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .map-container {
-    width: 100%;
-  }
-
-  /* line 58 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\mapTravelMedia.styl */
-
-  .details .map-travel-drawer .map-container img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 90%;
-    height: auto;
-  }
-}
-
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-@media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer {
-    margin-top: 750px;
-    height: 2000px;
-  }
-
-  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer .stay-local {
-    display: block;
-    margin: auto;
-    width: 50%;
-    height: auto;
-    clear: both;
-    float: none;
-    margin-bottom: 50px;
-  }
-
-  /* line 16 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer .info-text-block {
-    margin-bottom: 10px;
-    width: 90%;
-    padding: 0 50px;
-    text-align: justify;
-    letter-spacing: -0.05em;
-    font-size: 50px;
-  }
-
-  /* line 24 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer .info-title {
-    font-size: 55px;
-    padding-left: 50px;
-    margin-bottom: 4px;
-  }
-
-  /* line 29 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer .non-last-address-block {
-    margin-right: 50px;
-  }
-
-  /* line 32 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer .address-block {
-    float: none;
-    clear: both;
-    margin: 25px 0px;
-    cursor: pointer;
-  }
-
-  /* line 38 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer .address-block .address {
-    text-align: center;
-    color: #993;
-    margin-top: -3px;
-    margin-bottom: -3px;
-    letter-spacing: -0.02em;
-    word-spacing: -0.04em;
-    font-size: 40px;
-  }
-
-  /* line 47 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer .top-info {
-    float: none;
-    clear: both;
-  }
-
-  /* line 51 : c:\Users\Cory\IdeaProjects\Wedding\modules\details\client\styles\stayLocalMedia.styl */
-
-  .details .stay-local-drawer .bottom-info {
-    clear: both;
-    margin-top: 0px;
-  }
-}
-
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\galleryMedia.styl */
-
-@media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\galleryMedia.styl */
+  /* line 2 : /home/user/workspace/Wedding/modules/gallery/client/styles/galleryMedia.styl */
 
   .gallery {
     margin-left: auto;
@@ -1652,7 +1326,7 @@ body {
     max-height: 625px;
   }
 
-  /* line 5 : c:\Users\Cory\IdeaProjects\Wedding\modules\gallery\client\styles\galleryMedia.styl */
+  /* line 5 : /home/user/workspace/Wedding/modules/gallery/client/styles/galleryMedia.styl */
 
   .gallery img {
     position: static;
@@ -1664,10 +1338,10 @@ body {
   }
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourageMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\entourageMedia.styl */
+  /* line 2 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourageMedia.styl */
 
   .entourage {
     clear: both;
@@ -1675,33 +1349,81 @@ body {
   }
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registryMedia.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registryMedia.styl */
+  /* line 2 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
 
-  /* line 3 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registryMedia.styl */
+  /* line 3 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
 
-  .registry .registry-text {
+  .registry .text-container {
+    padding: 10px;
     position: absolute;
-    top: 30px;
-    left: 550px;
-    color: #fff;
+    top: 570px;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
-  /* line 9 : c:\Users\Cory\IdeaProjects\Wedding\modules\registry\client\styles\registryMedia.styl */
+  /* line 12 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
 
-  .registry .registry-image-props {
-    position: absolute;
-    top: 100px;
-    left: 550px;
+  .registry .text-container .registry-text {
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* line 15 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+
+  .registry .text-container .registry-text .registry-title {
+    font-size: 75px !important;
+  }
+
+  /* line 17 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+
+  .registry .text-container .registry-text .registry-link {
+    font-size: 60px !important;
+    overflow-wrap: break-word;
+  }
+
+  /* line 21 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+
+  .registry .text-container .rsvp-text {
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* line 25 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+
+  .registry .text-container .rsvp-text h1 {
+    font-size: 80px !important;
+  }
+
+  /* line 27 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+
+  .registry .text-container .rsvp-text .registry-rsvps {
+    font-size: 70px !important;
+  }
+
+  /* line 30 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+
+  .registry .text-container .rsvp-text .registry-rsvps .attribution {
+    font-size: 50px !important;
+  }
+
+  /* line 32 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+
+  .registry .text-container .rsvp-text .registry-rsvps q {
+    font-size: 70px !important;
   }
 }
 
-/* line 1 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+/* line 1 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 2 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
 
   .person {
     float: none;
@@ -1709,9 +1431,9 @@ body {
     width: 100%;
   }
 
-  /* line 7 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 7 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
 
-  /* line 8 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 8 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
 
   .person .image img {
     height: 700px;
@@ -1720,18 +1442,56 @@ body {
     margin: auto;
   }
 
-  /* line 13 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 13 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
 
-  /* line 14 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 14 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
 
   .person .info p {
     margin: 0px;
     text-align: center;
   }
 
-  /* line 18 : c:\Users\Cory\IdeaProjects\Wedding\modules\entourage\client\styles\personMedia.styl */
+  /* line 18 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
 
   .person .info .name {
     font-size: 50px;
+  }
+}
+
+/* line 1 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+
+@media screen and (max-device-width: 800px) {
+  /* line 2 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+
+  /* line 3 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+
+  .rsvp .rsvp-text {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 570px;
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  /* line 12 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+
+  .rsvp .rsvp-text .rsvp-title {
+    margin-bottom: 20px;
+    font-size: 100px;
+  }
+
+  /* line 16 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+
+  .rsvp .rsvp-text .rsvp-details {
+    font-size: 70px;
+  }
+
+  /* line 18 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+
+  .rsvp .rsvp-text input {
+    height: 50px !important;
   }
 }

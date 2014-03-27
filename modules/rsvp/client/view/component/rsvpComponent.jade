@@ -1,0 +1,47 @@
+div.rsvp
+    div.rsvp-text
+        p.rsvp-title RSVP
+        form#rsvp-form
+            div.rsvp-details
+                .form-group
+                    | I, 
+                    input#uname(type="text", placeholder="your name here", required="required")
+                    | , 
+                    select#attending
+                        option(value="1") AM ATTENDING
+                        option(value="0") AM NOT ATTENDING
+                    |  the festivities.
+                
+                div#extrainfo
+                    br
+                    .form-group
+                        | My invitation mentioned that I could bring 
+                        select#guests
+                            option(value="1") MY AWESOME SELF
+                            option(value="2") A DATE
+                            option(value="4") MY FAMILY
+                        div#numberguest(style="display: none;")
+                            | of 
+                            input#guestnum(type="number", placeholder="guests (including yourself)", max="15", min="1")
+                    br
+                    
+                    .form-group
+                        | You'll find me on the dance floor when they play 
+                        input#song(type="text", placeholder="song name")
+                        | .
+                    br
+                    .form-group
+                        | Tell the bride and groom:
+                        textarea#message(cols="40", rows="4", placeholder="We look forward to celebrating with you!")
+                    br
+                    .form-group
+                        | You can ping me, ring me, or bring me more info at:
+                        br
+                        input.extrareq#email(type="email", name="email", placeholder="myemail@example.com")
+                        br
+                        input#phone(type="text", placeholder="(425) 555-1234")
+                        br
+                        input.extrareq#zipcode(type="number", placeholder="zipcode")
+                        br
+                input.submit(type="submit")
+                

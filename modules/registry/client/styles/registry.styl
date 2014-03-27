@@ -3,34 +3,60 @@
         position: absolute
         top: 0px
         z-index: -1;
-
+        display: none
         img
             width: 100%
             height: auto
 
-    .registry-text
-        position: absolute
-        top: 150px
-        left: 800px
+    .text-container
+        margin: 0 auto;
+        width: 80%
+        max-width: 1400px
         color: white
+        .registry-text
+            float: right
+            width: 48%
+            max-width: 550px
+            margin-top: 50px
 
-        .registry-title
-            margin-bottom: 5px
-            font-size: 24px
-        .registry-link
-            font-size: 18px
+            .registry-title
+                margin-bottom: 5px
+                font-family: "Merriweather"
+                font-size: 24px
+            .registry-link
+                font-size: 18px
 
-        a
-            color: white
-            text-decoration: none
-        p
-            margin: 0px
+            a
+                color: lightblue
+                text-decoration: none
+            p
+                margin: 0px
 
-    .registry-image-props
-        position: fixed
-        bottom: 10px
-        left: 10px
-
-        a
-            font-size: 14px
-            color: white
+        .rsvp-text
+            width: 48%;
+            max-width: 550px;
+            float: left
+            h1
+                font-size: 40px
+                font-family: "Merriweather"
+                font-weight: 100
+        
+            .registry-rsvps
+                font-size: 24px
+                font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+                
+                .attribution
+                    font-size: 20px
+                    margin-left: 20px
+                    margin-top: 0px;
+                    color: #EFEFEF
+                    margin-top: 5px
+                    margin-bottom: 15px;
+                    font-family: MainFont
+                q
+                    font-style: italic
+                    box-shadow: 5px 5px 10px rgba(2,2,2,0.7);
+                    background-color: rgba(2,2,2,0.6);
+                    padding: 5px;
+                    overflow: auto
+                    display: inline-block

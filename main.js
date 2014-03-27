@@ -2,20 +2,24 @@
  * Module dependencies
  */
 var express = require('express'),
-  routes = require('./modules/main/server'),
   http = require('http'),
   fs = require('fs'),
   path = require('path'),
+  mongoose = require('mongoose'),
   _ = require('lodash');
 
 var app = module.exports = express();
+
+var db = require('./db/db');
+
+var routes = require('./modules/main/server');
 
 /**
 * Configuration
 */
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 5000);
 app.set('view engine', 'jade');
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
@@ -35,6 +39,8 @@ if (app.get('env') === 'production') {
 
 app.get('/', routes.index);
 app.get('/component/:module/:component', routes.componentViews);
+app.get('/get/rsvps/', routes.getAllRsvps);
+app.post('/add/rsvp', routes.addRsvp);
 
 _.forEach(fs.readdirSync("./modules/"), function (moduleName) {
     var modulePath = "/" + moduleName;
