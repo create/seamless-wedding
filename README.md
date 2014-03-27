@@ -32,5 +32,10 @@
 1. Stylus files are compiled with grunt into the main.css file at public/css/main.css
 2. Stylus files with names ending with "Media" are explicitly for mobile phones and will capture any screen up to 800px.
 
+### TODO
+1. Fill ceremony page with appropriate content
+2. Replace corybill content
+3. Design config file
+
 ### Future Plans
 After setting up this website properly for Mackenzie and Jonathan, I plan to take personalized information out into a config file in order to make it easier for anyone to personalize this website for their special ceremony.
