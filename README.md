@@ -1,4 +1,5 @@
-# Intelligent Wedding Website
+# Seamless Wedding Website
+#### Easy to set up, configure, and deploy. One less thing to stress about!
 ## www.pyke.us:5000
 
 ### How to run
