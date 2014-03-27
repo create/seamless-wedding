@@ -1,12 +1,16 @@
-# Justine & Corybill's Wedding Website
-## www.justineandcorybill.com
+# Intelligent Wedding Website
+## www.pyke.us:5000
 
 ### How to run
 1. Download code
 2. Open command line tool (git bash) and run 'npm install' from project root.
 2. In command line tool run 'grunt' command from the project root.  This will automatically build everything and run grunt watch.
-3. Start server by running 'nodemon main.js' or 'node main.js'.
-4. Go to https://localhost:3000
+3. Make sure you have mongodb installed. Run 'mongod --dbpath db/' to start the Rsvp database.
+4. Start server by running 'nodemon main.js' or 'node main.js'.
+5. Go to https://localhost:5000 or https://127.0.0.1:5000
+
+###Production
+1. Change the environment to production and use port 80.
 
 ### Following The code (UI)
 1. public/js/app.js is the starting point.  All UI and Angular code will be compiled into this file using browserfiy in the grunt build.
@@ -19,6 +23,14 @@
 2. All routes will be listened for here and sent to the routes.js for processing in the main module.
 3. Each module can have its own server side code if it needs to.
 
+### Following The Code (db)
+1. db/db.js holds the controls for the mongodb.
+2. Add an Rsvp by posting to `/add/rsvp/`
+3. Get all Rsvp messages by getting `/get/rsvps/` (used on the Registry page for the Guestbook)
+
 ### Stylus
 1. Stylus files are compiled with grunt into the main.css file at public/css/main.css
 2. Stylus files with names ending with "Media" are explicitly for mobile phones and will capture any screen up to 800px.
+
+### Future Plans
+After setting up this website properly for Mackenzie and Jonathan, I plan to take personalized information out into a config file in order to make it easier for anyone to personalize this website for their special ceremony.
