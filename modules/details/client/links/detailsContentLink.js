@@ -16,8 +16,8 @@ module.exports = function (scope, element, attrs) {
 
     var $headline = $container.find(".headline");
     if (attrs.nextSet) {
-      var headlinePath = "images/details/headline-" + attrs.id + ".png";
-      $headline.append($("<img>").attr('src', headlinePath));
+      // var headlinePath = "images/details/headline-" + attrs.id + ".png";
+      // $headline.append($("<img>").attr('src', headlinePath));
     }
 
     var $poem = element.find(".poem");

@@ -18,6 +18,8 @@ module.exports = function ($scope, $storyService, $attrs) {
 
         $scope.text = $storyService.text()[$attrs.id];
 
+        $scope.title = $storyService.title()[$attrs.id];
+
         $scope.fullVersion = true;
     }
     function smallFunctionality() {

@@ -66,6 +66,17 @@ module.exports = function () {
                 five: "Cory and Justine bore the grunt of busy schedules, commuting between Manhattan and Hoboken, for just shy of a year before they decided to move in together. They moved into the one building in lower Manhattan that would accept their 140 lb. dog, which as luck would have it, was also located right by the best movie theater and Shake Shack in New York.",
                 six: "Fast forward a year and a half, and in that very same apartment, Cory proposed to Justine, the sort of intimate and homemade proposal she had hoped for. With tears in her eyes and a croaking sound in her throat, she said yes…obviously…"
             };
+        },
+        title: function() {
+            return {
+                pre: "THEY MEET",
+                one: "THEY MEET",
+                two: "THEY MEET AGAIN",
+                three: "FIRST DATE",
+                four: "IT'S OFFICIAL",
+                five: "THEY SHACK UP",
+                six: "HE PROPOSES"
+            };
         }
     };
 };

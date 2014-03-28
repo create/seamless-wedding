@@ -6,17 +6,19 @@
  * To change this template use File | Settings | File Templates.
  */
 "use strict";
-module.exports = function ($scope, $storyService, $attrs) {
+module.exports = function ($scope, $detailsService, $attrs) {
 
     function fullFunctionality() {
-        $scope.poem = $storyService.poem()[$attrs.id];
+        $scope.poem = $detailsService.poem()[$attrs.id];
 
         $scope.line1 = $scope.poem[0];
         $scope.line2 = $scope.poem[1];
         $scope.line3 = $scope.poem[2];
         $scope.line4 = $scope.poem[3];
 
-        $scope.text = $storyService.text()[$attrs.id];
+        $scope.text = $detailsService.text()[$attrs.id];
+
+        $scope.title = $detailsService.title()[$attrs.id];
 
         $scope.fullVersion = true;
     }

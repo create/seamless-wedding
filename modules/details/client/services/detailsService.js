@@ -40,10 +40,18 @@ module.exports = function () {
         },
         text: function () {
             return {
-                pre: "It was a cold winter’s night. Justine and Cory were at a bar called Fontana’s in the Lower (lower) East Side of Manhattan, borderline Chinatown. Locking eyes from across the bar, Justine caught the faint glimmer of Cory’s ginger locks in the dim light and Cory wondered what type of Asian Justine was. He proposed at that very moment and the rest is history. Just kidding, the story is actually longer than that.",
-                one: "Cory and Justine met at a mutual friend's birthday party at Fontana's, a local bar near Justine's apartment in Chinatown.  Post party, the night led the group of friends to Meatball Shop nearby. Cory took his seat beside Justine and proceeded to doodle on her hand with dry erase marker - a message that took up her entire arm....\"If (cute), call me\". Justine did not quite understand what this meant...\"If you're cute, call me?\" ...\"If I'm cute, call me?\" She would later learn that it was dorky computer code for \"If you think I'm cute, call me\". She would also later describe this event to friends as \"the night Cory javascripted me\".",
-                two: "Days later, Cory friended Justine on Facebook, only to learn that she was already spoken for by another man. It was not yet their time, but months would go by and they would cross paths again at a St. Patty's Day party at Cory's apartment in Hoboken (Justine was high school friends with his roommate). Justine would find out at this party that Cory was harboring a mini polar bear named Akimbo in his bedroom. She was immediately smitten by this giant fluffy creature and became more drawn to this man with his big white dog.",
-                three: "An essential thing to know about New Yorkers and Times Square - unless we work there, we never go there. So it was with a deep curiosity for this ginger from the Midwest that Justine agreed to meet Cory at the Toys R' Us in Times Square for their first date. It turns out he just wanted to watch her hula hoop, a feat which she failed miserably. I won't divulge how the rest of this date went, but let's just say more dates followed..."
+                pre: "blah blah blah blah beach blah blah blah blah sun blah blah logs and platform built by mr oscar",
+                one: "blah blah blah events blah blah stuff food cake dance party turn down for what",
+                two: "blah blah blah entourage blah blah best man blah blah JULIA",
+                three: "blah blah mapbox blah blah too far blah blah carpool"
+            };
+        },
+        title: function() {
+            return {
+                pre: "LOCATION",
+                one: "EVENTS",
+                two: "ENTOURAGE",
+                three: "MAP"
             };
         }
     };
