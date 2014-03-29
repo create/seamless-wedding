@@ -24,9 +24,9 @@ exports.componentViews = function (req, res) {
 };
 
 exports.getAllRsvps = function(req, res) {
-    Rsvp.find({}, function(err, all) {
+    Rsvp.find({"guestbook" : true}, function(err, result) {
         if (!err) {
-            res.json({'rsvps': all});
+            return res.json({'rsvps': result});
         } else {
             res.json({'Error': 'Something went wrong'});
         }
@@ -40,6 +40,7 @@ exports.addRsvp = function(req, res) {
     "guests": req.body.guests,
     "song": req.body.song,
     "message": req.body.message,
+    "guestbook": req.body.guestbook,
     "email": req.body.email,
     "phone": req.body.phone,
     "zipcode": req.body.zipcode

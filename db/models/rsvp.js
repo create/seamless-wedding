@@ -12,6 +12,7 @@ var RsvpSchema = new Schema({
     guests: Number,
     song: String,
     message: String,
+    guestbook: Boolean,
     email: String,
     phone: String,
     zipcode: Number

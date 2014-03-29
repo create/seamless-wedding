@@ -13,12 +13,17 @@ module.exports = function (scope, element, attrs) {
                 guestnum = newNum;
             }
         }
+        var guestbook = false;
+        if ($('#guestbook').val() > 0) {
+            guestbook = true;
+        }
         var formData = {
             "uname": $('#uname').val(),
             "attending": $('#attending').val(),
             "guests": guestnum,
             "song": $('#song').val(),
             "message": $('#message').val(),
+            "guestbook": guestbook,
             "email": $('#email').val(),
             "phone": $('#phone').val(),
             "zipcode": $('#zipcode').val()
