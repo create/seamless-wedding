@@ -6,10 +6,10 @@ div.rsvp
                 .form-group
                     | I, 
                     input#uname(type="text", placeholder="your name here", required="required")
-                    | , 
+                    | , am
                     select#attending
-                        option(value="1") AM ATTENDING
-                        option(value="0") AM NOT ATTENDING
+                        option(value="1") ATTENDING
+                        option(value="0") NOT ATTENDING
                     |  the festivities.
                 
                 div#extrainfo
@@ -33,6 +33,9 @@ div.rsvp
                     .form-group
                         | Tell the bride and groom:
                         textarea#message(cols="40", rows="4", placeholder="We look forward to celebrating with you!")
+                        select#guestbook
+                            option(value="1") Show in guestbook
+                            option(value="2") Keep private
                     br
                     .form-group
                         | You can ping me, ring me, or bring me more info at:
@@ -41,7 +44,7 @@ div.rsvp
                         br
                         input#phone(type="text", placeholder="(425) 555-1234")
                         br
-                        input.extrareq#zipcode(type="number", placeholder="zipcode")
+                        input.extrareq#zipcode(type="number", placeholder="zipcode (for carpooling)")
                         br
                 input.submit(type="submit")
                 
