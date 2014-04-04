@@ -12,9 +12,6 @@ var moduleName = 'details';
 module.exports = function (angular) {
     angular.module(moduleName, [])
         .directive('ourDetails', require('./directives/detailsDirective'))
-        .directive('detailsContent', require('./directives/detailsContentDirective'))
-        .service('$detailsService', require('./services/detailsService'))
-        .controller('detailsContentController', require('./controllers/detailsContentController'))
         .config(function ($routeProvider) {
             $routeProvider
                 .when("/details", {templateUrl: "details"});
