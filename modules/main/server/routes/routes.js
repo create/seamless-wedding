@@ -33,6 +33,21 @@ exports.getAllRsvps = function(req, res) {
     });
 };
 
+exports.getAllRsvpInfo = function(req, res) {
+  if (req.params.password == "gethitched") {
+    Rsvp.find({}, function(err, result) {
+        if (!err) {
+            return res.json({'rsvps': result});
+        } else {
+            res.json({'Error': 'Something went wrong'});
+        }
+    });
+  } else {
+    res.json({'Error': 'Wrong password'});
+  }
+  
+}
+
 exports.addRsvp = function(req, res) {
   var newRsvp = new Rsvp({
     "name": req.body.uname,
