@@ -1,5 +1,5 @@
 # Seamless Wedding Website
-#### Easy to set up, configure, and deploy. One less thing to stress about!
+#### Easy to set up, configure, and deploy.
 ![Alt text](/public/images/screenshot.png?raw=true "Screenshot")
 ## www.pyke.us
 
