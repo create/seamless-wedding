@@ -1,6 +1,6 @@
 # Seamless Wedding Website
 #### Easy to set up, configure, and deploy. One less thing to stress about!
-## www.pyke.us:5000
+## www.pyke.us
 
 ### How to run
 1. Download code and cd into the project.
@@ -29,6 +29,7 @@
 1. db/db.js holds the controls for the mongodb.
 2. Add an Rsvp by posting to `/add/rsvp/`
 3. Get all Rsvp messages by getting `/get/rsvps/` (used on the Registry page for the Guestbook)
+4. Read Rsvp information at /get/rsvpinfo/ with a secret GET parameter.
 
 ### Stylus
 1. Stylus files are compiled with grunt into the main.css file at public/css/main.css
@@ -36,8 +37,7 @@
 
 ### TODO
 1. Fill ceremony page with appropriate content
-2. Replace corybill content
-3. Design config file
+2. Design config file
 
 ### Future Plans
 After setting up this website properly for Mackenzie and Jonathan, I plan to take personalized information out into a config file in order to make it easier for anyone to personalize this website for their special ceremony.
