@@ -6,9 +6,9 @@ module.exports = function (scope, element, attrs) {
     common.resetFixed(element);
 
     console.log("mason");
-    if (!window.screen.width || window.screen.width > 800) {
+    if (width > 800) {
         var $container = $('#masongallery');
-        $('#masongallery').prepend($('<p>'+$(window).width()+'</p>'));
+        $('#masongallery').prepend($('<p>'+width+'</p>'));
         $container.imagesLoaded( function() {
             $container.masonry({
                 // options
@@ -20,7 +20,7 @@ module.exports = function (scope, element, attrs) {
     }
     
 };
-
+var width = window.screen.width;
 $(document).ready(function() {
     $("a.group").fancybox({
         'transitionIn'	:	'elastic',
