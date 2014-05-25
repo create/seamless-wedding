@@ -49,7 +49,8 @@ module.exports = function (scope, element, attrs) {
             url: "/add/rsvp",
             data: formData,
             success: function() {
-                window.location.href = "/#/rsvp";
+                console.log("success");
+                location.reload();
             }
         });
         return false;
