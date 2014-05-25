@@ -43,7 +43,10 @@ exports.getAllRsvpInfo = function(req, res) {
         }
     });
   } else {
-    res.json({'Req': req});
+    console.log(req.query);
+    console.log(req.body);
+    console.log(req.params);
+    res.json({'Error': "Wrong password."});
   }
   
 }
