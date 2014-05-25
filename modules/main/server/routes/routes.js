@@ -2,6 +2,16 @@
 
 var mongoose = require('mongoose');
 var Rsvp = mongoose.model('Rsvp');
+var nodemailer = require("nodemailer");
+
+// create reusable transport method (opens pool of SMTP connections)
+var smtpTransport = nodemailer.createTransport("SMTP",{
+    service: "Gmail",
+    auth: {
+        user: "rsvpyke@gmail.com",
+        pass: "userpass"
+    }
+});
 
 exports.index = function(req, res) {
     var modulePath = "../modules/main/client/view/index";
@@ -71,5 +81,25 @@ exports.addRsvp = function(req, res) {
       return console.log(err);
     }
   });
+  var mailOptions = {
+    from: "Mackenzie and Jonathan Pyke ✔ <rsvpyke@gmail.com>", // sender address
+    to: req.body.email, // list of receivers
+    subject: "Thanks for rsvping! ✔", // Subject line
+    text: "The address is on an island in the san juans. ✔", // plaintext body
+    html: "<b>The address is on an island in the san juans. ✔</b>" // html body
+  
+  }
+  // send mail with defined transport object
+  smtpTransport.sendMail(mailOptions, function(error, response){
+      if(error){
+          console.log(error);
+      }else{
+          console.log("Message sent: " + response.message);
+      }
+
+      // if you don't want to use this transport object anymore, uncomment following line
+      //smtpTransport.close(); // shut down the connection pool, no more messages
+  });
+
   return res.send(newRsvp);
 };
