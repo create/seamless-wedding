@@ -94,9 +94,7 @@ exports.addRsvp = function(req, res) {
     from: "Mackenzie and Jonathan Pyke <rsvpyke@gmail.com>", // sender address
     to: req.body.email, // list of receivers
     subject: "M+J Wedding RSVP Confirmation", // Subject line
-    text: req.body.uname+", We look forward to seeing you on our wedding day! We will be saving "+seatSent+" for you, and can't wait to celebrate together.<br>"+songSentence,"
-    Please find the venue address and directions by visiting the following link: 
-    https://goo.gl/maps/mKwEA" // plaintext body
+    text: req.body.uname+", We look forward to seeing you on our wedding day! We will be saving "+seatSent+" for you, and can't wait to celebrate together."+songSentence+" Please find the venue address and directions by visiting the following link: https://goo.gl/maps/mKwEA", // plaintext body
     html: '<div style="text-align: center; color: #333; font-family: sans-serif;"><div style="padding: 20px;text-align:left; background: lightblue;"><h1 style="color: #ffffff; font-weight: 100;margin-top: 0; margin-left: 0;">Mackenzie and Jonathan\'s Wedding</h1></div></div>'+
     '<img style="margin-top: 10px; border-radius: 5px;" src="http://pyke.us/images/gallery/38t.jpg"/><div style="padding-left: 20px;padding-right:20px; text-align:left;"><p>'+req.body.uname+',</p><p>We look forward to seeing you on our wedding day! We will be saving '+seatSent+' for you, and can\'t wait to celebrate together.<br>'+songSentence+'<br><br>Please find the venue address and directions by clicking on the map below.</p></div>'+
     '<a href="https://goo.gl/maps/mKwEA" target="_blank"><img style="border-radius: 5px;" src="http://pyke.us/images/email/map.png"/></a>'+
