@@ -12,7 +12,48 @@ module.exports = function () {
     return {
         poem: function () {
             return {
-
+                pre: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                one: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                two: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                three: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                four: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                five: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                six: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
             };
         },
         text: function () {
