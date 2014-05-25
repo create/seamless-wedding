@@ -6,7 +6,8 @@ var express = require('express'),
   fs = require('fs'),
   path = require('path'),
   mongoose = require('mongoose'),
-  _ = require('lodash');
+  _ = require('lodash'),
+  nodemailer = require("nodemailer");
 
 var app = module.exports = express();
 
