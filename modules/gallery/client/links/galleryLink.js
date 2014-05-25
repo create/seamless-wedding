@@ -8,6 +8,7 @@ module.exports = function (scope, element, attrs) {
     console.log("mason");
     if ($(window).width() > 800) {
         var $container = $('#masongallery');
+        $('#masongallery').prepend($('<p>'+$(window).width()+'</p>'));
         $container.imagesLoaded( function() {
             $container.masonry({
                 // options
