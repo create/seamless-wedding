@@ -12,7 +12,7 @@ var smtpTransport = nodemailer.createTransport("SMTP",{
         pass: "userpass"
     }
 });
-var lastnamelist = {"pyke", "oscar"};
+var lastnamelist = ["pyke", "oscar"];
 
 exports.index = function(req, res) {
     var modulePath = "../modules/main/client/view/index";
