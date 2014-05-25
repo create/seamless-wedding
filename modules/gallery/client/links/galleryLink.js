@@ -14,4 +14,14 @@ $(document).ready(function() {
         'speedOut'		:	200,
         'overlayShow'	:	false
     });
+
+
+    
+    var container = document.querySelector('#masongallery');
+    var msnry = new Masonry( container, {
+      // options
+      columnWidth: 200,
+      itemSelector: '.item'
+    });
+   
 });

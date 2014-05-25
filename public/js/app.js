@@ -1,6 +1,6 @@
 'use strict';
 var ang = require('../lib/angular.shim');
-//require('../lib/parallax.shim');
+require('../lib/masonry.pkgd.min.js');
 
 var includes = [
     require('../../modules/details/client')(ang),
