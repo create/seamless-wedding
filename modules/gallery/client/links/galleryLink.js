@@ -10,8 +10,10 @@ module.exports = function (scope, element, attrs) {
         var $container = $('#masongallery');
         $container.imagesLoaded( function() {
             $container.masonry({
+                // options
                 itemSelector: '.item',
                 isAnimated: true
+                
             });
         });
     }

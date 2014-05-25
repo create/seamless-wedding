@@ -12,48 +12,7 @@ module.exports = function () {
     return {
         poem: function () {
             return {
-                pre: [
-                    "Once upon a time in the wicked land of NYC",
-                    "A ginger found an asian, a single soul become an abductee",
-                    "Knowing the asian could be 20 or 50, the ginger approached with great heed",
-                    "Thoughts of side ways row boats indeed"
-                ],
-                one: [
-                    "When I first set my sights I placed words upon her flesh",
-                    "She did not comply",
-                    "Complications of the fictitious man",
-                    "But I knew she would soon hold my hand"
-                ],
-                two: [
-                    "A gathering of friends",
-                    "And she was green with envy",
-                    "The big white beast has been discovered",
-                    "Maybe now she will know my hand"
-                ],
-                three: [
-                    "Toys were us except for the hoops",
-                    "They fell to her ground",
-                    "Charming, beauty, hole in my stomach",
-                    "She gently grazed my hand"
-                ],
-                four: [
-                    "Fireworks say phish",
-                    "Other things on my mind",
-                    "She complies in the grassy field, she is mine",
-                    "She will hold my hand"
-                ],
-                five: [
-                    "Alone at last",
-                    "In the battery we lay",
-                    "Calming fears and excitement",
-                    "Through a gentle touch on her hand"
-                ],
-                six: [
-                    "And now it is my turn",
-                    "To take her hand",
-                    "To love her",
-                    "Not till death shall we part"
-                ]
+
             };
         },
         text: function () {
