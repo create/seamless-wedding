@@ -49,9 +49,14 @@ module.exports = function (scope, element, attrs) {
             type: "POST",
             url: "/add/rsvp",
             data: formData,
-            success: function() {
-                console.log("success");
-                location.reload();
+            success: function(data) {
+                if (data.Error) {
+                    alert("Your name is not on the guestlist. If you believe this is in error, please contact us.");
+                } else {
+                    console.log("success");
+                    location.reload();
+                }
+                
             }
         });
         return false;
