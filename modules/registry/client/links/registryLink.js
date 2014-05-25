@@ -7,7 +7,7 @@ module.exports = function (scope, element, attrs) {
 
     $.get("/get/rsvps/", function (data, status) {
         for (var i = 0; i < data.rsvps.length; i++) {
-            if (data.rsvps[i].name !== undefined && data.rsvps[i].message !== undefined && data.rsvps[i].message !== "") {
+            if (data.rsvps[i].name != undefined && data.rsvps[i].message != undefined && data.rsvps[i].message !== "") {
                 var name = data.rsvps[i].name;
                 console.log("printing rsvp: " + name);
                 var message = data.rsvps[i].message;
