@@ -19,6 +19,7 @@ module.exports = function (scope, element, attrs) {
 
     $('#extrainfo .extrareq').prop("required", true);
     $("#rsvp-form").submit(function(e) {
+        $('#submitbt').attr('disabled','disabled');
         var guestnum = $('#guests').val();
         if (guestnum == 4) { // family
             var newNum = $('#guestnum').val();
