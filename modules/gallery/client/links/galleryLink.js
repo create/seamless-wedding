@@ -6,14 +6,16 @@ module.exports = function (scope, element, attrs) {
     common.resetFixed(element);
 
     console.log("mason");
-
-    var $container = $('#masongallery');
-    $container.imagesLoaded( function() {
-        $container.masonry({
-            itemSelector: '.item',
-            isAnimated: true
+    if ($(window).width() > 800) {
+        var $container = $('#masongallery');
+        $container.imagesLoaded( function() {
+            $container.masonry({
+                itemSelector: '.item',
+                isAnimated: true
+            });
         });
-    });
+    }
+    
 };
 
 $(document).ready(function() {
