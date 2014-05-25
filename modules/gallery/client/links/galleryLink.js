@@ -6,10 +6,13 @@ module.exports = function (scope, element, attrs) {
     common.resetFixed(element);
 
     console.log("mason");
+
     var $container = $('#masongallery');
-    $container.masonry({
-        itemSelector: '.item',
-        isAnimated: true
+    $container.imagesLoaded( function() {
+        $container.masonry({
+            itemSelector: '.item',
+            isAnimated: true
+        });
     });
 };
 
