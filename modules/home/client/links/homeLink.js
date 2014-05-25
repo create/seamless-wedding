@@ -2,6 +2,6 @@
 
 module.exports = function (scope, element, attrs) {
     var common = require("../../../common/client/common/common");
-    common.resetHomeBackground(element);
+    common.resetBackground(element);
     common.resetFixed(element);
 };

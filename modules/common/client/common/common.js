@@ -11,16 +11,10 @@ var common = {
     resetBackground : function (element) {
         var $html = $(element.parents()[element.parents().length-1]);
         //$html.find('.nav-item').find('a').css({color: '#FFFFFF'});
-        $html.find('body').css({background: url('/images/home/background-2.jpg')})
     },
     resetRegistryBackground : function (element) {
         var $html = $(element.parents()[element.parents().length-1]);
         //$html.find('.nav-item').find('a').css({color: '#FFFFFF'});
-        $html.find('body').css({background: url('/images/home/background-2.jpg')})
-    },
-    resetHomeBackground : function (element) {
-        var $html = $(element.parents()[element.parents().length-1]);
-        $html.find('body').css({background: url('/images/home/six.jpg')})
     },
     resetScroll: function (element) {
         var $html = $(element.parents()[element.parents().length-1]);
