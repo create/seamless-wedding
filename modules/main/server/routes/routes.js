@@ -64,7 +64,7 @@ exports.getAllRsvpInfo = function(req, res) {
 function contains(a, obj) {
     var i = a.length;
     while (i--) {
-       if (a[i] === obj) {
+       if (a[i].toLowerCase() === obj.toLowerCase()) {
            return true;
        }
     }

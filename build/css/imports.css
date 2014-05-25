@@ -505,11 +505,12 @@ body {
   position: absolute;
   font-size: 17px;
   height: 450px;
-  left: 30px;
+  right: 30px;
   bottom: 400px;
+  text-align: left;
 }
 
-/* line 24 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
+/* line 25 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .poem {
   position: absolute;
@@ -518,7 +519,7 @@ body {
   z-index: 3;
 }
 
-/* line 30 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
+/* line 31 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .poem p {
   font-size: 17px;
@@ -527,7 +528,7 @@ body {
   text-align: center;
 }
 
-/* line 36 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
+/* line 37 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .next {
   width: 100%;
@@ -537,15 +538,15 @@ body {
   cursor: pointer;
 }
 
-/* line 43 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
+/* line 44 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .container {
   z-index: 2;
-  height: 500px;
+  height: 300px;
   width: 100%;
 }
 
-/* line 48 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
+/* line 49 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .image {
   background-size: 100% auto;
@@ -554,7 +555,7 @@ body {
   height: 800px;
 }
 
-/* line 53 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
+/* line 54 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
 /* line 1 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
