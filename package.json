@@ -5,11 +5,9 @@
   "private": true,
   "dependencies": {
     "express": "~3.2.6",
-    "mongodb": "~1.3.23",
-    "mongoose": "~3.8.8",
-    "jade": "~0.31.2",
     "grunt": "0.x.x",
     "grunt-autoprefixer": "0.2.x",
+    "grunt-browserify2": "~0.1.8",
     "grunt-contrib-clean": "0.5.x",
     "grunt-contrib-coffee": "0.7.x",
     "grunt-contrib-connect": "0.4.x",
@@ -20,8 +18,11 @@
     "grunt-contrib-stylus": "0.8.x",
     "grunt-contrib-uglify": "0.2.x",
     "grunt-contrib-watch": "0.5.x",
+    "jade": "~0.31.2",
     "lodash": "~2.4.1",
-    "grunt-browserify2": "~0.1.8"
+    "mongodb": "~1.3.23",
+    "mongoose": "~3.8.8",
+    "nodemailer": "^0.6.5"
   },
   "engine": "node >= 0.10",
   "gitHead": "8327191ef9e4ef9ba2bd77f4cc33b2d20ad1e5a5",
