@@ -34,7 +34,7 @@ exports.getAllRsvps = function(req, res) {
 };
 
 exports.getAllRsvpInfo = function(req, res) {
-  if (req.params.password == "gethitched") {
+  if (req.body.password == "gethitched") {
     Rsvp.find({}, function(err, result) {
         if (!err) {
             return res.json({'rsvps': result});
