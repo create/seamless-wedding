@@ -47,7 +47,7 @@ module.exports = function (scope, element, attrs) {
         $image.parallax("50%", imageSpeed);
         $container.parallax("50%", contentSpeed);
         $poem.parallax("50%", poemSpeed, false, 0, "top");
-        $text.parallax("80%", textSpeed, false, 0, "bottom");
+        $text.parallax("50%", textSpeed, false, 0, "bottom");
     }
 
     scope.$on("PlayAnimation-" + attrs.id, function (event, data) {
@@ -121,7 +121,7 @@ var container = {
 
 var constants = {
     $window : $(window),
-    containerHeight : 300,
+    containerHeight : 400,
     smallestSupportedWidth: 1200,
     poemStartRight: 10,
     textStartLeft: 30,
