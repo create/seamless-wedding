@@ -1,8 +1,8 @@
-/* line 1 : /home/user/workspace/Wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/constants.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/main/client/styles/constants.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/fonts.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/main/client/styles/fonts.styl */
 
 @font-face {
   font-family: MainFont;
@@ -16,15 +16,15 @@
   src: url("../fonts/script/script-webfont.ttf"), url("../fonts/script/script-webfont.eot"), url("../fonts/script/script-webfont.svg"), url("../fonts/script/script-webfont.woff");
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/colors.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/main/client/styles/colors.styl */
 
-/* line 4 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 4 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 body {
   font-family: MainFont;
-  color: #fff;
+  color: #333;
   font-weight: 100;
   margin: 0px;
   overflow-y: scroll;
@@ -34,7 +34,7 @@ body {
   background-attachment: fixed;
 }
 
-/* line 18 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 18 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 .navigation {
   clear: both;
@@ -45,103 +45,116 @@ body {
   margin-top: 50px;
 }
 
-/* line 22 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 22 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 .navigation .nav-item {
   font-size: 21px;
-  color: #fff;
+  color: #333;
   float: left;
   list-style-type: none;
 }
 
-/* line 28 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 28 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
-/* line 29 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 29 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 .navigation .nav-item a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   text-shadow: 0px 0px 5px #111;
 }
 
-/* line 34 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 34 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 .navigation .first-nav-item {
-  margin-left: 45px;
+  margin-left: 80px;
 }
 
-/* line 36 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 36 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 .navigation .non-first-nav-item {
   margin-left: 70px;
 }
 
-/* line 39 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 39 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 .nav-spacer {
   height: 40px;
 }
 
-/* line 42 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 42 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
-/* line 43 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 43 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 .main-nav-color.nav-color-changer a {
   color: #add8e6;
 }
 
-/* line 46 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 46 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
-/* line 47 : /home/user/workspace/Wedding/modules/main/client/styles/main.styl */
+/* line 47 : /home/ec2-user/seamless-wedding/modules/main/client/styles/main.styl */
 
 .registry-nav-color.nav-color-changer a {
-  color: #fff;
+  color: #333;
 }
 
-/* line 49 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 49 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
 
 .home {
   height: 625px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1080px;
-  max-height: 625px;
+  text-align: center;
+  width: 100%;
 }
 
-/* line 5 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 6 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
+
+.home {
+  color: #fff;
+}
+
+/* line 7 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
 
 .home .home-background {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/home/six.jpg");
+  background-size: cover;
 }
 
-/* line 8 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 19 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
 
-/* line 10 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-.home .name-and-date {
-  position: relative;
-  width: 490px;
-  height: auto;
-  margin-top: 120px;
-  margin-left: 65px;
-  float: left;
+.home .name {
+  font-size: 120px;
+  margin-top: 0.5em;
+  font-weight: 100;
 }
 
-/* line 18 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 23 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
+
+.home .date {
+  font-size: 40px;
+  margin-top: 200px;
+}
+
+/* line 27 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence {
   position: relative;
 }
 
-/* line 21 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 30 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li {
   list-style-type: none;
 }
 
-/* line 23 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 32 : /home/ec2-user/seamless-wedding/modules/home/client/styles/home.styl */
 
 .home .image-sequence li span {
   width: 390px;
@@ -157,153 +170,20 @@ body {
   animation: imageAnimation 7s linear infinite 0s;
 }
 
-/* line 50 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 46 : /home/ec2-user/seamless-wedding/modules/registry/client/styles/registry.styl */
 
-/* line 51 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/registry/client/styles/registry.styl */
 
-/* line 52 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
+/* line 2 : /home/ec2-user/seamless-wedding/modules/registry/client/styles/registry.styl */
 
-.home .image-sequence li:nth-child(1) span {
-  background-image: url("../images/home/sequence/falling-leaves-2.jpg");
-  background-size: auto 595px;
-}
-
-/* line 56 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 57 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 58 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-.home .image-sequence li:nth-child(2) span {
-  background-image: url("../images/home/sequence/falling-leaves-3.jpg");
-  background-size: auto 595px;
-  -webkit-animation-delay: 1s;
-  -ms-animation-delay: 1s;
-  animation-delay: 1s;
-}
-
-/* line 67 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 68 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 69 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-.home .image-sequence li:nth-child(3) span {
-  background-image: url("../images/home/sequence/falling-leaves-4.jpg");
-  background-size: auto 595px;
-  -webkit-animation-delay: 2s;
-  -ms-animation-delay: 2s;
-  animation-delay: 2s;
-}
-
-/* line 78 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 79 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 80 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-.home .image-sequence li:nth-child(4) span {
-  background-image: url("../images/home/sequence/falling-leaves-5.jpg");
-  background-size: auto 595px;
-  -webkit-animation-delay: 3s;
-  -ms-animation-delay: 3s;
-  animation-delay: 3s;
-}
-
-/* line 89 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 90 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 91 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-.home .image-sequence li:nth-child(5) span {
-  background-image: url("../images/home/sequence/falling-leaves-6.jpg");
-  background-size: auto 595px;
-  -webkit-animation-delay: 4s;
-  -ms-animation-delay: 4s;
-  animation-delay: 4s;
-}
-
-/* line 100 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 101 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 102 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-.home .image-sequence li:nth-child(6) span {
-  background-image: url("../images/home/sequence/falling-leaves-7.jpg");
-  background-size: auto 595px;
-  -webkit-animation-delay: 5s;
-  -ms-animation-delay: 5s;
-  animation-delay: 5s;
-}
-
-/* line 111 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 112 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 113 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-.home .image-sequence li:nth-child(7) span {
-  background-image: url("../images/home/sequence/falling-leaves-8.jpg");
-  background-size: auto 595px;
-  -webkit-animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  animation-delay: 6s;
-}
-
-/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-@-webkit-keyframes imageAnimation {
-  0% {
-    opacity: 0;
-  }
-
-  7% {
-    opacity: 1;
-  }
-
-  16% {
-    opacity: 1;
-  }
-
-  28% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-/* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
-
-@-ms-keyframes imageAnimation {
-  0% {
-    opacity: 0;
-  }
-
-  7% {
-    opacity: 1;
-  }
-
-  16% {
-    opacity: 1;
-  }
-
-  28% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
+<<<<<<< HEAD
+.registry .registry-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+=======
 /* line 38 : /home/user/workspace/Wedding/modules/home/client/styles/home.styl */
 
 @keyframes imageAnimation {
@@ -354,7 +234,7 @@ body {
   margin: 0 auto;
   width: 80%;
   max-width: 1400px;
-  color: #fff;
+  color: #333;
 }
 
 /* line 16 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
@@ -372,76 +252,20 @@ body {
   margin-bottom: 5px;
   font-family: "Merriweather";
   font-size: 24px;
+>>>>>>> b3c50054ba5bd911f69853cd2478181611d6e8cb
 }
 
-/* line 26 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
+/* line 8 : /home/ec2-user/seamless-wedding/modules/registry/client/styles/registry.styl */
 
-.registry .text-container .registry-text .registry-link {
-  font-size: 18px;
+.registry .registry-text img {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 430px;
 }
 
-/* line 29 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
+/* line 12 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
-.registry .text-container .registry-text a {
-  color: #add8e6;
-  text-decoration: none;
-}
-
-/* line 32 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
-
-.registry .text-container .registry-text p {
-  margin: 0px;
-}
-
-/* line 35 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
-
-.registry .text-container .rsvp-text {
-  width: 48%;
-  max-width: 550px;
-  float: left;
-}
-
-/* line 39 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
-
-.registry .text-container .rsvp-text h1 {
-  font-size: 40px;
-  font-family: "Merriweather";
-  font-weight: 100;
-}
-
-/* line 44 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
-
-.registry .text-container .rsvp-text .registry-rsvps {
-  font-size: 24px;
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-}
-
-/* line 48 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
-
-.registry .text-container .rsvp-text .registry-rsvps .attribution {
-  font-size: 20px;
-  margin-left: 20px;
-  margin-top: 0px;
-  color: #efefef;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  font-family: MainFont;
-}
-
-/* line 56 : /home/user/workspace/Wedding/modules/registry/client/styles/registry.styl */
-
-.registry .text-container .rsvp-text .registry-rsvps q {
-  font-style: italic;
-  box-shadow: 5px 5px 10px rgba(2,2,2,0.7);
-  background-color: rgba(2,2,2,0.6);
-  padding: 5px;
-  overflow: auto;
-  display: inline-block;
-}
-
-/* line 63 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
-
-/* line 1 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery {
   margin-left: auto;
@@ -450,66 +274,93 @@ body {
   max-height: 625px;
 }
 
-/* line 4 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 4 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
+
+.gallery .item {
+  width: 24%;
+  margin: 0.5%;
+}
+
+/* line 7 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
+
+.gallery .item.hl {
+  width: 49%;
+  margin: 0.5%;
+}
+
+/* line 10 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
+
+.gallery .item.vs {
+  width: 17%;
+  margin: 0.5%;
+}
+
+/* line 13 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
+
+.gallery .item.hm {
+  width: 38%;
+  margin: 0.5%;
+}
+
+/* line 16 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery img {
   position: relative;
-  vertical-align: top;
 }
 
-/* line 8 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 19 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .gallery-right-img {
   margin-left: 13px;
 }
 
-/* line 11 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 22 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .gallery-bottom-img {
   margin-top: 13px;
 }
 
-/* line 14 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 25 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .gallery-row-two-lift {
   top: -88px;
 }
 
-/* line 17 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 28 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .gallery-row-three-lift {
   top: -100px;
 }
 
-/* line 20 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 31 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .one-one {
   height: 367px;
   width: 245px;
 }
 
-/* line 24 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 35 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .one-two {
   width: 372px;
   height: 279px;
 }
 
-/* line 28 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 39 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .one-three {
   width: 210px;
   height: 279px;
 }
 
-/* line 32 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 43 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .one-four {
   width: 210px;
   height: 279px;
 }
 
-/* line 36 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 47 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .two-one {
   top: 18px;
@@ -517,49 +368,49 @@ body {
   height: 153px;
 }
 
-/* line 41 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 52 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .two-two {
   width: 432px;
   height: 288px;
 }
 
-/* line 45 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 56 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .two-three {
   width: 374px;
   height: 249px;
 }
 
-/* line 49 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 60 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .three-one {
   width: 245px;
   height: 367px;
 }
 
-/* line 53 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 64 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .three-two {
   width: 203px;
   height: 269px;
 }
 
-/* line 57 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 68 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .three-three {
   width: 216px;
   height: 151px;
 }
 
-/* line 61 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 72 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .three-four {
   width: 376px;
   height: 251px;
 }
 
-/* line 65 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 76 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .four-one {
   width: 308px;
@@ -568,7 +419,7 @@ body {
   left: 461px;
 }
 
-/* line 71 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 82 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .four-two {
   top: -218px;
@@ -577,7 +428,7 @@ body {
   height: 425px;
 }
 
-/* line 77 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 88 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .five-one {
   left: -618px;
@@ -586,7 +437,7 @@ body {
   height: 306px;
 }
 
-/* line 83 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 94 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .five-two {
   top: -417px;
@@ -595,7 +446,7 @@ body {
   height: 185px;
 }
 
-/* line 89 : /home/user/workspace/Wedding/modules/gallery/client/styles/gallery.styl */
+/* line 100 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/gallery.styl */
 
 .gallery .six-one {
   width: 432px;
@@ -604,22 +455,22 @@ body {
   left: -64px;
 }
 
-/* line 94 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 105 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story {
   width: 100%;
 }
 
-/* line 3 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 3 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .play-button {
   position: fixed;
   z-index: 12;
 }
 
-/* line 7 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 7 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .play-button .play-image {
   z-index: 10;
@@ -629,7 +480,7 @@ body {
   opacity: 0.8;
 }
 
-/* line 14 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 14 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .play-button .play-text {
   font-family: MyScript, cursive;
@@ -642,71 +493,71 @@ body {
   cursor: default;
 }
 
-/* line 24 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 24 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .pre-image {
   background: url("../images/story/pre.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 26 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 26 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .one-image {
   background: url("../images/story/one.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 28 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 28 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .two-image {
   background: url("../images/story/two.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 30 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 30 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .three-image {
   background: url("../images/story/three.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 32 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 32 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .four-image {
   background: url("../images/story/four.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 34 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 34 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .five-image {
   background: url("../images/story/five.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 36 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 36 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .six-image {
   background: url("../images/story/six.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 38 : /home/user/workspace/Wedding/modules/story/client/styles/story.styl */
+/* line 38 : /home/ec2-user/seamless-wedding/modules/story/client/styles/story.styl */
 
 .story .seven-image {
   background: url("../images/story/seven.jpg") 50% 0 no-repeat fixed;
 }
 
-/* line 40 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 40 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
-/* line 2 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 2 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .content {
   position: relative;
 }
 
-/* line 5 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 5 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .headline {
   margin-left: 20px;
 }
 
-/* line 7 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 7 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .headline h1 {
   font-family: sans-serif;
@@ -716,7 +567,7 @@ body {
   text-shadow: 0px 0px 10px #111;
 }
 
-/* line 14 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 14 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .text {
   text-align: justify;
@@ -725,11 +576,12 @@ body {
   position: absolute;
   font-size: 17px;
   height: 450px;
-  left: 30px;
+  right: 30px;
   bottom: 400px;
+  text-align: left;
 }
 
-/* line 24 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 25 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .poem {
   position: absolute;
@@ -738,7 +590,7 @@ body {
   z-index: 3;
 }
 
-/* line 30 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 31 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .poem p {
   font-size: 17px;
@@ -747,7 +599,7 @@ body {
   text-align: center;
 }
 
-/* line 36 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 37 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .next {
   width: 100%;
@@ -757,15 +609,15 @@ body {
   cursor: pointer;
 }
 
-/* line 43 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 44 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .container {
   z-index: 2;
-  height: 500px;
+  height: 300px;
   width: 100%;
 }
 
-/* line 48 : /home/user/workspace/Wedding/modules/story/client/styles/storyContent.styl */
+/* line 49 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyContent.styl */
 
 .story-content .image {
   background-size: 100% auto;
@@ -774,189 +626,161 @@ body {
   height: 800px;
 }
 
-/* line 53 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 54 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
 .details {
-  width: 100%;
+  height: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  max-height: 625px;
 }
 
-/* line 3 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 4 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
-.details .play-button {
-  position: fixed;
-  z-index: 12;
+/* line 5 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
+
+.details .details-content {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  width: 48%;
+  max-width: 800px;
+  margin-top: 20px;
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+  color: #fff;
 }
 
-/* line 7 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 14 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
-.details .play-button .play-image {
-  z-index: 10;
-  position: fixed;
-  left: 25px;
-  top: 115px;
-  cursor: default;
-  opacity: 0.8;
-}
-
-/* line 15 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
-
-.details .play-button .play-text {
-  font-family: MyScript, cursive;
-  font-size: 72px;
+.details .details-content a {
   color: #add8e6;
-  z-index: 11;
-  position: fixed;
-  left: 45px;
-  top: 40px;
-  cursor: default;
+  text-decoration: none;
 }
 
-/* line 25 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 17 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
-.details .pre-image {
-  background: url("../images/details/pre.jpg") 50% 0 no-repeat fixed;
+.details .details-content p {
+  margin: 0px;
 }
 
-/* line 27 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 19 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
-.details .one-image {
-  background: url("../images/details/one.jpg") 50% 0 no-repeat fixed;
+.details .details-content ul {
+  padding: 0;
 }
 
-/* line 29 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 21 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
-.details .two-image {
-  background: url("../images/details/two.jpg") 50% 0 no-repeat fixed;
+.details .details-content ul li {
+  list-style: none;
 }
 
-/* line 31 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 27 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
-.details .three-image {
-  background: url("../images/details/three.jpg") 50% 0 no-repeat fixed;
+.details .details-content .details-title {
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-shadow: 0px 0px 10px #111;
 }
 
-/* line 33 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 32 : /home/ec2-user/seamless-wedding/modules/details/client/styles/details.styl */
 
-.details .four-image {
-  background: url("../images/details/four.jpg") 50% 0 no-repeat fixed;
+.details .details-content .details-details {
+  font-size: 40px;
 }
 
-/* line 35 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
+/* line 34 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
-.details .five-image {
-  background: url("../images/details/five.jpg") 50% 0 no-repeat fixed;
-}
+/* line 1 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
-/* line 37 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
-
-.details .six-image {
-  background: url("../images/details/six.jpg") 50% 0 no-repeat fixed;
-}
-
-/* line 39 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
-
-.details .seven-image {
-  background: url("../images/details/seven.jpg") 50% 0 no-repeat fixed;
-}
-
-/* line 41 : /home/user/workspace/Wedding/modules/details/client/styles/details.styl */
-
-.details #map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-/* line 46 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
-
-/* line 1 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
-
-/* line 3 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 3 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .adrienne-image {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 6 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 6 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .sue-image {
   background: url("../images/entourage/Sue.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 9 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 9 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .geraldine-image {
   background: url("../images/entourage/Ger.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 12 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 12 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .rianne-image {
   background: url("../images/entourage/Rianne.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 15 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 15 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .joel-image {
   background: url("../images/entourage/Joel.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 18 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 18 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .joel-image :hover {
   background: url("../images/entourage/Joel2.png") 50% 0 no-repeat fixed;
 }
 
-/* line 20 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 20 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .jason-image {
   background: url("../images/entourage/Jason.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 23 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 23 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .jason-image :hover {
   background: url("../images/entourage/Jason2.png") 50% 0 no-repeat fixed;
 }
 
-/* line 25 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 25 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .nicholas-image {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 28 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 28 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .nicholas-image :hover {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
 }
 
-/* line 30 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 30 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .gabriel-image {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
   background-size: 200px auto;
 }
 
-/* line 33 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourage.styl */
+/* line 33 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourage.styl */
 
 .entourage .gabriel-image :hover {
   background: url("../images/entourage/Adie.png") 50% 0 no-repeat fixed;
 }
 
-/* line 35 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
+/* line 35 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/person.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/person.styl */
 
 .person {
   float: left;
@@ -964,33 +788,33 @@ body {
   width: 11.9%;
 }
 
-/* line 6 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
+/* line 6 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/person.styl */
 
-/* line 7 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
+/* line 7 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/person.styl */
 
 .person .image img {
   height: 500px;
   width: auto;
 }
 
-/* line 11 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
+/* line 11 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/person.styl */
 
-/* line 12 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
+/* line 12 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/person.styl */
 
 .person .info p {
   margin: 0px;
   text-align: center;
 }
 
-/* line 16 : /home/user/workspace/Wedding/modules/entourage/client/styles/person.styl */
+/* line 16 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/person.styl */
 
 .person .info .name {
   font-size: 25px;
 }
 
-/* line 18 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 18 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
-/* line 1 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp {
   height: 625px;
@@ -1000,33 +824,18 @@ body {
   max-height: 625px;
 }
 
-/* line 4 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 5 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
-/* line 5 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
-
-.rsvp .rsvp-background {
-  position: absolute;
-  top: 0px;
-  z-index: -1;
-}
-
-/* line 10 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
-
-.rsvp .rsvp-background img {
-  width: 100%;
-  height: auto;
-}
-
-/* line 14 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 7 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container {
   margin: 0 auto;
   width: 80%;
   max-width: 1400px;
-  color: #fff;
+  color: #333;
 }
 
-/* line 19 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 12 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container .rsvp-text-form {
   float: left;
@@ -1035,34 +844,34 @@ body {
   margin-top: 20px;
 }
 
-/* line 25 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 18 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
-.rsvp .text-container .rsvp-text-form .registry-title {
+.rsvp .text-container .rsvp-text-form .rsvp-title {
   margin-bottom: 5px;
   font-family: "Merriweather";
   font-size: 24px;
 }
 
-/* line 29 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 22 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
-.rsvp .text-container .rsvp-text-form .registry-link {
+.rsvp .text-container .rsvp-text-form .rsvp-link {
   font-size: 18px;
 }
 
-/* line 32 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 25 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container .rsvp-text-form a {
   color: #add8e6;
   text-decoration: none;
 }
 
-/* line 35 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 28 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container .rsvp-text-form p {
   margin: 0px;
 }
 
-/* line 38 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 31 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container .rsvp-text {
   width: 48%;
@@ -1070,7 +879,7 @@ body {
   float: right;
 }
 
-/* line 42 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 35 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container .rsvp-text h1 {
   font-size: 40px;
@@ -1078,14 +887,14 @@ body {
   font-weight: 100;
 }
 
-/* line 47 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 40 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container .rsvp-text .registry-rsvps {
   font-size: 24px;
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
-/* line 51 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 44 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container .rsvp-text .registry-rsvps .attribution {
   font-size: 20px;
@@ -1097,7 +906,7 @@ body {
   font-family: MainFont;
 }
 
-/* line 59 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 52 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .text-container .rsvp-text .registry-rsvps q {
   font-style: italic;
@@ -1108,7 +917,7 @@ body {
   display: inline-block;
 }
 
-/* line 67 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 60 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp input,
 .rsvp textarea {
@@ -1116,13 +925,13 @@ body {
   color: #6b6b6b;
 }
 
-/* line 71 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 64 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp select {
   font-size: 18px;
 }
 
-/* line 74 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 67 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp input.submit {
   margin: 0 auto;
@@ -1136,7 +945,7 @@ body {
   border-bottom: none;
   width: auto;
   display: block;
-  color: #fff;
+  color: #333;
   text-shadow: 0 -1px 1px rgba(0,0,0,0.37);
   box-shadow: 0 1px 1px rgba(121,97,97,0.92), inset 0 -1px 1px rgba(0,0,0,0.22);
   background-image: #7c149f;
@@ -1147,7 +956,7 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Arial";
 }
 
-/* line 103 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 96 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp input.submit:hover {
   box-shadow: 0 1px 1px rgba(160,160,160,0.92), inset 0 -1px 1px rgba(0,0,0,0.22);
@@ -1161,7 +970,7 @@ body {
   text-decoration: none;
 }
 
-/* line 118 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 111 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp input.submit:active {
   box-shadow: 0 1px 1px rgba(121,97,97,0.92), inset 0 -1px 1px rgba(0,0,0,0.22);
@@ -1174,18 +983,18 @@ body {
   /* gradient fill */
 }
 
-/* line 133 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 126 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .rsvp-text-form {
   font-family: "Merriweather", serif;
   font-weight: 100;
   max-width: 500px;
   width: 100%;
-  color: #fff;
+  color: #333;
   text-align: center;
 }
 
-/* line 141 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 134 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .rsvp-text-form .rsvp-title {
   margin-bottom: 10px;
@@ -1193,26 +1002,26 @@ body {
   text-shadow: 0px 0px 10px #111;
 }
 
-/* line 146 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 139 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .rsvp-text-form .rsvp-details {
   font-size: 40px;
 }
 
-/* line 149 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 142 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .rsvp-text-form a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
 }
 
-/* line 152 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 145 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .rsvp-text-form p {
   margin: 0px;
 }
 
-/* line 155 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 148 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .rsvp-image-props {
   position: fixed;
@@ -1220,17 +1029,17 @@ body {
   left: 10px;
 }
 
-/* line 160 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvp.styl */
+/* line 153 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvp.styl */
 
 .rsvp .rsvp-image-props a {
   font-size: 14px;
-  color: #fff;
+  color: #333;
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/main/client/styles/mainMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation {
     clear: both;
@@ -1241,47 +1050,47 @@ body {
     margin-top: 5px;
   }
 
-  /* line 6 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
+  /* line 6 : /home/ec2-user/seamless-wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation .nav-item {
     font-size: 75px;
-    color: #add8e6;
+    color: #fff;
     clear: both;
     list-style-type: none;
   }
 
-  /* line 12 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
+  /* line 12 : /home/ec2-user/seamless-wedding/modules/main/client/styles/mainMedia.styl */
 
-  /* line 13 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
+  /* line 13 : /home/ec2-user/seamless-wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation .nav-item a {
-    color: #add8e6;
+    color: #fff;
     text-decoration: none;
   }
 
-  /* line 17 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
+  /* line 17 : /home/ec2-user/seamless-wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation .first-nav-item {
     margin-left: 0px;
   }
 
-  /* line 19 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
+  /* line 19 : /home/ec2-user/seamless-wedding/modules/main/client/styles/mainMedia.styl */
 
   .navigation .non-first-nav-item {
     margin-left: 0px;
   }
 
-  /* line 22 : /home/user/workspace/Wedding/modules/main/client/styles/mainMedia.styl */
+  /* line 22 : /home/ec2-user/seamless-wedding/modules/main/client/styles/mainMedia.styl */
 
   .nav-spacer {
     height: 0px;
   }
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/home/client/styles/homeMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/home/client/styles/homeMedia.styl */
 
   .home {
     height: 625px;
@@ -1290,68 +1099,32 @@ body {
     max-width: 1080px;
     max-height: 625px;
   }
-
-  /* line 6 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
-
-  .home .home-background {
-    position: relative;
-    z-index: -1;
-  }
-
-  /* line 10 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
-
-  .home .home-background img {
-    width: 100%;
-    height: auto;
-    margin-top: 100px;
-  }
-
-  /* line 15 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
-
-  /* line 16 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
-
-  .home .name-and-date {
-    position: absolute;
-    width: 590px;
-    height: auto;
-    top: 570px;
-    left: 185px;
-    margin-top: 120px;
-    margin-left: 0px;
-    float: none;
-  }
-
-  /* line 26 : /home/user/workspace/Wedding/modules/home/client/styles/homeMedia.styl */
-
-  .home .image-sequence {
-    display: none;
-  }
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/story/client/styles/storyMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/story/client/styles/storyMedia.styl */
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/story/client/styles/storyMedia.styl */
 
   .story {
     clear: both;
   }
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/details/client/styles/detailsMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/details/client/styles/detailsMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/details/client/styles/detailsMedia.styl */
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/details/client/styles/detailsMedia.styl */
 
   .details {
     clear: both;
   }
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/gallery/client/styles/galleryMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/galleryMedia.styl */
 
-@media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/gallery/client/styles/galleryMedia.styl */
+@media (max-width: 800px) {
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/galleryMedia.styl */
 
   .gallery {
     margin-left: auto;
@@ -1360,7 +1133,7 @@ body {
     max-height: 625px;
   }
 
-  /* line 5 : /home/user/workspace/Wedding/modules/gallery/client/styles/galleryMedia.styl */
+  /* line 5 : /home/ec2-user/seamless-wedding/modules/gallery/client/styles/galleryMedia.styl */
 
   .gallery img {
     position: static;
@@ -1372,10 +1145,10 @@ body {
   }
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourageMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourageMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/entourage/client/styles/entourageMedia.styl */
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/entourageMedia.styl */
 
   .entourage {
     clear: both;
@@ -1383,81 +1156,22 @@ body {
   }
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/registry/client/styles/registryMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/registry/client/styles/registryMedia.styl */
 
-  /* line 3 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
+  /* line 3 : /home/ec2-user/seamless-wedding/modules/registry/client/styles/registryMedia.styl */
 
-  .registry .text-container {
-    padding: 10px;
-    position: absolute;
-    top: 570px;
-    left: 0;
-    right: 0;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  /* line 12 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
-
-  .registry .text-container .registry-text {
-    float: none !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  /* line 15 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
-
-  .registry .text-container .registry-text .registry-title {
-    font-size: 75px !important;
-  }
-
-  /* line 17 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
-
-  .registry .text-container .registry-text .registry-link {
-    font-size: 60px !important;
-    overflow-wrap: break-word;
-  }
-
-  /* line 21 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
-
-  .registry .text-container .rsvp-text {
-    float: none !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  /* line 25 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
-
-  .registry .text-container .rsvp-text h1 {
-    font-size: 80px !important;
-  }
-
-  /* line 27 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
-
-  .registry .text-container .rsvp-text .registry-rsvps {
-    font-size: 70px !important;
-  }
-
-  /* line 30 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
-
-  .registry .text-container .rsvp-text .registry-rsvps .attribution {
-    font-size: 50px !important;
-  }
-
-  /* line 32 : /home/user/workspace/Wedding/modules/registry/client/styles/registryMedia.styl */
-
-  .registry .text-container .rsvp-text .registry-rsvps q {
-    font-size: 70px !important;
+  .registry img {
+    border-radius: 5px;
   }
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/personMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/personMedia.styl */
 
   .person {
     float: none;
@@ -1465,9 +1179,9 @@ body {
     width: 100%;
   }
 
-  /* line 7 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
+  /* line 7 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/personMedia.styl */
 
-  /* line 8 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
+  /* line 8 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/personMedia.styl */
 
   .person .image img {
     height: 700px;
@@ -1476,28 +1190,28 @@ body {
     margin: auto;
   }
 
-  /* line 13 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
+  /* line 13 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/personMedia.styl */
 
-  /* line 14 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
+  /* line 14 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/personMedia.styl */
 
   .person .info p {
     margin: 0px;
     text-align: center;
   }
 
-  /* line 18 : /home/user/workspace/Wedding/modules/entourage/client/styles/personMedia.styl */
+  /* line 18 : /home/ec2-user/seamless-wedding/modules/entourage/client/styles/personMedia.styl */
 
   .person .info .name {
     font-size: 50px;
   }
 }
 
-/* line 1 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+/* line 1 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
 @media screen and (max-device-width: 800px) {
-  /* line 2 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 2 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
-  /* line 3 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 3 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
   .rsvp .text-container {
     padding: 10px;
@@ -1509,28 +1223,28 @@ body {
     max-width: 100% !important;
   }
 
-  /* line 12 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 12 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
-  .rsvp .text-container .registry-text {
+  .rsvp .text-container .rsvp-text-form {
     float: none !important;
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  /* line 15 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 15 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
-  .rsvp .text-container .registry-text .registry-title {
+  .rsvp .text-container .rsvp-text-form .rsvp-title {
     font-size: 75px !important;
   }
 
-  /* line 17 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 17 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
-  .rsvp .text-container .registry-text .registry-link {
+  .rsvp .text-container .rsvp-text-form .rsvp-link {
     font-size: 60px !important;
     overflow-wrap: break-word;
   }
 
-  /* line 21 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 21 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
   .rsvp .text-container .rsvp-text {
     float: none !important;
@@ -1538,59 +1252,27 @@ body {
     max-width: 100% !important;
   }
 
-  /* line 25 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 25 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
   .rsvp .text-container .rsvp-text h1 {
-    font-size: 80px !important;
+    font-size: 75px !important;
   }
 
-  /* line 27 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 27 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
   .rsvp .text-container .rsvp-text .registry-rsvps {
-    font-size: 70px !important;
+    font-size: 60px !important;
   }
 
-  /* line 30 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 30 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
   .rsvp .text-container .rsvp-text .registry-rsvps .attribution {
     font-size: 50px !important;
   }
 
-  /* line 32 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
+  /* line 32 : /home/ec2-user/seamless-wedding/modules/rsvp/client/styles/rsvpMedia.styl */
 
   .rsvp .text-container .rsvp-text .registry-rsvps q {
     font-size: 70px !important;
-  }
-
-  /* line 36 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
-
-  .rsvp .rsvp-text {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 570px;
-    max-width: 100% !important;
-    width: 100%;
-  }
-
-  /* line 45 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
-
-  .rsvp .rsvp-text .rsvp-title {
-    margin-bottom: 20px;
-    font-size: 100px;
-  }
-
-  /* line 49 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
-
-  .rsvp .rsvp-text .rsvp-details {
-    font-size: 70px;
-  }
-
-  /* line 51 : /home/user/workspace/Wedding/modules/rsvp/client/styles/rsvpMedia.styl */
-
-  .rsvp .rsvp-text input {
-    height: 50px !important;
   }
 }

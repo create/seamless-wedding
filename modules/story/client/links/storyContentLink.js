@@ -5,9 +5,9 @@ module.exports = function (scope, element, attrs) {
     var imagePause = 4000;
     var contentPause = 10000;
     var imageSpeed = 0.1;
-    var poemSpeed = 0.6;
+    var poemSpeed = 0.4;
     var contentSpeed = 0.4;
-    var textSpeed = 0.2;
+    var textSpeed = 0.4;
 
     var $window = $(window);
     var $body = $("body");
@@ -121,7 +121,7 @@ var container = {
 
 var constants = {
     $window : $(window),
-    containerHeight : 500,
+    containerHeight : 400,
     smallestSupportedWidth: 1200,
     poemStartRight: 10,
     textStartLeft: 30,

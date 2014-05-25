@@ -19,6 +19,7 @@ module.exports = function (scope, element, attrs) {
 
     $('#extrainfo .extrareq').prop("required", true);
     $("#rsvp-form").submit(function(e) {
+        $('#submitbt').attr('disabled','disabled');
         var guestnum = $('#guests').val();
         if (guestnum == 4) { // family
             var newNum = $('#guestnum').val();
@@ -48,9 +49,16 @@ module.exports = function (scope, element, attrs) {
             type: "POST",
             url: "/add/rsvp",
             data: formData,
-            success: function() {
-                console.log("success");
-                location.reload();
+            success: function(data) {
+                if (data.Error) {
+                    alert("Your name is not on the guestlist. If you believe this is in error, please contact us.");
+                } else {
+                    console.log("success");
+                    location.reload();
+                }  
+            },
+            error: function(data) {
+                alert("Your name is not on the guestlist. If you believe this is in error, please contact us.");
             }
         });
         return false;
