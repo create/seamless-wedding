@@ -55,8 +55,10 @@ module.exports = function (scope, element, attrs) {
                 } else {
                     console.log("success");
                     location.reload();
-                }
-                
+                }  
+            },
+            error: function(data) {
+                alert("Your name is not on the guestlist. If you believe this is in error, please contact us.");
             }
         });
         return false;
