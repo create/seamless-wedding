@@ -8,7 +8,6 @@ module.exports = function (scope, element, attrs) {
     console.log("mason");
     if (width > 800) {
         var $container = $('#masongallery');
-        $('#masongallery').prepend($('<p>'+width+'</p>'));
         $container.imagesLoaded( function() {
             $container.masonry({
                 // options
@@ -17,6 +16,13 @@ module.exports = function (scope, element, attrs) {
                 
             });
         });
+    } else {
+        $('#masongallery img').css({"position": "static",
+                    'height': 'auto !important',
+                    'width': '80% !important',
+                    'display': 'block !important',
+                    'margin': '50px auto !important',
+                    'border-radius': '50px !important'});
     }
     
 };
