@@ -5,8 +5,9 @@ module.exports = function (scope, element, attrs) {
     common.resetBackground(element);
     common.resetFixed(element);
 
-    console.log("mason");
+    
     if (width > 800) {
+        console.log("mason");
         var $container = $('#masongallery');
         $container.imagesLoaded( function() {
             $container.masonry({
@@ -26,7 +27,7 @@ module.exports = function (scope, element, attrs) {
     }
     
 };
-var width = window.screen.width;
+var width = $(window).width();
 $(document).ready(function() {
     $("a.group").fancybox({
         'transitionIn'	:	'elastic',
