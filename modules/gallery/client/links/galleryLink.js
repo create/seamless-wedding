@@ -16,11 +16,11 @@ $(document).ready(function() {
     });
 
 
-    
-    var container = document.querySelector('#masongallery');
-    var msnry = new Masonry( container, {
-      // options
-      itemSelector: '.item'
+    console.log("mason");
+    var $container = $('#masongallery');
+    $container.masonry({
+        itemSelector: '.item',
+        isAnimated: true
     });
    
 });
