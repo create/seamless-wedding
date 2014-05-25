@@ -81,12 +81,26 @@ exports.addRsvp = function(req, res) {
       return console.log(err);
     }
   });
+  var songSentence = "";
+  if (req.body.song) {
+     songSentence = " Don't forget to practice your dance moves for " + req.body.song + "!";
+  }
+
   var mailOptions = {
-    from: "Mackenzie and Jonathan Pyke ✔ <rsvpyke@gmail.com>", // sender address
+    from: "Mackenzie and Jonathan Pyke <rsvpyke@gmail.com>", // sender address
     to: req.body.email, // list of receivers
-    subject: "Thanks for rsvping! ✔", // Subject line
-    text: "The address is on an island in the san juans. ✔", // plaintext body
-    html: "<b>The address is on an island in the san juans. ✔</b>" // html body
+    subject: "M+J Wedding RSVP Confirmation", // Subject line
+    text: "Thanks for rsvping! We will be saving "+req.body.guests+" seats for you, and look forward to seeing you there!"+songSentence, // plaintext body
+    html: '<div style="text-align: center; color: #333; font-family: sans-serif;">
+  <div style="padding: 20px;text-align:left; background: lightblue;"><h1 style="color: #ffffff; font-weight: 100;margin-top: 0; margin-left: 0;">Jonathan and Mackenzie\'s Wedding</h1></div>
+  
+  
+  <img style="margin-top: 10px; border-radius: 5px;" src="http://pyke.us/images/gallery/38t.jpg"/>
+  <p>Thanks for rsvping! We will be saving '+req.body.guests+' seats for you, and look forward to seeing you there!'+songSentence+'</p>
+  
+    <a href="https://goo.gl/maps/mKwEA" target="_blank"><img style="border-radius: 5px;" src="http://pyke.us/images/email/map.png"/></a>
+  <div style="background: lightblue; padding: 20px; height: 20px;margin-top: 10px;"></div>
+</div>' // html body
   
   }
   // send mail with defined transport object
