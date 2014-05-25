@@ -61,12 +61,21 @@ exports.getAllRsvpInfo = function(req, res) {
   }
   
 }
+function contains(a, obj) {
+    var i = a.length;
+    while (i--) {
+       if (a[i] === obj) {
+           return true;
+       }
+    }
+    return false;
+}
 
 exports.addRsvp = function(req, res) {
   var lastname = req.body.uname.toLowerCase().split(" ");
   lastname = lastname[lastname.length - 1];
 
-  if ($.inArray(lastname, lastnamelist) == -1) {
+  if (!contains(lastnamelist, lastname)) {
     return res.json({'Error': 'Your name is not on the guestlist. If you believe this is in error, please contact us.'});
   }
   var newRsvp = new Rsvp({
