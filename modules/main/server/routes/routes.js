@@ -90,14 +90,16 @@ exports.addRsvp = function(req, res) {
     from: "Mackenzie and Jonathan Pyke <rsvpyke@gmail.com>", // sender address
     to: req.body.email, // list of receivers
     subject: "M+J Wedding RSVP Confirmation", // Subject line
-    text: "Thanks for rsvping! We will be saving "+req.body.guests+" seats for you, and look forward to seeing you there!"+songSentence, // plaintext body
+    text: req.body.name+", We look forward to seeing you on our wedding day! We will be saving "+req.body.guests+" seats for you, and can't wait to celebrate together."+songSentence, // plaintext body
     html: '<div style="text-align: center; color: #333; font-family: sans-serif;">
   <div style="padding: 20px;text-align:left; background: lightblue;"><h1 style="color: #ffffff; font-weight: 100;margin-top: 0; margin-left: 0;">Jonathan and Mackenzie\'s Wedding</h1></div>
   
   
   <img style="margin-top: 10px; border-radius: 5px;" src="http://pyke.us/images/gallery/38t.jpg"/>
-  <p>Thanks for rsvping! We will be saving '+req.body.guests+' seats for you, and look forward to seeing you there!'+songSentence+'</p>
-  
+  <div style="padding-left: 20px;padding-right:20px;">
+  <p>'+req.body.name+',</p
+  <p>We look forward to seeing you on our wedding day! We will be saving '+req.body.guests+' seats for you, and can\'t wait to celebrate together.'+songSentence+'</p>
+  </div>
     <a href="https://goo.gl/maps/mKwEA" target="_blank"><img style="border-radius: 5px;" src="http://pyke.us/images/email/map.png"/></a>
   <div style="background: lightblue; padding: 20px; height: 20px;margin-top: 10px;"></div>
 </div>' // html body
