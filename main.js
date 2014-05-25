@@ -40,7 +40,7 @@ if (app.get('env') === 'production') {
 app.get('/', routes.index);
 app.get('/component/:module/:component', routes.componentViews);
 app.get('/get/rsvps/', routes.getAllRsvps);
-app.get('/get/rsvpinfo/:password', routes.getAllRsvpInfo);
+app.get('/get/rsvpinfo/', routes.getAllRsvpInfo);
 app.post('/add/rsvp', routes.addRsvp);
 
 _.forEach(fs.readdirSync("./modules/"), function (moduleName) {
