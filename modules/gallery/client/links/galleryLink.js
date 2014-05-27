@@ -10,7 +10,7 @@ module.exports = function (scope, element, attrs) {
         console.log("mason");
         var $container = $('#masongallery');
         $container.imagesLoaded( function() {
-            $container.masonry({
+            $container.masonry('reloadItems'){
                 // options
                 itemSelector: '.item',
                 isAnimated: true
