@@ -13,7 +13,7 @@ var smtpTransport = nodemailer.createTransport("SMTP",{
     }
 });
 var lastnamelist = [
-,"Bonnell"
+"Bonnell"
 ,"Botz"
 ,"Brooks"
 ,"Cloes"
