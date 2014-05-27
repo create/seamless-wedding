@@ -24,8 +24,9 @@ node_modules/*
 public/js/bundle.js
 
 *.log
-
-
-
+build/css/imports.css
+public/css/main.css
+db/mongod.lock
+db/journal
 
 
