@@ -32,7 +32,7 @@
 			//Remove self if gallery do not have at least two items
 
 			if (opts.skipSingle && obj.group.length < 2) {
-				obj.helpers.buttons = true;
+				obj.helpers.buttons = false;
 				obj.closeBtn = true;
 
 				return;
