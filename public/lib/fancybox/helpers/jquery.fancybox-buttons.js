@@ -20,7 +20,7 @@
 	//Add helper object
 	F.helpers.buttons = {
 		defaults : {
-			skipSingle : true, // disables if gallery contains single image
+			skipSingle : false, // disables if gallery contains single image
 			position   : 'top', // 'top' or 'bottom'
 			tpl        : '<div id="fancybox-buttons"><ul><li><a class="btnPrev" title="Previous" href="javascript:;"></a></li><li><a class="btnPlay" title="Start slideshow" href="javascript:;"></a></li><li><a class="btnNext" title="Next" href="javascript:;"></a></li><li><a class="btnToggle" title="Toggle size" href="javascript:;"></a></li><li><a class="btnClose" title="Close" href="javascript:;"></a></li></ul></div>'
 		},
@@ -32,7 +32,7 @@
 			//Remove self if gallery do not have at least two items
 
 			if (opts.skipSingle && obj.group.length < 2) {
-				obj.helpers.buttons = false;
+				obj.helpers.buttons = true;
 				obj.closeBtn = true;
 
 				return;
