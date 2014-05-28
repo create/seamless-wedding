@@ -6,7 +6,7 @@ module.exports = function (scope, element, attrs) {
     common.resetFixed(element);
 
     
-    if (width > 800) {
+    if (width > 900) {
         console.log("mason");
         var $container = $('#masongallery');
         $container.imagesLoaded( function() {
