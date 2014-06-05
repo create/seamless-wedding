@@ -1,0 +1,20 @@
+.story-content(ng-controller="storyContentController")
+    .image.content
+    .container.content(ng-show="fullVersion")
+
+        .left-container.container-portion
+            .headline.content
+                h1 {{title}}
+
+            .text.content
+                p {{text}}
+
+        .right-container.container-portion
+            .poem.content
+                p {{line1}}
+                p {{line2}}
+                p {{line3}}
+                p {{line4}}
+
+        a.next
+            img(src="images/story/arrow-half.png")
