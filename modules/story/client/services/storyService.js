@@ -10,52 +10,6 @@
 
 module.exports = function () {
     return {
-        poem: function () {
-            return {
-                pre: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                one: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                two: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                three: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                four: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                five: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                six: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
-            };
-        },
         text: function () {
             return {
                 pre: "As the firstborn in her family, Mackenzie exhibited firstborn traits from the beginning. She had a hard time going to sleep on her own, and her parents would often stick her in her car seat on top of the washer and dryer to keep her calm while they got ready for the day. She was adorably serious, and very inquisitive. “Why is that man looking at me?” she asked once in the grocery store. Her favorite movie to watch at Nana and Poppie’s house was Fantasia (she loved the music), and to this day she still loves puzzles, crosswords and games.  ",
