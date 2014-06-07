@@ -2,12 +2,12 @@
 module.exports = function (scope, element, attrs) {
     element.addClass(attrs.id);
 
-    var imagePause = 4000;
-    var contentPause = 10000;
-    var imageSpeed = 0.1;
-    var poemSpeed = 0.4;
-    var contentSpeed = 0.4;
-    var textSpeed = 0.4;
+    // var imagePause = 4000;
+    // var contentPause = 10000;
+    // var imageSpeed = 0.1;
+    // var poemSpeed = 0.4;
+    // var contentSpeed = 0.4;
+    // var textSpeed = 0.4;
 
     var $window = $(window);
     var $body = $("body");
@@ -25,6 +25,7 @@ module.exports = function (scope, element, attrs) {
     //Add correct image class so we can continue using css to load background images
     var imageClass = attrs.id + "-image";
     $image.addClass(imageClass);
+    //$image.attr("src", "../images/story/"+attrs.id+".jpg");
 
     // element.find(".next").click(function (event) {
     //     var scrollTo;
@@ -95,46 +96,46 @@ module.exports = function (scope, element, attrs) {
     //     return nextContainerScrollTo;
     // }
 
-    function setContentPositions() {
-        if (attrs.nextSet) {
-            $text.css({left : text.getLeftOffset()});
-            $headline.css({left : headline.getLeftOffset()});
-        }
-    }
-    setContentPositions();
+    // function setContentPositions() {
+    //     if (attrs.nextSet) {
+    //         $text.css({left : text.getLeftOffset()});
+    //         $headline.css({left : headline.getLeftOffset()});
+    //     }
+    // }
+    // setContentPositions();
 };
 
-var container = {
-    getTopOffset : function () {
-        return 0;
-        if (!this.topOffset) {
-            this.topOffset = (constants.$window.height() - constants.containerHeight) / 3;
-        }
-        return this.topOffset;
-    }
-};
+// var container = {
+//     getTopOffset : function () {
+//         return 0;
+//         if (!this.topOffset) {
+//             this.topOffset = (constants.$window.height() - constants.containerHeight) / 3;
+//         }
+//         return this.topOffset;
+//     }
+// };
 
-var constants = {
-    $window : $(window),
-    containerHeight : 400,
-    smallestSupportedWidth: 1200,
-    textStartLeft: 30,
-    headlineStartLeft: 10
-};
+// var constants = {
+//     $window : $(window),
+//     containerHeight : 400,
+//     smallestSupportedWidth: 1200,
+//     textStartLeft: 30,
+//     headlineStartLeft: 10
+// };
 
 
-var text = {
-    getLeftOffset : function () {
-        var additional = (constants.$window.width() - constants.smallestSupportedWidth) / 3;
-        var newOffset = constants.textStartLeft + additional;
-        return newOffset > constants.textStartLeft ? newOffset : constants.textStartLeft;
-    }
-};
+// var text = {
+//     getLeftOffset : function () {
+//         var additional = (constants.$window.width() - constants.smallestSupportedWidth) / 3;
+//         var newOffset = constants.textStartLeft + additional;
+//         return newOffset > constants.textStartLeft ? newOffset : constants.textStartLeft;
+//     }
+// };
 
-var headline = {
-    getLeftOffset : function () {
-        var additional = (constants.$window.width() - constants.smallestSupportedWidth) / 3;
-        var newOffset = constants.headlineStartLeft + additional;
-        return newOffset > constants.headlineStartLeft ? newOffset : constants.headlineStartLeft;
-    }
-};
+// var headline = {
+//     getLeftOffset : function () {
+//         var additional = (constants.$window.width() - constants.smallestSupportedWidth) / 3;
+//         var newOffset = constants.headlineStartLeft + additional;
+//         return newOffset > constants.headlineStartLeft ? newOffset : constants.headlineStartLeft;
+//     }
+// };
