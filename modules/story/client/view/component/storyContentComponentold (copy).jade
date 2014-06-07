@@ -1,4 +1,5 @@
 .story-content(ng-controller="storyContentController")
+    .image.content
     .container.content(ng-show="fullVersion")
 
         .left-container.container-portion
@@ -9,4 +10,11 @@
                 p {{text}}
 
         .right-container.container-portion
-            .image.content
+            .poem.content
+                p {{line1}}
+                p {{line2}}
+                p {{line3}}
+                p {{line4}}
+
+        a.next
+            img(src="images/story/arrow-half.png")
