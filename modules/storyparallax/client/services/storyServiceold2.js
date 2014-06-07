@@ -10,10 +10,56 @@
 
 module.exports = function () {
     return {
+        poem: function () {
+            return {
+                pre: [
+                    "Once upon a time in the wicked land of NYC",
+                    "A ginger found an asian, a single soul become an abductee",
+                    "Knowing the asian could be 20 or 50, the ginger approached with great heed",
+                    "Thoughts of side ways row boats indeed"
+                ],
+                one: [
+                    "When I first set my sights I placed words upon her flesh",
+                    "She did not comply",
+                    "Complications of the fictitious man",
+                    "But I knew she would soon hold my hand"
+                ],
+                two: [
+                    "A gathering of friends",
+                    "And she was green with envy",
+                    "The big white beast has been discovered",
+                    "Maybe now she will know my hand"
+                ],
+                three: [
+                    "Toys were us except for the hoops",
+                    "They fell to her ground",
+                    "Charming, beauty, hole in my stomach",
+                    "She gently grazed my hand"
+                ],
+                four: [
+                    "Fireworks say phish",
+                    "Other things on my mind",
+                    "She complies in the grassy field, she is mine",
+                    "She will hold my hand"
+                ],
+                five: [
+                    "Alone at last",
+                    "In the battery we lay",
+                    "Calming fears and excitement",
+                    "Through a gentle touch on her hand"
+                ],
+                six: [
+                    "And now it is my turn",
+                    "To take her hand",
+                    "To love her",
+                    "Not till death shall we part"
+                ]
+            };
+        },
         text: function () {
             return {
-                pre: "As the firstborn in her family, Mackenzie exhibited firstborn traits from the beginning. She had a hard time going to sleep on her own, and her parents would often stick her in her car seat on top of the washer and dryer to keep her calm while they got ready for the day. She was adorably serious, and very inquisitive. “Why is that man looking at me?” she asked once in the grocery store. Her favorite movie to watch at Nana and Poppie’s house was Fantasia (she loved the music), and to this day she still loves puzzles, crosswords and games.  ",
-                one: "As a little kid, Jonathan loved learning, loved trying new things and loved working with his hands. It didn’t take long for him to learn about tools and how to use them. Whenever he got a new toy, he’d play with it as it was intended and quickly move to testing its limits. If it rolled, how fast could it go? If it bounced, how high? If it came apart, what was inside and how did it work? He also loved being Mom and Dad’s little helper. These traits always amused them, and they began to understand that it was all part of the way he was wired. ",
+                pre: "INCOMPLETE",
+                one: "INCOMPLETE",
                 two: "They go to high school together, but they don’t run in the same circles. He knows who she is and finds her mysterious. She, on the other hand, is completely oblivious to his existence. ",
                 three: "After Mackenzie’s junior year of college and Jonathan’s freshman year, they meet at Crossroads Bible Church’s college group. She’s attending Seattle Pacific University, and every Sunday she commutes across the lake to attend church and spend time with friends afterward. Finally, they’re running in the same circles, and she begins to realize that Jonathan’s quite a guy—charming and grounded, someone she considers the \“calm to her storm.\” He thinks she’s spontaneous and fun, and loves a partner for adventure. By the time the New Year rolls around, they’re hanging out one-on-one.",
                 four: "On March 31st, 2012, Jonathan takes Mackenzie out on their first date. They go to dinner, then spend hours in conversation as they walk around Green Lake.  Jonathan makes some unfortunate attempts to speak French and Mackenzie corrects his accent, completely charmed by his efforts. Their conversation continues over a warm cup of coffee and concludes with a trip to Kerry Park, where they gaze out at the Seattle night skyline. He asks her to be his girlfriend and they begin dating. Mackenzie’s weeks are a whirlwind of school, crew and struggling to get enough sleep, and Jonathan’s busy with school, too, but he drives to SPU from Bellevue every weekend so they can spend time together. After graduating, Mackenzie gets her first apartment in the U-District, just minutes away from Jonathan’s house. Hallelujah!",
