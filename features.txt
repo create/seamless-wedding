@@ -1,0 +1,20 @@
+- Website features
+    - parralax scrolling
+    - masonry gallery (show responsiveness)
+- Open source on github
+- Deployed with domain name
+- Open for anyone to use, modularized
+- Mongodb Rsvp database, checks against list of names on guestlist
+- Guestbook
+- Personalized emails
+
+
+- Technologies
+    - Grunt
+    - Jade
+    - Stylus
+    - Javascript
+    - Node.js
+        - nodeemailer
+    - Mongodb
+    - Amazon Web Services
