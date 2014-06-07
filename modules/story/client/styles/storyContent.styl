@@ -1,22 +1,21 @@
 .story-content
+    clear: both
     .content
-        position: relative
+        //position: relative
 
     .headline
         margin-left: 20px
         h1
             font-family: sans-serif
             font-weight: normal
-            font-size: 80px
-            color: secondary-font-color
-            text-shadow: 0px 0px 10px #111
+            font-size: 65px
+            color: font-color
+            //text-shadow: 0px 0px 10px #111
 
     .text
         text-align: justify
-        width: 500px
         z-index: 3
         font-size: 17px
-        height: 400px
         
     .next
        width: 100%;
@@ -27,12 +26,23 @@
 
     .container
         z-index: 2
-        height: 400px
         width: 100%
+        .whitebackground
+            background: rgba(255,255,255,0.8)
+            display: inline-block
+            width: 40%
+            padding: 0 40px 0 40px
+            box-shadow: 3px 0px 7px 0px #999;
+            height: 600px
+        .left-container
+            overflow: auto
 
     .image
-        background-size: 100% auto
+        background-size: cover
+        position: absolute
+        right: 20px
         z-index: 1
-        width: 40%
+        width: 50%
+        display: inline-block
         height: 400px
-        float: right
+        box-shadow: 0px 0px 13px 0px #000;
