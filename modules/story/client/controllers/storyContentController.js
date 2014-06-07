@@ -9,13 +9,7 @@
 module.exports = function ($scope, $storyService, $attrs) {
 
     function fullFunctionality() {
-        $scope.poem = $storyService.poem()[$attrs.id];
-
-        $scope.line1 = $scope.poem[0];
-        $scope.line2 = $scope.poem[1];
-        $scope.line3 = $scope.poem[2];
-        $scope.line4 = $scope.poem[3];
-
+        
         $scope.text = $storyService.text()[$attrs.id];
 
         $scope.title = $storyService.title()[$attrs.id];
