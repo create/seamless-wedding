@@ -7,18 +7,18 @@ module.exports = function (scope, element, attrs) {
 
     
     if (width > 900) {
-        console.log("mason");
         var $container = $('#masongallery');
         $container.imagesLoaded( function() {
-            $container.masonry({
-                // options
-                itemSelector: '.item',
-                isAnimated: true
-                
-            });
+            setTimeout(function() {
+                $container.masonry({
+                    // options
+                    itemSelector: '.item',
+                    isAnimated: true
+                    
+                });
+            }, 100);
+            
         });
-        //msnry.reloadItems();
-        $container.masonry();
     } else {
         $('#masongallery img').css({"position": "static",
                     'height': 'auto !important',
