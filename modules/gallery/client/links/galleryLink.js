@@ -17,7 +17,8 @@ module.exports = function (scope, element, attrs) {
                 
             });
         });
-        msnry.reloadItems()
+        //msnry.reloadItems();
+        $container.masonry();
     } else {
         $('#masongallery img').css({"position": "static",
                     'height': 'auto !important',
