@@ -2,7 +2,7 @@
 module.exports = function (scope, element, attrs) {
     var common = require("../../../common/client/common/common");
     common.resetBackground(element);
-    common.resetScroll(element);
+    common.resetFixed(element);
 
     // function executeAnimation() {
     //     animate("pre").then(function () {
