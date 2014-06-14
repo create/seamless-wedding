@@ -35,7 +35,7 @@ module.exports = function (scope, element, attrs) {
             "uname": $('#uname').val(),
             "attending": $('#attending').val(),
             "guests": guestnum,
-            "song": $('#song').val(),
+            "song": "", //$('#song').val(),
             "message": $('#message').val(),
             "guestbook": guestbook,
             "email": $('#email').val(),
