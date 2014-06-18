@@ -14,7 +14,11 @@ var common = {
         $html.find('.nav-item').find('a').css({"text-shadow": '0 0 5px #fff;'});
         $('body').css({background: 'url(/images/main/main-bg.jpg'});
         var nav = $('.navigation');
-        if (nav.css("background").indexOf("none") > -1) { // string contains
+        console.log("here");
+        if ($(window).width() < 800) {
+            console.log("there");
+            nav.css({'background': "none", 'box-shadow': 'none'});
+        } else if (nav.css("background").indexOf("none") > -1) { // string contains
             $('.navigation').css({'background': "url('../images/main/bg-texture.png')",
     'box-shadow': '0px 0px 5px #727272'});
         }

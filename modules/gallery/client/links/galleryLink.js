@@ -3,10 +3,8 @@
 module.exports = function (scope, element, attrs) {
     var common = require("../../../common/client/common/common");
     common.resetBackground(element);
-    common.resetFixed(element);
-
-    
-    if (width > 900) {
+    common.resetFixed(element);    
+    if (width > 800) {
         var $container = $('#masongallery');
         $container.imagesLoaded( function() {
             setTimeout(function() {
