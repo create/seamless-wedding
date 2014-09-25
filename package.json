@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "~3.2.6",
     "grunt": "0.x.x",
+    "grunt-cli": "0.x.x",
     "grunt-autoprefixer": "0.2.x",
     "grunt-browserify2": "~0.1.8",
     "grunt-contrib-clean": "0.5.x",
@@ -30,7 +31,8 @@
   "main": "main.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "grunt"
   },
   "repository": {
     "type": "git",

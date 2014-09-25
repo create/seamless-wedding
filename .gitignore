@@ -28,5 +28,4 @@ build/css/imports.css
 public/css/main.css
 db/mongod.lock
 db/journal
-
-
+db/local.*
